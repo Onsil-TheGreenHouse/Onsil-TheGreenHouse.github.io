@@ -37,10 +37,32 @@ styles and `#sidebar-toggle-checkbox` for behavior.
     {% assign c = "" %}
     {% endif %}
 
-    <a class="sidebar-nav-item {{ c }}" 
+
+    {% if item.has-children %}
+      <div class="has-children sidebar-nav-item {{ c }}">
+        <input type='checkbox' name='{{ item.title }}' id='{{ item.title }}'>
+        <label class='sidebar-nav-item {{ c }}' for='{{ item.title }}'>{{ item.title }}</label>
+        <ul>
+          {% for submenu in site.data.main-nav-sub %}
+            {% if submenu.parent == item.title %}
+              <a class='sidebar-nav-item {{ c }}' href='{{ submenu.href }}'>{{ submenu.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% else %}
+      <a class="sidebar-nav-item {{ c }}" 
+        href="{{ item.href | prepend: site.baseurl | prepend: site.url }}">
+        {{ item.title }}
+      </a>
+    {% endif %}
+
+
+    <!-- <a class="sidebar-nav-item {{ c }}" 
       href="{{ item.href | prepend: site.baseurl | prepend: site.url }}">
       {{ item.title }}
-    </a>
+    </a> -->
+
     {% endfor %}
 
     <a class="sidebar-nav-item" 

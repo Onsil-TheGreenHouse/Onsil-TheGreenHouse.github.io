@@ -1,0 +1,13 @@
+- title: '- Python'
+  href: '/python'
+  parent: 'Programming'
+- title: '- Django'
+  href: '/menus/programming/django.html'
+  parent: 'Programming'
+- title: '- JavaScript'
+  href: '/javascript'
+  parent: 'Programming'
+
+- title: '- diary'
+  href: '/menus/life/diary.html'
+  parent: 'Life'
