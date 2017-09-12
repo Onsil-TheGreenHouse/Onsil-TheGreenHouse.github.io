@@ -51,8 +51,8 @@ ul.social-media li>a:hover {
 }
 
 
-/*custom add style*/
-/*for sidebar multi menu*/
+/* custom add style */
+/* for sidebar multi menu */
 .has-children {
   border-bottom: 1px solid #019bad;  
 }
@@ -61,7 +61,7 @@ ul.social-media li>a:hover {
   border-bottom-color: lighten({{ site.theme.highlight_color }}, 5%); 
 }
 
-.has-children label {
+.has-children, .has-children label {
   cursor: pointer;
 }
 
@@ -69,9 +69,15 @@ ul.social-media li>a:hover {
   border-bottom: none !important;
 }
 
+.has-children ul {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
 .sidebar input[type=checkbox] {  
     position: absolute;
     opacity: 0;
+    display: none;
 }
 
 .sidebar ul {
@@ -81,6 +87,16 @@ ul.social-media li>a:hover {
 .sidebar input[type=checkbox]:checked + label + ul,
 .sidebar input[type=checkbox]:checked + label:nth-of-type(n) + ul {
     display: block;
+}
+
+.sidebar .has-children:hover,
+.sidebar .has-children:focus {
+  background: lighten({{ site.theme.highlight_color }}, 3%);
+}
+
+.has-children a:hover,
+.has-children a:focus {
+  background: lighten({{ site.theme.highlight_color }}, 10%) !important;
 }
 /*endfor sidebar multi menu*/
 

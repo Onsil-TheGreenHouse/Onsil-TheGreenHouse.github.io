@@ -1,15 +1,15 @@
 # Site settings
-title: Your awesome title
-tagline: And Tagline
-email: gayanvirajith@gmail.com
+title: Onsil's blog
+tagline: programming
+email: zaxs1029za@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I’m a professional UI/UX designer and web developer. 
-  I love being minimal and creative.
+  초짜 개발자 온실의<br>
+  스터디 블로그
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "Tom Warlker"
-author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
+author_thumbnail: "/assets/images/sidebar/sidebar_pic-min.png" # Author avatar
 # Theme customization - please change from the defaults!
 theme:
   # Color for sidebar bar, links, etc

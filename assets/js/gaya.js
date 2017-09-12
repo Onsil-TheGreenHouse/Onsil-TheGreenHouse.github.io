@@ -161,12 +161,7 @@ jQuery(document).ready(function($){
     );
   });
 
-});
-
-
-jQuery(document).ready(function(){    
-
-    // sidebar animate
+  // sidebar animate
     var hasChildren= $('.has-children');
     hasChildren.each(function(){
         $(this).on('change', 'input[type="checkbox"]', function(){
@@ -175,4 +170,5 @@ jQuery(document).ready(function(){
             ( checkbox.prop('checked') ) ? checkbox.siblings('ul').attr('style', 'display:none;').slideDown(300) : checkbox.siblings('ul').attr('style', 'display:block;').slideUp(300);
         });
     });
+
 });
