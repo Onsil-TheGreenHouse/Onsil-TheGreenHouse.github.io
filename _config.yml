@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   초짜 개발자 온실의<br>
   스터디 블로그
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://onsil-thegreenhouse.github.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "Tom Warlker"
 author_thumbnail: "/assets/images/sidebar/sidebar_pic-min.png" # Author avatar
