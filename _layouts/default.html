@@ -40,8 +40,11 @@
     <![endif]-->
 
     {% include style.html %}
+
     <style type="text/css">
-      a, .post-title a { color: {{ site.theme.highlight_color }};}
+{% capture include_to_scssify %}
+{% if site.theme.highlight_color && site.theme.highlight_color != '' %}
+a, .post-title a { color: {{ site.theme.highlight_color }};}
 
 a:hover { border-bottom-color: {{ site.theme.highlight_color }};}
 .sidebar { background-color: {{ site.theme.highlight_color }};}
@@ -137,7 +140,13 @@ ul.social-media li>a:hover {
   background: lighten({{ site.theme.highlight_color }}, 10%) !important;
 }
 /*endfor sidebar multi menu*/
-    </style>
+
+
+{% endif %}
+{% endcapture %}
+{{ include_to_scssify | scssify }}
+
+</style>
 
   </head>
   <body>
