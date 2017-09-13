@@ -11,9 +11,10 @@ logourl: /assets/images/logo.png # Site logo
 author: "Tom Warlker"
 author_thumbnail: "/assets/images/sidebar/sidebar_pic-min.png" # Author avatar
 # Theme customization - please change from the defaults!
+
 theme:
   # Color for sidebar bar, links, etc
-  highlight_color: "#205081"
+  - highlight_color: "#205081"
   # 205081  "#272935"
   # Social media links, leave blank to ignore
   social: 
