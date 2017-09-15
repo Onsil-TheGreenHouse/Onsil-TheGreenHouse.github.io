@@ -12,7 +12,7 @@ author: "Tom Warlker"
 author_thumbnail: "/assets/images/sidebar/sidebar_pic-min.png" # Author avatar
 
 # Theme customization - please change from the defaults!
-theme:
+custom_theme:
   # Color for sidebar bar, links, etc
   highlight_color: "#205081"
   # 205081  "#272935"
