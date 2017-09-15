@@ -64,3 +64,11 @@ sass:
 
 # Plugins
 plugins: [jekyll-paginate]
+
+
+# Timezone
+timezone: Asia/Seoul
+
+
+# display future post
+future: true
