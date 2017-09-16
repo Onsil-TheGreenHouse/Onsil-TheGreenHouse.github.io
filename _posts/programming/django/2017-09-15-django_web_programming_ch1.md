@@ -6,8 +6,7 @@ description: Just a sample post to show some of the typography elements supporte
 categories:
 - programming
 - django
-- web_programming
-permalink: web_programming-1
+- web_programmig
 banner_image: /programming/django/web_programming_book.png
 ---
 
