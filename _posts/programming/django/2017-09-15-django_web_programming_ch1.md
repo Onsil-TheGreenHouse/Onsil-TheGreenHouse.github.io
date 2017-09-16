@@ -8,6 +8,7 @@ categories:
 - django
 - web_programming
 permalink: web_programming-1
+banner_image: /programming/django/web_programming_book.png
 ---
 
 Django의 개발 방식: MTV(Model-Template-View)
