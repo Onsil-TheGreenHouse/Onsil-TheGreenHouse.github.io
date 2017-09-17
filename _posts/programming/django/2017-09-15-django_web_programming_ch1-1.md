@@ -2,7 +2,7 @@
 layout: post
 title:  "[Django를 활용한 쉽고 빠른 웹개발, 파이썬 웹 프로그래밍] Ch1-1. MTV 개발 방식"
 date:   2017-09-15 20:00:00
-description: Just a sample post to show some of the typography elements supported from harmony theme.
+description: 1-1. Django의 개발 방식
 categories:
 - programming
 - django
