@@ -60,11 +60,11 @@ B를 개발할 때는 B용 가상환경 아래서 작업하면 된다는 것이�
 
 <br>
 
-일단 가상환경을 구축하기위해선 pip를 이용해 virtualenv를 설치해야한다.
+일단 가상환경을 구축하기위해선 **pip**를 이용해 virtualenv를 설치해야한다.
 
 pip는 Python으로 만들어진 라이브러리를 설치하고 관리하는 package management system이며,
 
-pip install packages의 약어로 재귀적 약어이다...??(돌I 같은...)
+pip install packages의 약어로 재귀적 약어이다.
 
 python을 3.4버전 이상으로 설치했으면 자동으로 pip가 설치되어있다.
 
