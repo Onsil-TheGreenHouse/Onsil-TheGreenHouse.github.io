@@ -72,11 +72,15 @@ python을 3.4버전 이상으로 설치했으면 자동으로 pip가 설치되�
 
 사진으로 설명하자면, 먼저
 
-python3 &nbsp; - -version
+{% highlight bash %}
+$ python3 --version
+{% endhighlight %}
 
 을 통해 설치되어있는 Python버전을 확인한 뒤,
 
-pip install virtualenv
+{% highlight bash %}
+$ pip install virtualenv
+{% endhighlight %}
 
 를 입력하여 virtualenv 를 설치했다.
 
@@ -86,7 +90,9 @@ pip install virtualenv
 
 pwd 를 통해 경로를 확인한 후,
 
-virtualenv -p python3.4 venv
+{% highlight bash %}
+$ virtualenv -p python3.4 venv
+{% endhighlight %}
 
 를 입력하여 venv라는 가상환경을 생성! 가상환경 이름은 자유롭게~
 
@@ -98,7 +104,9 @@ virtualenv -p python3.4 venv
 
 만약 python3.6 버전의 가상환경을 만들고싶으면, python3.6을 설치한 후
 
-virtualenv -p python3.6 asdf
+{% highlight bash %}
+$ virtualenv -p python3.6 asdf
+{% endhighlight %}
 
 를 입력하면 asdf라는 폴더형식의 가상환경이 만들어진다.
 
@@ -106,14 +114,18 @@ virtualenv -p python3.6 asdf
 
 이제 만든 가상환경으로 들어갈 차례!
 
-source venv/bin/activate
+{% highlight bash %}
+$ source venv/bin/activate
+{% endhighlight %}
 
 를 입력하면 경로 옆에 (venv)가 뜨면서 가상환경에 들어왔다는 걸 알려준다.
 ![4.enter_venv](/assets/images/programming/django/web_programming_1-2/4.enter_venv.png)
 
 가상환경에서 나가려면
 
-deactivate
+{% highlight bash %}
+$ deactivate
+{% endhighlight %}
 
 를 입력하면 된다.
 
@@ -125,7 +137,9 @@ deactivate
 
 가상환경에 들어온 상태에서
 
-pip install django
+{% highlight bash %}
+$ pip install django
+{% endhighlight %}
 
 를 입력하면 해당 가상환경에 그림과 같이 Django가 설치된다.
 
@@ -144,7 +158,9 @@ Django를 설치했으니 Django를 이용한 프로젝트를 만들어 볼 차�
 
 가상환경에 들어간 상태에서
 
-django-admin.py startproject mysite
+{% highlight bash %}
+$ django-admin.py startproject mysite
+{% endhighlight %}
 
 를 입력하면 mysite라는 이름의 새 프로젝트 폴더가 생긴다.
 
@@ -164,7 +180,9 @@ manage.py는 방금 생성한 mysite프로젝트(폴더)안에 있다.
 
 터미널을 manage.py가 있는 폴더(mysite)로 이동한 후,
 
-python manage.py runserver
+{% highlight bash %}
+$ python manage.py runserver
+{% endhighlight %}
 
 를 입력하면 어쩌고저쩌고 글이 뜨면서 로컬서버가 실행된다.
 
@@ -172,7 +190,9 @@ python manage.py runserver
 ![7.runserver.png](/assets/images/programming/django/web_programming_1-2/7.runserver.png)
 터미널을 잘 보면
 
+{% highlight bash %}
 Starting development server at http://127.0.0.1:8000/
+{% endhighlight %}
 
 이 보인다.
 
@@ -190,8 +210,26 @@ It worked!
 
 다시 터미널을 살펴보면
 
+{% highlight bash %}
 Quit the server with CONTROL-C
+{% endhighlight %}
 
 라고 적혀있다.
 
 즉, 로컬 서버를 종료하려면 컨트롤+C 를 누르면 된다.
+
+<br><br>
+
+### 덧붙이는 말
+재귀적 약어(Recursive acronym)
+: - A recursive acronym is an acronym that refers to itself.
+
+내안에 나있다??
+
+PIP(Pip Install Packages)
+
+BING(BING Is Not Google)
+
+![Image of Bing](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Bing_logo_%282016%29.svg/300px-Bing_logo_%282016%29.svg.png)
+
+...
