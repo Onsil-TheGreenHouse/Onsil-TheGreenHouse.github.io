@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "[Django를 활용한 쉽고 빠른 웹개발, 파이썬 웹 프로그래밍] Ch2-1. 간단한 Poll(투표) 앱 만들어보기 - 기획"
+title:  "[Django, 파이썬 웹 프로그래밍] Ch2-1. 간단한 Poll(투표) 앱 만들어보기 - 기획"
 date:   2017-09-21 19:00:00
 description: 2-1. 간단한 Poll 앱 만들어보기
 categories:
 - programming
 - django
 - web_programmig
-banner_image: /programming/django/web_programming_book.png
+banner_image: /programming/django/python-django-logo.jpg
 ---
 
 간단한 Poll(투표) 앱 만들어보기 - 기획

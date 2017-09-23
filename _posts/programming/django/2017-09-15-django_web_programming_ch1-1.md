@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "[Django를 활용한 쉽고 빠른 웹개발, 파이썬 웹 프로그래밍] Ch1-1. MTV 개발 방식"
+title:  "[Django, 파이썬 웹 프로그래밍] Ch1-1. MTV 개발 방식"
 date:   2017-09-15 20:00:00
 description: 1-1. Django의 개발 방식
 categories:
 - programming
 - django
 - web_programmig
-banner_image: /programming/django/web_programming_book.png
+banner_image: /programming/django/python-django-logo.jpg
 ---
 
 Django의 개발 방식: MTV(Model-Template-View)

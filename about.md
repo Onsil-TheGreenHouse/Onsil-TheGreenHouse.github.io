@@ -6,6 +6,7 @@ banner_image: sample-banner-image-2.jpg
 banner_image_alt: About me
 ---
 
+이건 또 언제 고치냐..
 Hi, I am Tom Warlker. I am a professional UI/UX designrer and web developer. I love being minimal and creative.
 
 I prefer to serve with Php and Ruby based stacks and also love to work 

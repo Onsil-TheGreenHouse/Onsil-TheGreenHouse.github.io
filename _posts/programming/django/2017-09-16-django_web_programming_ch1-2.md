@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "[Django를 활용한 쉽고 빠른 웹개발, 파이썬 웹 프로그래밍] Ch1-2. Django 설치 및 실행"
+title:  "[Django, 파이썬 웹 프로그래밍] Ch1-2. Django 설치 및 실행"
 date:   2017-09-16 19:00:00
 description: 1-2. Django 설치 및 실행
 categories:
 - programming
 - django
 - web_programmig
-banner_image: /programming/django/web_programming_book.png
+banner_image: /programming/django/python-django-logo.jpg
 ---
 
 Django 설치 및 웹페이지 실행
