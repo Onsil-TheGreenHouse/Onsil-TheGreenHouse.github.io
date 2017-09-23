@@ -6,7 +6,6 @@ description: Just a sample post to show some of the typography elements supporte
 categories:
 - sample
 - guides
-- django
 permalink: sample-post
 ---
 

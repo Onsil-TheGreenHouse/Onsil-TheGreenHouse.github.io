@@ -4,7 +4,6 @@ title:  "Welcome to Jekyll!"
 date:   2015-01-01 0:00:55
 categories:
 - jekyll update
-- django
 banner_image: sample-banner-image-1.jpg
 comments: true
 ---

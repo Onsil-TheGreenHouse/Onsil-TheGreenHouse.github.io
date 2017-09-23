@@ -5,7 +5,6 @@ date:   2014-12-21 01:08:49
 categories:
 - theme
 - guides
-- django
 comments: true
 ---
 
