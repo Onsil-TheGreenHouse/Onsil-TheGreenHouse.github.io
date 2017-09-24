@@ -27,6 +27,6 @@ jQuery(document).ready(function($){
     }
   }
 
-    initDisqusComments();
+  initDisqusComments();
 
 });
