@@ -8,6 +8,7 @@ categories:
 - django
 - web_programmig
 banner_image: /programming/django/python-django-logo.jpg
+comments: true
 ---
 
 Django 설치 및 웹페이지 실행

@@ -8,6 +8,7 @@ categories:
 - django
 - web_programmig
 banner_image: /programming/django/python-django-logo.jpg
+comments: true
 ---
 
 Django의 개발 방식: MTV(Model-Template-View)

@@ -8,6 +8,7 @@ categories:
 - django
 - web_programmig
 banner_image: /programming/django/python-django-logo.jpg
+comments: true
 ---
 
 간단한 Poll(투표) 앱 만들어보기 - 앱 생성 & 모델만들기
