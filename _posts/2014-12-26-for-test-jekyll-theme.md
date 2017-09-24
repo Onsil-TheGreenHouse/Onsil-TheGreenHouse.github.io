@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Gaya Jekyll Theme"
+title:  "for TEST Jekyll Theme"
 date:   2014-12-21 01:08:49
 categories:
 - theme
