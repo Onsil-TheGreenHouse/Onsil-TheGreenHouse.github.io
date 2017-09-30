@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Django, 파이썬 웹 프로그래밍] Ch1-2. Django 설치 및 실행"
+title:  "[Django tutorial] Ch1-2. Django 설치 및 실행"
 date:   2017-09-16 19:00:00
 description: 1-2. Django 설치 및 실행
 categories:

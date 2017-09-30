@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Django, 파이썬 웹 프로그래밍] Ch2-4. 간단한 Poll(투표) 앱 만들어보기 - View와 Template연결"
-date:   2017-09-25 00:00:00
+title:  "[Django tutorial] Ch3-1. 작업중"
+date:   2017-10-01 00:00:00
 description: 2-4. View와 Template연결
 categories:
 - programming

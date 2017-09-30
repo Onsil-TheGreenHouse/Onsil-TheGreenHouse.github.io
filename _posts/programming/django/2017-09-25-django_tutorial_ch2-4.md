@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Django, 파이썬 웹 프로그래밍] Ch2-4. 간단한 Poll(투표) 앱 만들어보기 - View와 Template연결"
+title:  "[Django tutorial] Ch2-4. 간단한 Poll(투표) 앱 만들어보기 - View와 Template연결"
 date:   2017-09-25 00:00:00
 description: 2-4. View와 Template연결
 categories:
@@ -122,7 +122,6 @@ id 필드는 models.py에서 테이블을 만들 때, 자동으로 생성되는 
 
 이제 로컬서버를 킨 후, 브라우저에서 localhost:8000/polls/ 로 접속하면
 
-![index](/assets/images/programming/django/web_programming_2-4/1.index.png)
 ![image of index](http://blogfiles.naver.net/MjAxNzEwMDFfMTU0/MDAxNTA2NzkyNjQ3MjYz.TmnVXMCe1XBfpcNJDKE54rST_r0IaGIXXY-eAvDOc8Yg.H4n5Aza2s9rO1Kfu0KPMMLbOrBv2jY0NMb4ac_dvjhwg.PNG.zaxs1029/1.index.png)
 
 또한 지금 터미널을 살펴보면, 아까 index함수에서 작성한 print문이 나옵니다.
@@ -608,14 +607,10 @@ vote를 복수형인 votes로 바꿔줍니다.
 <br>
 
 index.html 접속
-![index](/assets/images/programming/django/web_programming_2-4/1.index.png)
 ![image of index](http://blogfiles.naver.net/MjAxNzEwMDFfMTU0/MDAxNTA2NzkyNjQ3MjYz.TmnVXMCe1XBfpcNJDKE54rST_r0IaGIXXY-eAvDOc8Yg.H4n5Aza2s9rO1Kfu0KPMMLbOrBv2jY0NMb4ac_dvjhwg.PNG.zaxs1029/1.index.png)
 질문선택 후, 투표화면
-![vote](/assets/images/programming/django/web_programming_2-4/2.vote.png)
 ![image of vote](http://blogfiles.naver.net/MjAxNzEwMDFfMjMw/MDAxNTA2NzkyNjQ3NDQy.ymkrL3aUe_Mqe3beAmHufvCwJEsrdZMeZei6VsMYS5gg.TTSCt-eibjj_uk98N5gLUdxnuFnD2J3p0IfEqdnSW1Eg.PNG.zaxs1029/2.vote.png)
 만약 아무것도 선택안하고 vote버튼을 누르면
-![vote_error](/assets/images/programming/django/web_programming_2-4/3.vote_error.png)
 ![image of vote_error](http://blogfiles.naver.net/MjAxNzEwMDFfMTE2/MDAxNTA2NzkyNjQ3NjA0.q6yi9PMMkwgNVThxAEOvgRxaFKNUA9MXu3-9CaAaaa0g.Jt0bBe76OAyu7dutQe645Z38uJtZfAeACmCcFPOw_sQg.PNG.zaxs1029/3.vote_error.png)
 보기를 선택하고 vote버튼을 누르면
-![results](/assets/images/programming/django/web_programming_2-4/4.results.png)
 ![image of results](http://blogfiles.naver.net/MjAxNzEwMDFfMzkg/MDAxNTA2NzkyNjQ3NzU0.vJ24xt1lITqv5cHbogVukM71wiJoJT8kcRqskF5FZvEg.Jx-ROqueQkb_zu_kc2HqR6xRKkfVOHkaZB8ekQ_zlr8g.PNG.zaxs1029/4.results.png)

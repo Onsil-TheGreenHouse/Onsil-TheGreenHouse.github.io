@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Django, 파이썬 웹 프로그래밍] Ch2-2. 간단한 Poll(투표) 앱 만들어보기 - 앱 생성 & 모델만들기"
+title:  "[Django tutorial] Ch2-2. 간단한 Poll(투표) 앱 만들어보기 - 앱 생성 & 모델만들기"
 date:   2017-09-22 22:00:00
 description: 2-2. 앱 생성 & 모델만들기
 categories:
