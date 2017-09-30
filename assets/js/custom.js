@@ -30,3 +30,8 @@ jQuery(document).ready(function($){
   initDisqusComments();
 
 });
+
+// css 관련 jquery
+$(document).ready(function(){
+    $('.language-bash').parent('pre').css('background-color', 'black');
+});
