@@ -266,9 +266,25 @@ return render(request, 'vote.html')
 
 을 작성했다고 하면, Django는 저 코드를 보고
 
-어디에 있는 vote.html에 접근해야할지 정확히 인지를 못합니다.
+어디에 있는 vote.html에 접근할까요?
+
+templates/vote.html 을 뒤지고 다닐테니,
+
+<br>
+
+mysite/polls/templates/vote.html
+
+mysite/polls2/templates/vote.html
+
+<br>
+
+둘 중 하나를 택할 겁니다.
+
+즉, 개발자가 원하지 않은 vote.html을 선택할 수 있다는 겁니다.
 
 (아마 템플릿을 순서대로 뒤지다 제일 먼저 발견된 vote.html에 접근하겠죠)
+
+<br>
 
 이런 상황을 방지하기 위해, templates폴더안에 앱이름의 폴더를 한번더 만들고,
 
