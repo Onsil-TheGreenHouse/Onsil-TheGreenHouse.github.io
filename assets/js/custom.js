@@ -27,7 +27,19 @@ jQuery(document).ready(function($){
     }
   }
 
-  initDisqusComments();
+  var pathname = window.location.pathname;
+  var url = window.location.href;
+
+  console.log('pathname:', pathname)
+  console.log('url:', url)
+
+  if(pathname == '/' | pathname.indexOf('/about/') != -1 | pathname.indexOf('/menus/') != -1){
+    console.log('do not init Disqus');
+  }else{
+    initDisqusComments();
+  }
+
+
 
 });
 
