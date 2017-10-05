@@ -409,6 +409,10 @@ def book_list(request):
 
 코드가 엄청 간단해지게 되죠.
 
+참고로 model = Book 이었으므로, 템플릿에선
+
+'object_list'대신에 'book_list'로도 접근할 수 있습니다.
+
 <br>
 
 그 다음, DetailView에 대해서 설명드리면,
@@ -441,6 +445,10 @@ pk는 primary key의 약자로 별다른 설정을 하지 않으면,
 이렇게 url을 통해 받은 pk값에 해당하는 데이터 객체를 context를 통해
 
 'object'에 담고, 모델명(소문자화)_detail.html 템플릿을 찾아 넘겨줍니다.
+
+여기서도 model=Book 이었으므로, 템플릿에선
+
+'object'대신에 'book'으로도 접근 가능합니다.
 
 <br>
 
