@@ -59,5 +59,8 @@ View | Controller
 MTV의 View 기능은 MVC의 Controller의 기능과 비슷하다.<br>
 ###### 정확히 똑같은 건 아니며, Django는 Controller의 역활을 Django Framework 자체에서 한다고 보고 있으며, 따라서 MVC와 약간 다른 미묘한 차이를 MTV로 설명하고 있다.(MVC를 경험해보지 못해서 이해가 가진 않는다)
 <br>
+
+## 덧붙이는 말
+<br>
 #### - 이 MTV 아님
-![Image of Yaktocat](https://www.2017auditions.com/wp-content/uploads/2016/11/mtv-casting-call.jpg)
+![Image of mtv](https://lh3.googleusercontent.com/Twen3RkkOKOo4sRX8iEhVSCQJI3YfsuaX2to5L5CRGe_mghbveaKIlbH0IMc4gKrTlaUT-2WWcEBYjvtyMOktHif7nGgSuUGieQ6IYf5wK7jeu5hHY-Pc5GY6-cK74uKfTmstS3WXPPwpq3pm1QQ91Cb7lh3RngItzoCRSRpVDW8XOLaJYbFS-CllB4BJms190XeS5VYn2APPtFsGW15QxL919FB3WR09d5mdJcQWiFvOVa_EBQQ2FYTf7drjMEYyZPUvqR1xnWvfYF6BWVybsKFVe2cb5FjgIYbgiu5Hi6Kd363pNXY9xRvWtqwMy-QTrXd-2rRTB-FBiDFEMziJz5m5y8eyYeH646VPLYIRPJ7cu6jqCR_E5B-EYfhd87RC5MPxPnEknbwWpFc9kqUhBujwLwz2ImyzoGqC6durXgY3HcptYc8b7B2lwv5wZbqOziJGmKk3-XNWcegrpnFDZWZhhER4fjOw81ZIXq1xOXkpyt9KCATI8TlQvf8lyYBUXlwwRGLqMLrt5q96ueEn88M1lFodFgzPb-FYqUjuAvXJi6_ztRhny4T9neXP7RVzdsGhOmrbDpdW7xwnphttyn18wQ726v8jPyUrehB=s529-no)

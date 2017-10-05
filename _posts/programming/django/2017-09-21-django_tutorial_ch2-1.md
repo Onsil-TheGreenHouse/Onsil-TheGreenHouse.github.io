@@ -23,7 +23,7 @@ comments: true
 
 (실제로 네이버가 Django로는 안만들어져있을 것 같지만...)
 
-![1.naver_screenshot](/assets/images/programming/django/web_programming_2-1/1.naver_screenshot.png)
+![1.naver_screenshot](https://lh3.googleusercontent.com/If9nGFpKyS809GUbMt8yq6S2_LjdYMgmWYRlffGVU63Vukos8IFh0sIcpyZk_Si5y0aoEj2E8hcmgnJga09-Qqtu2ukQSUBEKwRNt6M0wkSDE_IBOXlEgIEwSu-Mz1DPK73gC0XSl2Kn_zz-hZE64Odo_y2FQJDKrJM1rHsG4hw_LfXPG-abum7HSTV81UARn6RR8MQumQYql4-ODuL2RvKPLKPGkM8vvTts6GIcWDylsM3HtJY3aSCkKK2V4TI2xpJMwGxe1KsRJx0KvSoh0FdcU7A_ydiL4RrgRUlVd_6_2857aFEfYhfn5hZkDNtZ7QW3qrGMfGpEWS6MBKxlAluGlBKK-sj1VUhQF3GE_TTs7yAShPbhZ1bCNNo895mSOkA6zP2H3YaPL2egrY6m4B03haOlIg02BPdC3u4z5FTimtSKA2tILGr3L6DR5pQNETJ7qehI075pUYO0IPnUrZlftCAw-Kroj0XT9qKy9w339uVNsTZhtti3lgsiG-6KEEVnc9W1vf8SIOGsEqGDiw--EQDNVpqdJgUIL5mJYzZRS2BPTo7vAQAwGQEbM-6YCglVSCbfZrwkksKkfrZAbmQxskh2qVXDMpu7vG747g=w2984-h1864-no)
 
 한 페이지에 다양한 기능들이 포함되어 있습니다.
 
@@ -54,7 +54,7 @@ comments: true
 
 ## 1. 화면 UI 기획
 
-![2.buildUI](/assets/images/programming/django/web_programming_2-1/2.buildUI.png)
+![2.buildUI](https://lh3.googleusercontent.com/gQ6gCxMIu1mqCgTYwkA1vee1uhkLPnal7Y5B2swi3T_fbw6oxm1vU2jgb7ZCZa4NpJgV2Y11UzYjTI3EMozLfEGIFfoU8s06-dPR0mtUWv4XVgyo-2X4y7SDimNOmrlCdM-h8eNLfPsThPJoPYQ2MSVUmJSLpq2s9wdOFCde9gDGkafoT8x1-gUx_okNTSQfMh6ncyZD4C0szgYIqCqVzl9osCCa2lK3vp74Y2zTwV7v0hJQOVvQ8zUE1Sp1i5aX7PUvsB9HFgfcq_6Iqaa9z-5WuuZMfOPUnW_Oygz1vU7nszstlhxaWDNlmUiqDUMZ-81oOtOvaG8kzuV8aXv_pnk2pR6tUt_kPN1ddu6fcCOi5KODyajuX3Q7WgZZYv7xYIAQUF0z7jk8SawjDY1-qI4VH6lXb1_YG0K8efBfzrFJyDNtJDd0pH0GcZoyfVC2fydzEMRybLpfeHGFT0KFFf4au4k5N-xIomHAztgwPMVEPs3IHkr2oLelDVSWB7isWAB__NG3rYKRoDARX7TCaBBQxB_Gw_XHXu0vEHPeNEUquMU8hjGpbV3q_5rcz_kzRN8-chcTMNjanBaycqMyazsf42F5ev5F7otofRzbxg=w761-h283-no)
 
 >index.html: 질문 리스트을 보여주는 페이지<br>
 detail.html: 하나의 질문에 대해 투표하는 페이지<br>
