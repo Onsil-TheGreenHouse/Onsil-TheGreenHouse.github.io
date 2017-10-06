@@ -235,6 +235,159 @@ urlpatterns = [
 
 입력받고 처리받는 뷰함수를 하나의 함수에서 처리할 수 있습니다.
 
-(예전에 만든 polls앱은 투표데이터를 vote_process에서 따로 처리했었죠.
+<br>
+<br>
 
-ch4에서 form데이터를 통해 하나의 뷰함수에서 폼의 모든 걸 처리해봅시다.)
+## 덧붙이는 말
+
+<br>
+
+다음 챕터에서 배울 클래스형 뷰에서 폼을 처리할 수도 있습니다.
+
+물론 권장되는 부분이고, 코드도 훨씬 간단 명료해집니다.
+
+<br>
+
+일단 위에서는 form클래스를 views.py에 작업했지만,
+
+보통 앱폴더에 forms.py 라는 파일을 하나 더 만들어서 관리합니다.
+
+forms.py를 만들고 코드를 form클래스를 입력해봅시다.
+
+<br>
+
+>mysite/polls/forms.py
+{% highlight python %}
+from django import forms
+
+
+class NameForms(forms.Form):
+    favorite_name = forms.CharField(label='Favorite Name', max_length=100)
+    # favorite_name = forms.CharField(label='Favortie Name', max_length=100, widget=forms.Textarea)
+{% endhighlight %}
+
+views.py에 작업했던 NameForm과 구분하기 위해 뒤에 s를 붙였지만,
+
+안의 내용은 같습니다.
+
+<br>
+
+그리고 views에서 클래스형 뷰에서 이 클래스 폼을 처리해봅시다.
+
+>mysite/polls/views.py
+{% highlight python %}
+from django.views.generic import View
+from .forms import NameForms
+
+
+class MyFormView(View):
+    form_class = NameForms
+    initial = {'favorite_name': 'Sherlock'}
+    template_name = 'polls/form_class_ex.html'
+
+    # GET요청 받았을 경우,
+    # 즉 처음 해당 URL로 접속할 때,
+    def get(self, request, *args, **kwargs):
+        form = self.form_class(initial=self.initial)
+        context = {'form': form}
+        return render(request, self.template_name, context)
+
+    # POST요청 받았을 경우,
+    # 즉, POST데이터를 받았을 경우,
+    def post(self, request, *args, **kwargs):
+        form = self.form_class(request.POST)
+        if form.is_valid():
+            new_name = form.cleaned_data['favorite_name']
+            print('new_name = ', new_name)
+
+            return HttpResponseRedirect('polls/form-class-ex-thanks/')
+
+        # request.POST의 데이터가 유효하지 않으면
+        return render(request, self.template_name, {'form': form})
+{% endhighlight %}
+
+일단 import 부분에 .forms의 의미는
+
+현재 작업하는 views.py와 같은 경로에 있는 forms를 의미합니다.
+
+<br>
+
+MyFormView에서는 View클래스를 상속받는 걸 볼 수 있습니다.
+
+그리고 원래 함수형 폼에서는 if문으로 get과 post를 구별하는 반면
+
+클래스형 뷰에서는 메소드로 구분합니다.(def get, def post)
+
+<br>
+
+또 하나의 새로운 점은 initial을 이용하여 초기값을 설정해준다는 것입니다.
+
+<br>
+
+이제 urls.py로 가서 폼을 처리하는 이 클래스형 뷰에 url을 연결해봅시다.
+
+>mysite/polls/urls.py
+{% highlight python %}
+urlpatterns = [
+    url(r'^form-class-ex2/$', views.MyFormView.as_view()),
+]
+{% endhighlight %}
+
+로컬 서버를 켜고, localhost:8000/polls/form-class-ex2/ 로 접속해봅니다.
+
+![3.img_class_based_form1](https://lh3.googleusercontent.com/4ZInnl4H-BARgfLtrpPzZ260gYEu6meJATtUPEFFeShxthlkeXgxPVzGoL9ykcktM6Slagl5SDaXBAIXsPFOUHd7icwUBEzK2uvowYFsJ6zgZ1a4f59Vw-fv-yFghV0MUdER0ck_2FKpB9RN9AXCSJjhPBXd_yvhCmgoGDw-3sd5eeA4uFVvuwZC2x17T10DGci4qmKqHF85fn8g5y2OwL3meSpZaLBVhp4p6yWfpw-G_2sTQnjmo3B4cC0r57Jty6b_u9jFtpEnQj_rViOYarEDPrbXbUukQHKaLDTB2kyMLD75MG46mL-VqpacLNhqBmQLtgIKJ821wfskydKG8L3W3ip2aUFvqjoolFsHFOqb3xLAApxXyHYlnXEUSPIlipV9jqYj3_P25rAxQcXGRVeMH_fb7JTZQolfEdCrFy5mR_If8_7vz4qEXwUuSwRbpC1YDYTVgEyBqKjqKxGWLc7dDybWgwxY3Zg88sylQVDOtDOkBawsl4Z0eRS-R5gIuo6-zUm0W_NK3V4YZ2qJt3c_0EbtBY9kx3Lco7oisOumjnd-ZcRGdxv0czmasGMRZX5bjZN_h483FypMfls5Qu7r0iGnylIQpDYaauaHkQ=w1506-h440-no)
+
+함수로 처리한 폼과 동일한 것을 볼 수 있습니다.
+
+다만 initial로 인해 처음화면에 기본값이 적혀져 있네요.
+
+<br>
+
+지금은 View를 상속받았지만,
+
+FormView를 상속받으면 코드가 더 간단해집니다.
+
+FormView를 상속받아 폼을 처리해보겠습니다.
+
+>mysite/polls/views.py
+{% highlight python %}
+from django.views.generic.edit import FormView
+
+
+class MyFormView2(FormView):
+    form_class = NameForms
+    initial = {'favorite_name': 'Homes'}
+    template_name = 'polls/form_class_ex.html'
+    success_url = 'polls/form-class-ex-thanks'
+
+    def form_valid(self, form):
+        new_name = form.cleaned_data['favorite_name']
+        print('new_name_of_MyFormView2 = ', new_name)
+
+        return super(MyFormView2, self).form_valid(form)
+{% endhighlight %}
+
+urls.py에서 이 클래스형 뷰에 url을 연결해줍니다.
+
+>mysite/polls/urls.py
+{% highlight python %}
+urlpatterns = [
+    url(r'^form-class-ex3/$', views.MyFormView2.as_view()),
+]
+{% endhighlight %}
+
+이제 localhost:8000/polls/form-class-ex3/ 으로 접속해봅니다.
+
+![4.img_class_based_form2](https://lh3.googleusercontent.com/u-8N2XA7kUIUkJygcs_hbL6YQ9sWSNrvLTGnkdYfM5Ho7hMrO9NW73BspEAMqkRk33XQeNyDqRmO4AlfjIK6UcbT6ue3k_LMsncgVEUjx0hA6Hx_zuHNznN-YhhqBV_HI5yU795zcdTYUdRy9aRnucWiL6Fha0amJPj698FrWb_rxnbySG43YmXSxe6AQ8bwGXOYVFZ5uCsor2UGHWa78w15-rOf_ML_4LxUxwHgsGkHqPa8XFk0Kv-sNQ4qUl29rhJkLjRMAXOv2tGGU_P5rGbf2OMP3YcNjPmk2Tf5PmUpRoENkl1MTSir2wD1gutDiqxeSBW1RT9E8W5srgSj-IdX-E1t7evH4tXWct4Q-aWLYTNVhqrDRD4JHeBgyhBwpC51qkdsL0mhW2UMpyijqdgsWMilaqWernUqgkF6PtsWxGAVL4dp4GbT-AldHHFaVhZYz6Xlb8t9JwP9-vYICm3mk0dQOSjF_-YGnLS1VP0o2QOvPC98abqktRn3g-6jvpvBRiX1kWOk4kCqo6i5qn_S1Wx7SWiM24wqoIS-g8aVXYSnymxcf5e11o6EE7rVZtXPLf7obqKz06DteBt-QNOZ3XsV2_rM71ZQi6ftnw=w1520-h528-no)
+
+함수로 처리한 폼과 동일하게 나오는 걸 볼 수 있고,
+
+initial을 설정한대로 homes가 초기값으로 적혀져 있는 걸 볼 수 있습니다.
+
+굳이 get일땐 뭐해라 post일땐 뭐해라 안써줘도
+
+일아서 다 하네요
+
+그대신 그에 필요한 success_url은 받는 걸 알 수 있습니다.
+
+코드가 훨씬 간단해졌네요 ㅎㅎ
