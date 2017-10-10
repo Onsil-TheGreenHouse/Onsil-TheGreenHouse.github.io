@@ -265,3 +265,56 @@ stacked=True로 하면 지역별 공공도서관 수와 사립도서관 수가 S
 각 데이터값을 count_subset.sum(1)값으로 나눈 값, 즉
 
 비율값 데이터를 normed_subset으로 저장하여 그래프로 표현하면 됩니다.
+
+<br>
+<br>
+
+## 덧붙이는 말
+
+<br>
+
+이번 포스트 쓰면서 고생한 점..
+
+<br>
+
+### 1. 책에서 쓰라고 한 자료가 없다!
+
+![img_no_data_in_book](https://lh3.googleusercontent.com/wJ2exn9mleaZxNdROYeaRVfTgB1G6ifdKd_4s-TFDDGaYDQnRY_fqDBVWbmbbSV9k-LseDHMwTGtaZCKRfsVz2jKayNmfCsqf0lOihFk_njkNLuyH8Ue2I3NU7eA0MNcbvNS_06atdGlOaK4owUi-CByaTsAEe43w9sapBF9uO3qSXjwcrJhYHBK9NcHPnq24au4MxN2C_ZObesPmDhE0u3TpFvOvLSNJ7pD2dRbiDao-lV_CralydHn-bQehFgm7xBESAyNE9YV8OupCIipVokFsFOG7Ene29atQoGWouONkGJ4iNe6fF0a9IhxcX4aPLkyidkr8JwdATnRgmA97bVdeRhapeZfka71EOGCIkj2vq8z52gE12yyFwU_THAP3oxB7GbpyhZNL4cbGjCY_gm4eYV0oC5Z0pA6L4h2mxO0ALRqUSvAwDje-BVwvy0s1J7gKh9BcKjbrLouCJutMK8wVlkjXCOqEQ6wNaqTD0w7_e2xAFC0d1qAVSRPbxRCov6fBIBsaWRBK6CJjFU6-lqKh7ae8K80OjZ6IFrQZpn0zI3y8rShBXXeRv452vtYIDUUoa1d3fNeCwsQOEyS9IkT0lhU-IUmtU0YRZbhxw=w1980-h818-no)
+
+We have decided to deactivate the service !!!!!!!!!!!!!!!
+
+그래서 다른 json 자료를 찾아다녔다...
+
+<br>
+
+### 2. json 파일이 잘못됬다니!!!
+
+공공기관에서 운영하는 공공데이터포털의 json파일이!!!
+
+형식조차 잘못됬다니...
+
+이게 왜안되지..왜왜왜왜...하면서 많은 시간을 뺏겼다...
+
+이 답변을 찾아내기 전까지...했던 수많은 삽질
+
+![img_wrong_json](https://lh3.googleusercontent.com/RlBvu2p0xkCWHjoiyL6gR63MPgofWr7uWrAHRmjh-LCBvXmxxiEW1XieKrOYXgAL7uS67OZCtCSfqEkbAAfXSavxBg8p5A8pZZsbks5-FgSj_mOOwe6k44rK1TOEB3YCwLN5zscLOLddMY9EkReXdPYaI0dhPcSeJlJbkcvnN963K59Cy3e_eWh3c79Qc21k8sdqUi_MhHV9ZPOnTmRR3hyIxw5bTk5TZWtW-6wdaMohAUHr1Zq8S1PLmdYrhw6BWSLH_6J6GxUx7wuXIqraYU-ywZXiWIPtiKMsl8UR8Q8fCJQ5AyoaIP7W5BgZxjcsSS00N15ZBQCQChfEJjlB0Eab1EPzUIIcZ_rR5GUGYUFOZCFi2i8YeeGX8bXBm1WtvE2lQi64_XNlXQgFoQk9n1ujJikNDk3OJGprCaND5zbGKleSrRV5_BYjxuu2pm_LQutGnUvtYh3Bi94_JFC_vlqCTjXRtxpstbvNJjcStdzSdE-DTz0lpsqxQEvU2PWDvuvPM72h4hFJuM0VyCdfdWC7A4zDQMt_XSYh39m_BiBxaHYuplta2YDWo0V8US08vCyYop9C7s6Bxgm1sEI2gsuezsIkJw3QrN40OSOy1g=w1590-h780-no)
+
+<br>
+
+### 3. docs이해 안되는 나만 바본가...?
+
+책보면서 하다가 argsort() 메소드가 나왔는데 설명이 없다.
+
+docs를 찾아보니 이렇다.
+
+![img_argsort_docs](https://lh3.googleusercontent.com/WtFKkZ7WCjhDfwboGIa5PVKouA3GMPhfGl2CtZ92yEFmmYVJIAF1hUuMkjRXwbSBBCCaubo-CmTEYaIR8oo7MRZDj0rdr4B9Zc54QTu2JVIYJ0xm1PPuM6YcWaSypw3g6XnQgUqcDEA11H8XvvtNfZ99Yh782SVW6pkzlXozqDfNKsFrIDEPsQywEMoMI2G6acvJuJK2577WsxuMjwJG7vVanRt0m9uZagV94EoXnidBUY_j6HcHg_XIib9CUHJpGtEg1YmjL-QybbLC_lRtWQtPCOWryxn5i1oLIIYaUCnx1jrvd6onBRHLqRLL7LMaiL0C0hIQYkhMLB3yuLBTnd_VLf7fHHX7AZdURF0HqPLU3rtsiR-uji8bgY0cAqPzMV9xMnBiPGTH-IFagvfw16rmECWbTpGRoOnsbsgfWgNL6YzPKXnOx_TvyFhVSoQwWp8mFpRtqn9KE5zRJINGj26cLy_1FeHGEECkSvUO9ZH2atcHmNpZkEVqVc-Gz3rgFYyoBg7rD4tpSmyJ3ZPqb__gMpCeJzxiEiCsvNBJLwgC76SxOpDr_PU4jwfCjJyXn6Td3hs4PKVjC531csCsxC_E6v2ujZxcloKXqYQH2Q=w1508-h740-no)
+
+argsort()의 설명이 'Argsorts the value'라니! 이해 안되는 나만 바본가...
+
+<br>
+
+### 4. 어쩐지 어렵더라...
+
+![img_difficult](https://lh3.googleusercontent.com/eBEg_KEahLTDVacByN6NkdimSk_Yildp6lgfcbuYUVyMFD7qvm-2sQKFrlLOfWFk94k7nltVhKQpE36LDSAXAK48VCGGvkk1xU3BExNXj7O8GRWEqhelxltHYqMNKmEkHLv1KZjq-URoZfwVVyfi09xjlWq2Fcazqh3EGPCoe1P4VSa_BrqrfHuHP8y-nKKPpShd2-bA_O8bovTlzWfTDsr4-Uf5w5GuCWscVa8uvI4VAQhKp1i9qtGTeJrWgHk0LaZpztZA9xMUTnUp3etwA1VvG_jW9keOaO-P2g2N4KxTKfSjYRjp2XB5FVgggd0NxLWpfdGFmRRWaQ7RqOtozCbl04JfwQlI1sRPh94TzH6hO-pnvD5VlgR5L2eIJsvIF6N7KpMS_zfNi8swudhGHP-TuCNilhre-D-bw_N3oLppo99UevK0QrCTyHpqRISyGbx48_NE7oPDgKusXfKE7n2gq-Ptgo_ojUhmAF8Nl0kb8ptD1R7BEGbPwcOrQ5FW7VxtrgBVEP3W39jJmZ46jXqZMnWP9PCbg7dl3KD2-2zXPO8ZaN6sV28zb2uX2-2cdg4xt_v_qDEb92ESlN-8CggAEHXZGv2UAjzWvGqD4g=w3360-h878-no)
+
+정식 튜토리얼은 다음챕터부터였다... 어쩐지 설명도 없고..어렵더라..
