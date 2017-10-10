@@ -1,0 +1,267 @@
+---
+layout: post
+title:  "[IPython] IPython을 이용한 데이터 분석 1"
+date:   2017-10-09 23:00:00
+description: IPython을 이용한 데이터 분석 예
+categories:
+- programming
+- python
+- ipython
+- jupyter
+banner_image: /programming/python/ipython_jupyter.png
+comments: true
+---
+
+[IPython] IPython을 활용한 데이터 분석 예 1
+
+---
+
+저와같이 IPython이 처음이면 이 포스트를 위해 준비할게 두가지가 있습니다.
+
+<br>
+
+### 1. Jupyter설치하기
+### 2. 실습할 데이터 파일(json)
+
+<br>
+
+IPython을 다루는데 Jupyter를 설치하라는건 뭐냐! 하면
+
+Jupyter가 IPython을 커널로 사용하는 인터페이스이기 때문입니다.
+
+예를 들면, Jupyter를 설치안하고 IPython만 설치를 했다면,
+
+![img_Ipython_terminal](https://lh3.googleusercontent.com/OFXr8E9brIhZp26gdQ6rhnIbGdMAcZ_BvMJOhECigFZF-nk7cDu23hIBgxLsRHJo4Gtn570YrtRKp6hRvUucFbrjwRj41V9TdbC8YzW68kouvURi7lJDG5_c6N_dpc8jNXPy2ogHgkK5xZkbMM3oOfpJk71uAVtIJ1LxGw4vgKOOYxgjLIeSpdq-nT8cl-RASBWwfoKGb-hMIlKtWelflI3dVfAeWS9g_WV43YSNEhiT-0d5ikd5iMQ8YMRx8t_sTSBlTYMv5r2wrOs3PvD5bbPWIOJDpBV5UlyXbjPuJ9dihAdAjBvvLrnWMZ9Z5TL8QJurHOOx62kgahIrlate9qVxBRFrmM3Hk4zqnMKlZcIAAleJxE8vy7ee-0O2ZKDzkKmMqD3-ewoGBCWoI4_85ObbQk4K9VhGk9uy_s7K2BSwPOzD3WuAHIW9oUWKWnQJeEy311ZOdwY4j1GaU14qjr6giVNmvDqhndg-rRBQ5s5Cgbh-kvp3aDOB_kO8-z4uhxvColiK9CYiCUnnKlHJC1hqS-jo2JsNV76rAlP4_97SsrDRsdypC-IC9puKtJj8O8k7rWUbycdel8kyJUfkRuoPNMhz3JFutOq5EjycHg=w1364-h1002-no)
+
+이렇게 터미널에서 작업을 해야합니다.
+
+<br>
+
+Jupyter를 설치하면 IPython도 자동으로 설치가 되는데요,
+
+![img_Jupyter_use](https://lh3.googleusercontent.com/zs6r6u144ENEEU-H1SRUnHMj8HXxnOxt8PE7tilZAnsLQylC3FfZed9T1HwIhutszha2RAbPF1j_xZ4YThJ6OMX8NlftRxu3HBKS1RkIWQp2qELL3hQfnsBZ8J9YazWhpSq8h927bEQdSSA1HRZ71vq8vCXjCvzUC5SDveUsoCEFWBrj1fCvNK0tXfuKfgmYcOyMmBCYXKEsCUEyDYL7-2HVHl829esZH2veacMAQRh0P6hC0-WshxZy8mnTj1aJvQghyqWUTY6w7NYsR5ei-YbuPmwOveei5as2fgcu2kI1RYmnEhPYUG0128fPbBOqofmY7ok4QCa8cR2DujZGjwm-Vgn9KzdtCCVM7RdwuzNbRyxG4kKbIduEOnzpt4mZFapM2PrPLwIZwAVToxWQ9dZy5T_HvDqK5YQWKXlB2TiWTYqMyKGh9lo3CF6hr7hVL0BG-Cs5KD_nOsg9bdkBY6vWVgBQNwpxZYZGAsaHAKEDWxscS3KFlWyfCnPOY6RTzVPug1Yim9MLtwhfuxYmt1VRn_iis02uOr4ZfL-kv5VkT8ilTq9BFOysHZL8uloAsugKGxh6P3UCnrRB3bCZFjH1ygQ6boWGMGr99zj4fQ=w1886-h1488-no)
+
+Jupyter를 사용하면 이렇게, 작업하기 편리한 환경을 제공해주고,
+
+작업한 파일을 저장/관리 까지 가능하게 됩니다.
+
+Jupyter설치는 [Jupyter 사이트](http://jupyter.readthedocs.io/en/latest/install.html)에 자세히 나와있습니다.
+
+참고로 저는 다음과 같이 pip를 이용했습니다.
+
+{% highlight bash %}
+$ pip install jupyter
+{% endhighlight %}
+
+<br>
+
+다음으로 실습할 파일이 필요합니다.
+
+저는 [공공데이터포털](https://www.data.go.kr/)에서 '전국도서관표준데이터'의 json파일을 사용했습니다.
+
+![img_find_data1](https://lh3.googleusercontent.com/a9PGyqn-RpXxsI_n81M6jLsFnJ9nmA1wM58OkeweZhPMU9vuEkCNfZA_wkt-B9ghuRR-NCnAjc32tlim1ZfICYfGZEzzQnGvxTzz_8peZFmx0WhLvqp7G7plpghSoIr9bAguJVmpABID7rBD9lh9k_UQEEsF8qcy0zHkhP0zKmch7Wf9xGQj6KEpzadcDIGcf52KA5q4DWp8FYFUKobrBk8EgsmXfiUjirihM6eVXz08tS1NcGillt3yFVdXCPzZD7syJPQnhwhSuqtVobhhB9OX-GV9Vy4gPacv91KjtbtGye1AgIA2m14r9MHcWkUaR3uRutMey3mgpDvhoIovg8OgDotyVNhjLKdcoOIk5t28jC2zOAo3lYlQBHlJXrLgLrGfjtkOm8HNi7dOJLP_Um3pwWQUNIMpPeiO-5umKd6MGoPnzKX-CqV7yhezGzhsgHSiOHeF3pf2tJUKDUGmHXW4vZjIqxTFTVg69_bH4HNHZAHY58VuQ6Y2GkuOcvzYA39Ub8b_iWIDYi9uKp_nVq-w0xKf75nWhhIan7zfyNIt9s73ktytNfvUK_ultifqftL2_kDQbuiOXQX-2insr7SH2mCCcl9gSZXphMkibg=w2592-h1844-no)
+![img_find_data2](https://lh3.googleusercontent.com/_abQrU-0_oPvO4YPhdxIe3S8xKgQYKQ_OkX6d2-jFbQbCCH7HdodyVN2abILg13gC9r5LWQGBJ65qP4NDlJouOdyxh6PU7HL0F1ZEWbQCIQ2glRyP-F0SnaT8Rivkw6O9TzyVi27V4jYPQPjF6t_gP0GaINWi_KrBtRrWFPHBtLeoYlqRfYV0WXIO04RYKjYCkgUKhQCwKGLG1VmLvCJpWuQQewIwiIJ_pB5p5pTuWcPiX3hVk8OgygxDEy7J3_LfpmkNfH5lawxRy0IeG6Rd1Pj-QMAUmUZd2RE3eKTqfuJ_59bN8noehnUxaMyeCJe5w5Dft9v2YJJ5WUmcAI-GO7wJYLyyA0_Jqgjfb9j8XB773ooTcM6QOyupaoQI_5y8i_4wbE-5hGpuu3rF9KLtMWWkLlGbOxxn8ZVJjXU63ElWBnOs0X8Ta5VOj7sAl1ZBxv-90l1sA8U5jRiY9JgwN3P5lpLSTFM_Rc0V4O9LpMs3zTDvrvq09Qm8VmQY1b0Bhmwdw9wtbqq67bHRigCIh_ed8LLWGecV5JzQZ3nkC1zS6imjc3mIhLQ4SpeGgOByNdXaEgKn64yUJaL6t9ES4wmWXRp3jvsQyyR5ZarBw=w432-h333-no)
+
+그리고 파일을 자신이 작업하고자 하는 폴더로 옮깁니다.
+
+저는 파일명을 'library.json'과 같이 영어로까지 바꿨습니다.(혹시나해서)
+
+그런데 데이터 준비가 끝난게 아닙니다.
+
+사실 이 json파일은 조금 잘못된 부분이 있습니다.
+
+파일을 살펴보면 쌍따옴표(")가 연속두번 있는 부분이 있는데, 원래 하나만 있어야합니다.
+
+텍스트 편집기를 이용해 ""를 "로 치환해줍니다.
+
+![img_wrong_json](https://lh3.googleusercontent.com/RlBvu2p0xkCWHjoiyL6gR63MPgofWr7uWrAHRmjh-LCBvXmxxiEW1XieKrOYXgAL7uS67OZCtCSfqEkbAAfXSavxBg8p5A8pZZsbks5-FgSj_mOOwe6k44rK1TOEB3YCwLN5zscLOLddMY9EkReXdPYaI0dhPcSeJlJbkcvnN963K59Cy3e_eWh3c79Qc21k8sdqUi_MhHV9ZPOnTmRR3hyIxw5bTk5TZWtW-6wdaMohAUHr1Zq8S1PLmdYrhw6BWSLH_6J6GxUx7wuXIqraYU-ywZXiWIPtiKMsl8UR8Q8fCJQ5AyoaIP7W5BgZxjcsSS00N15ZBQCQChfEJjlB0Eab1EPzUIIcZ_rR5GUGYUFOZCFi2i8YeeGX8bXBm1WtvE2lQi64_XNlXQgFoQk9n1ujJikNDk3OJGprCaND5zbGKleSrRV5_BYjxuu2pm_LQutGnUvtYh3Bi94_JFC_vlqCTjXRtxpstbvNJjcStdzSdE-DTz0lpsqxQEvU2PWDvuvPM72h4hFJuM0VyCdfdWC7A4zDQMt_XSYh39m_BiBxaHYuplta2YDWo0V8US08vCyYop9C7s6Bxgm1sEI2gsuezsIkJw3QrN40OSOy1g=w1590-h780-no)
+
+(공공데이터포털에서도 인정한...)
+
+<br>
+
+이제 터미널에 다음을 입력해 jupyter를 실행시킵니다.
+
+{% highlight bash %}
+$ jupyter notebook
+{% endhighlight %}
+
+![img_jupyter_notebook](https://lh3.googleusercontent.com/JQXQ6dyTMIgsT5buJClRRFeAQtUxh4wc3aK-5cPscIX7xig53H0DqTNvulVAp_0XByE8iUxmAQAXXxO5gbBVxcvtWrqwWR11zJ1f53IjIpcLM6nBbqAK78cyt_8OmDVshiOt4VUv7qxIcnLUKyvZ9tG4lgkfvTBm69wK1OhKIcpmNOa_LopSkDATN8jWKQNgnqUgQ2kfL1orbpX21BjSdgib5wsMohdxhB7_z8Z1Rww6ph1mAKgtnS_kh_ONDMegNhjFbtLzyvr2QYV9OEoax6k0_8-OiiU0zXohRxLLmH9nz4MoqWLfNxu5rd7Tl-i9bRfipaCuFLNrYYKqit-_0Xe8iI64tVC-ptF1Bthl5YWZapDeXbdR1xmnbm_ZPmaM-AdF1Vr5_xRvlCBGwUcKih0ospoBQOzwe-U2NlA_8pcpuZNVxDMpjiuupPmTpOT0BfFmdvw-1UGzFN8CzOgh9bo6eg__TgAaqe2srR77tQWAwPv5lFKKp_ZErT__Rg1sgxbdH2Llnk7sjfWH3olFYdyBgTURLhiMjCgGY6KJ1f2FNApyY7d4xqle8tyUyLiztuQE-R0gg0BXfG3Pas4vXzuMZBuYO_dH9pXmQDDK0A=w1364-h956-no)
+
+그럼 브라우저에 jupyter tree가 뜹니다.
+
+혹시 브라우저가 뜨지 않으면, 터미널에 적힌대로 http://localhost:8888 로 접속합니다.
+
+json파일을 저장한, 즉 작업하고자 하는 경로에 가서 new를 눌러 python을 클릭해줍니다.
+
+![img_notebook_make_new](https://lh3.googleusercontent.com/ZtMPUkKFqpI2UK96FI-eFAogdWy4z96Nm_2OgB6dO1fHeWvFYMPnxXxmvtlpB_8Ekf7foLGcHKT0da4BaYdb62ONxTjPjwzkX5qe0zQsmE8WPivdAEZT41YygXXEGsogO6iJy84rY1od8iPtFVuvqmwOOJzekAuC5Ihf6veBIOITRCdzVt1AGkfHzZj7b392xjRgbShj9FrDZCQQHeyyCVFvCq7kP99SxhYg_G6AZid9BD9glzH8-5bCepO5ogVTtyN9w_WIp5NLoSAP3XglhFLh8xUEljoTL7GKGOQfz3HIKXv8pVXoXqsSyjHZe5koW6VBctD_LFZb3G3caeL0Mdv_kR1SG-Igom_kOkWv7qRpXktbxHmO5npV-lQdNLxds8PfZT9RJkM2AeUoxNaMabPWJmkdI6hRK50ZrDdNQ63bmaff40vZkbIMFt3_qS0eUhc3qPB0rw7bdI3O2cjHKUBZp0wM8EY8CpCT8KU-xMsvaN_c3udsYcywV5h-e4DAMwh0UQk1QzQuYbLISkh6XKKiy-6-hA8nB3Xq7uOH4VSNL3k2drau0efEl0VzuOftx6XcEa724havH2tqkjXuXL5XYQuNJ0CvezrrXx22fw=w2534-h1952-no)
+
+그럼 이제 작업할 새 notebook이 뜹니다.
+
+위에 untitled를 클릭하여 이름을 지정해주고 디스크 버튼을 눌러 저장할 수 있습니다.
+
+![img_notebook_untitled](https://lh3.googleusercontent.com/27ygsb33xL6JWIOsDA2EJQh7jQqczSK5Isvuax18tuBrkcWBVAShnmZZ2wDCJfAyGBqoYK5dz4GOqUKP0fLGSb5mrkS6K3dTIml7GSTXVi_6m5U3vtyZgTQLnLm9SkocyDSBSAtToFVLQcue1YxklTaae2EWO8NIS8VS5BjHKgfVSt4sspMeZQzdo4YgaSFyhK1jyHpT_yLN9EgZA--4jBj3CSHZezjl3lx84UnN8AG_zajH7nx3FOcNtS46pE9VZLurs--XDn4i50xBO_b_xLBNyFH9ub9jif7Pme1MSyghoMloHYuLXEJzvgAcTTVDfEt9FZy669t0vEBltaSLX6YuiqldSzRhmGsloXkagx0zFfYi7qhyaToVvGbLmH5p6Rh19yKucxHwVfQVILYt1CcsiLxbRUTr6Y5DvHLp6XG0EVfrWs0IMFs9KfL6sG5t89OwYV9p3Ygvb9iaGj7WWht2k9XQ9WMsmy5OCrD5nQkg7C5YJnW0iSAB44lti6pQW55Ur7Bl0DnhfpZoYwh6ZUdWLm4W6Vg3fiIxvJ6XTaGk4R-Id7dcfRVV4GIvbBH6svtBDs3fDurPdgdjuw1CY5YCIlOkYthiy1nRJfsoJA=w2592-h1166-no)
+
+이 notebook에서는 파이썬의 문법과 동일하게 작업할 수 있습니다.
+
+직접 1+2 같은 연산이나 print등 여러 작업을 해보세요
+
+참고로 그냥 엔터를 누르면 줄바꿈이 되고, shift+enter를 눌러야 해당 cell이 실행됩니다.
+
+<br>
+
+본격적으로 시작하기 전에
+
+이 notebook안에서 matplotlib 패키지 하나만 설치해보겠습니다.
+
+>!pip install matplotlib
+
+notebook안에서 pip를 사용하려면 앞에 !(느낌표)를 붙이면 됩니다.
+
+앞으로 실습을 하면서 설치가 안됬다! 라는 오류가 뜨면,
+
+!pip를 이용해 설치해주시면 됩니다.
+
+예를 들어 'no module named pandas' 라는 에러가 났다면
+
+>!pip install pandas
+
+를 입력해 pandas를 설치해주시면 됩니다.
+
+<br>
+
+그럼 본격적으로 시작해보도록 하겠습니다.
+
+![img_jupyter1-6](https://lh3.googleusercontent.com/zs6r6u144ENEEU-H1SRUnHMj8HXxnOxt8PE7tilZAnsLQylC3FfZed9T1HwIhutszha2RAbPF1j_xZ4YThJ6OMX8NlftRxu3HBKS1RkIWQp2qELL3hQfnsBZ8J9YazWhpSq8h927bEQdSSA1HRZ71vq8vCXjCvzUC5SDveUsoCEFWBrj1fCvNK0tXfuKfgmYcOyMmBCYXKEsCUEyDYL7-2HVHl829esZH2veacMAQRh0P6hC0-WshxZy8mnTj1aJvQghyqWUTY6w7NYsR5ei-YbuPmwOveei5as2fgcu2kI1RYmnEhPYUG0128fPbBOqofmY7ok4QCa8cR2DujZGjwm-Vgn9KzdtCCVM7RdwuzNbRyxG4kKbIduEOnzpt4mZFapM2PrPLwIZwAVToxWQ9dZy5T_HvDqK5YQWKXlB2TiWTYqMyKGh9lo3CF6hr7hVL0BG-Cs5KD_nOsg9bdkBY6vWVgBQNwpxZYZGAsaHAKEDWxscS3KFlWyfCnPOY6RTzVPug1Yim9MLtwhfuxYmt1VRn_iis02uOr4ZfL-kv5VkT8ilTq9BFOysHZL8uloAsugKGxh6P3UCnrRB3bCZFjH1ygQ6boWGMGr99zj4fQ=w1886-h1488-no)
+
+먼저
+
+>ls
+
+를 입력하여, 현재 경로에 데이터 파일이 잘 있는지 확인합니다.
+
+그리고 json 라이브러리를 import하여, 준비한 json파일을 읽어보고 있습니다.
+
+![img_jupyter7-11](https://lh3.googleusercontent.com/72rb353ujpP83mp-yamj05eVzzddxJz2vXxmRDVYV4zPV_wJnvz6ZWND3oY9D929SxNS8Eu2wy281gO1XsNkVCKKIZvLA6lHvY9Hx2hJi-E7ADDDQyx5uwuBRJgatWRoH0JD3wxczHw_ojfFifKG1ev41U7KF9Ci6j9HE_Myp-CJt3dZ2Du8de_jW38A7u9JrIooLLeQccIK_PR0c0s-Lq7fOQ56F-wdYQ1q22Jl-MNl_rpeTPHQPAXFuW5k8xaYt9-aWylfBDliFfN9a5dEI0FMptYznWIVcPfZ22lDOhS-ZtSWaSXCasYWDw-X8UEW3khMvZZHQWl6BlUOX4dBNdoUcP5T9CJCsl2_XzNBQUzSwRsqb9shcg01d3BdcHIvcDY2eMRrH-1ovoP_hJf1Oj7ep1Xr8pDoLb2XOn2R0URit1JDJkp-pVHnUvGkWiwRlOhZ4fY_piqUSqUWAvdWnhpmrBmskn3FEHeatSXlMdpYJC3Tcm7OWRcNPjuUdFqdU_e7XI2eqB1idHpS3WNQbGR7r3rFabbwz8_COIV1_-pe3AQuiQ_MA7mmSAFzkQSUnvAxkLbpLThI8C3Nmko-Mnw9Q3ThO9ba41aTg1DDGg=w2274-h1710-no)
+
+각 도서관 데이터는 'records'에 있는걸 아까 확인했죠?
+
+'records'안의 각 도서관 데이터를 for문을 돌며 시도명 데이터만 가져왔습니다.
+
+그 다음, 각 시도명 별 도서관 수를 구하고있습니다.
+
+![img_jupyter12-16](https://lh3.googleusercontent.com/4YgxKY3tYs16FYaTm92AvIP2cuGRZLbeKRA3aheD9d4nFvFmF-Va7xjJefP1snaSyHQ-HjzFHYH2hl5CG9985C9STVM7uAzwM82P8NxqDqiopPDCGtI8CBdYe86IR_8TTFm_tV7KycDj-uVgcF_gP52Xpy4jWY_SiBaYIn1AwRemhzqWGfjoPwypcVyxD3hxZnBgbRvGM4TfzbrYXc6tAua4bTNe7hh2ptAGbdLk9EPyB9vhvlQUz6xU59KsWq3KH35g3ZIchO2P8vDq5utVI7qXK-ceNwYxYCwRuilU_bCgerjKeeoDhcSTkACvFK3q1q4QSkoUi4ANZUdnN4Z_8fySSDpPw_AzcAXjb_jZ7OzRQEDTTv5rFulV9-Er0YtUkcadCTbX64aSD_UtqGYn_YLKjHohrmPRkinJ6EdCXRtXd_38BPUapeAfI8Pm-GV3ayzn6mjAEQSBCRSNVbM0kIR60-E2mtQMRv7gTv4RfHXkW4GsWXPG1orZdEJB5pRXyvK3ssptQNAY2tt50xhSeaZCf2WyrGBX6SC6qxIre-Rmz-N2SseKA-uIC1lKwp-95RIMEZQkWfW6D2JIaOs_1MdPyHH7Lbrob2GMWDm-Hw=w2276-h1356-no)
+
+지역 중에서 도서관 수가 많은 top 10을 두가지 방법으로 구하고있습니다.
+
+![img_jupyter17-20](https://lh3.googleusercontent.com/7Po1dY3uAnZT0Qi0vXLkCln9-8mspPg9l8rRQwAlTPTMGm6WFlo_U0QK9wBYtfxwbcBsne62XVk4uB8MdLAUh4pLxRHX-CIXEj8iY7ckp7QBEEObfQhcwC195V3Kllmtc2gnbkeG9vwtCzVduq6Rbjm-h1OpQgiRIEsoQw5RTUn76oKu4Fl_aA76dwBLvP6iwKA0eSfpNZYhB6L1U3lzdx1XFLp4k-eMMeiYYaRUWgDUIF6sDDPkZ-SS35xqc_vhSh8xBr2A9cn2HEm0aygpO8bTJZR9PhmiPamckBslTZWVonvO9YoB5KC6-WitISD1o0CHRMKjLTUpusySylVjFELRBiM7PZs6109AWhAMR6h-eXwcNU7Nmyx8DJ1gqGNp9ozwchTPLlB6797Xutc5p_BTkgzcUzJ-ISul5qmAxSmuRWZSN5WT4ziWK7D1z2PfdI3q5bfdGezLAdNiaVk8gHSnRMwAQoJDehzVsR2slPapLZHsK4gIdIe-XEkUB0RrjzQsz477Goiow65hRBBnh1qMJxn1mdofwyXYCeTB5P6ErlekKd6-AvLI9mZHvYzUaJto-sXVGjkFLSNtWQaTtjGvhCmqphCoHUWFBm2vyg=w2274-h1708-no)
+
+이번엔 pandas 패키지를 이용해서 구해봅시다.
+
+DataFrame은 pandas의 주요 자료구조로서,
+
+표나 스프레드시트 같은 형태입니다.
+
+19번 cell과 같이 출력함으로써, DataFrame의 형태를 확인할 수 있습니다.
+
+<br>
+
+.info()를 이용하여 DataFrame의 정보도 확인할 수 있습니다.
+
+예를 들어, frame은 4522개의 데이터(도서관)이 있지만,
+
+건물면적에 대한 정보는 그 중 3714의 데이터(도서관)만 채워져 있네요.
+
+(일 똑바로 안해!)
+
+![img_jupyter21-26](https://lh3.googleusercontent.com/T2ziO009kdIucpgbydUpkIQL-gCB7coTwPl35oiGBYwyb9j2GjRjpJKUw43ekz6EL9mlZa8dQivRegfHQoKLv5SULjWMtrWSptcvJc5gPjrw--lYYqMY9QAJPkPdUzu_xuPs0l31ZpmlOplcWixWPX8MAdeM2VzMJpWMG3jpP5m6sQZPQ36J3NR4VpizDL0zjlEolfheBO5-ajvCbkswrWWSb4-1vUHMECGrxd3TwCliieGv8lkmVaFeF0GBcUlkHMIPyJ4nklLQkR7iFYLDLY8v5DcP1Kzrd2b1hWt8MSh2l2-SVaXmoHmxNQr_43BsE57jp0cxwejRhzjLjLMQTSeBNJ1cMkuAVthVnOnps67zkviXbo2xOb1iwmE-ZfaU_V87V0VgD_L33eQ0XzFJWULROLKgF2NlmAYYZ88kZoNmQDtzpMeN4unOiTNAj1EEbOfHZ8Q6GCpANrDhQcPba3NjZ8Tceg6fFtQx00aJ9ZmXQmwKKGPSl-6ZVcYX-cG-z8T6DbTp9JMFj7IHiacssdbx7vcVe6TPyftVRGCdPx8O1J-UvbIWC5_lIVVouuJeEY6nmPDkUo9jZC102FJH5P9CcB8DiookNhQIpbK2RQ=w2278-h1724-no)
+
+.value_counts()를 통해, 아까 top_count 함수를 만들어 했던
+
+지역별 도서관 수 작업을 간단히 마쳤습니다.
+
+<br>
+
+아까 건물면적과 같이 데이터값이 없는 경우도 있는데, 이때
+
+.fillna('missing')를 사용하면 없는 값을 'missing'으로 바꿔줍니다.
+
+<br>
+
+region_count를 잘보면 '경기도 수원시'가 있습니다. 이 값은 '경기도'로 바꿔줍니다.
+
+![img_jupyter27-32](https://lh3.googleusercontent.com/cfojm9t0ORwI5RPX5HQXHe59nVKV64B4A2QeQE3Jf6EmR-4TDs5kFJFjAsBsZ-8Ak5tOQx8DZxU7iP7KKQzYJ58Guu39O6hhvFF9CgHGvev6TvNeN0Qdz0TDRnbqs885yCmFCBBcFbtwjri3CLoVoWekMFaEy3Bx_DonV-OAy9AY6MLi1ukrDMReS_1E5-d_drgZEQWy3P8aGKQbHacZ1wcFcxpqby_uijhqTJMw3vr82nelXB3ZRe1sL8TzDYqD04tsHihLcE94VOeAUBYdFWuPoTtYRB0bdYcRCC1zXQ--Pxuk9oxFSlt_8nsGBNYSeW0WsnHhBtt2CozpnlZsxwS9cgH4j-dTjo4EC3kj7qOU9_Bo_zVTfn_QVVzm2HDf8KfxdWFhXhXASqvE4zTz6cIzO6zivlVftPh8MTTOjHyxN6gZbL7Nl_xsf5CzmSt5_rXpSSjWc78pXTxCM7nkfxF138YAoOMNCXKpC-nis-git4l7RXWm7hZcMnzjsfHG_KGk3syQt6piYP6gpLyARXPlpRwaWhveu45xjW8uHscxMJO0pWmEQ_O6eUIpp5W6pNiakJrp_y3dh2t0U_Sltk_9wpJMPKIxPW0HHk51BQ=w2252-h1604-no)
+
+matplotlib를 이용해 상위 10개 지역을 그래프로 나타내 보았습니다.
+
+근데 그래프에 한글이 나오질 않네요.
+
+matplotlib.rc()에서 폰트를 한글지원 폰트로 바꿔주면됩니다.
+
+![img_jupyter34-35](https://lh3.googleusercontent.com/Uhn_2ZNOijoOTz2U3GH8ggOJQjbBhNBBSlA1lThAnfK959h8QRzj55In7fwoArPYuQIuXo12tIX3eRsBsZi878eKwZ2UPJLX9csQNsy_Vq6T7aSRcoDaN-NovhMSxgap9g0PaHxx6vAVfsMvPvNUmGg0BfZKcGaCQzTkVngCAJNTgenQo0lyzZzBDMxlV2-faHVnmfoYXvOPfU7Pz64DwvoP1nQ7__5MNWO5MfW7YQuWNr3pMeSgZjuDCHSwX2JzUBdCLLkkdF2s37mk-GA1OGHSEuZlxmfsYBWE2UhhU-iTz0eHXOZqEZgEH5X-UXQEBud6vrmlgsODd7wT7MdGlFCFDvfOoA3KFXMswVxhdRSuz12S42IM0ZpjQGPfx4oozMp4UhTReNvkACOFLJCqgi6pOUodPoSGwegT4_SF09snwzeKxoHi9N4OBhd11LlcA9g12YeHiGDpu8Xtjc0sDzq3GCbRKtDb8MYTCqfPwhjwciqK5u1q1Hon_Axam5q6AyltSXTFleDQEQkbrdr5pOeKdRu-dIFAFdDEvfPpZRqael89v0sBGlqd0C6BYJU4GnPWhuexHpDimwfz-GGkvylG1GshhYY3PbacYVkehQ=w2266-h544-no)
+
+이번에는 도서관을 유형별로 구분해 보았습니다.
+
+이번에는 Series라는 또다른 자료구조를 이용해 보았습니다.
+
+dropna는 값이 없는 데이터(NA)는 제외시키는 메소드입니다.
+
+![img_jupyter36-38](https://lh3.googleusercontent.com/65JTgYZdekHrVyqngr2_6hjA1UN2NhE1LL1BUzge4nRu48oZA_KNds_bY4UdPA1XpJZj4eCdF_VoEtgitiS41Y5R2OYAaIA7vQOts14Oe7QT16pQ0fYHQXU08-6-IWiU9OY45f_1IxT30r1n5Mhfn3eJtXDyzKuDe_XX6Fs4U3GCaxbg2qs64HyWZEJq4pVewb7NdLvld3-ijOBEZx_MOK-JQZ7y8OvY66GUGK5AtA6IVqhHhCvVHvagX1HX2MQ9UR0RWPZCaAHLcimsSZQFu3ymUa1-y--jpoxg9e2Mhih91mO8HbHz0zRXeen6tmBvfT1Vh7b96sEg7D1xaouN3vSfbWBNhAlsdVgDju1QzZKMF2xYTiz5cf0F3MoA2mc4s6LdUKBbSPlgIDHF32AJ1iIcEP9O4QVr5xYFmpb77lkxS2j__Vpqxlk5BYJEVp6K0TDUetUKCdLZ572J8IZv54WGPGWl81pyGdGQbXS7d4VUr7NPRbTvE6ieF3ddb260xSenUd5G9-WR8nErKT12ghEFFQyXQoR3JAi9y7x0yrrXZ2GYHlmUS5MrfjERV9ZeJSDMnO9NMaV6Im59TuanJNxNSHAYoBP_CB1dflFzXw=w2254-h1372-no)
+
+Series 또한 .value_counts() 메소드를 사용할 수 있네요.
+
+또한 각 도서관 데이터 중, '도서관유형'값이 null값이 아닌 데이터를 추출하고있습니다.
+
+![img_jupyter39-44](https://lh3.googleusercontent.com/zBj-WctpP-4TgnnwWt4Z4tXZqjkZuC1H8PHOcvSlkEDmUyHTpSu614edqm2T0k7t8KasN_ePZAiasBksUS1MwYHWA_EsUq80tVYF9cbapCtCICGQrRMc27bXzjo46ynSSHQcK-VxiFGIvn9fTzDCdNNSDg1-onb_0UrQgmRZ4qL2kvAtYNssAswt2Wdf6BwN6kX5i4mJ2_TEHUrSfUR5PSDKsA2VmM15t_kDv_5CirEvntiQygVRdG2KsTrAQxOqX5-Ey1kOJiI-d1KYsI8UO9lp4994ztZfygJ4gUmQD2bbfR2w6ys6LF4q3ptx29zcgVSssNYHquGCofRBU2A0JEiSQVhfZXqiPROYYrszeI0fUi53dxzLLbbyIBdbcmkUbEgHSGrc6wHbTGrfmJO8CWbyrWu3SVVWvKKOTpBv35Ltd1JEB81KVIaGrVgs11JW44Chh1adztu_ihmt__6e2tKi1A1-rCvAAvMMcocOS61jo9-oa3MqGEr0WHdxtnPW9PxMMkUnrCG5-2J1vSfZS22e_ibEAnwmdQHqaZ6Bojdait-FhJY5FgRA1eEBozhOpnxGqGBLpeSq20CIEb7pCoSGTkvfpFq8wxop1KrIhQ=w2218-h1696-no)
+
+이제 공공도서관이냐 사립도서관이냐를 구분하고 있습니다.
+
+numpy 패키지의 where()메소드를 사용하여,
+
+'공공'이란 단어가 들어가있으면 공공도서관, 아니면 사립도서관으로 분류했습니다.
+
+<br>
+
+그 후, group_by()메소드를 이용해,
+
+지역/도서관유형 별로 cframe 데이터를 그룹핑 했습니다.
+
+.size()메소드를 이용해 도서관수도 카운트 했습니다.
+
+![img_jupyter45-47](https://lh3.googleusercontent.com/YcGjZxVLDuX6zJ7XWsbOJ_YDKSZJ7ECQOO6yMjrZUK27kVoYNAVILAleq6d7L9g7iGhp2A58dIcYID_DRNRg9Qq0qsHcSF0R0ygbi1fPomuHnzkNNX79ZGWbuLe9tuGA63h4JfftSU10_sAtligMTMFWctXBUZDxghwpTzJ-45TUq4uHVkh6rzb2wjZHQDWNDh24DB3kWezIj5Wc1QhbTV-vv3SWZZnUIyqSK6sYQteEnjIfeav2R7_dQC22HA4Lz3AQgsiXov75D0EBPhsYqR2Qd94GSsBETq8XweenhkAZVLKfzVLxLudzVr7v-KltIUb1RwiI2aXm1Ax6vJ1n-dKBXD2b0IzDcXFFXqlIRtHzl0Yy7gIDz1jNwu7t4GV_BwOsoaoowxMTlwkw2wNbdRpLcbth3v1dogt9w2veLmI_ZxKjtrlZgv-AtDVMfs82bHOXaBU7vGb5kZ2gRJyLwJiPTz6TvxcPdkJQ0qzd-fR6H6Agjll1KceEhR8BnYkWghxyCh1cJaDpJXEfRog_QTedEduhwLnYwA_yc38PVmpFoAgFoLDWv21YT6BVvoJHBD-oBmuAfbGGZKkNY8ngAupNg9O9babJsW02xYqZaw=w2194-h1636-no)
+
+여기서는 .sum(1)을 통해 지역별로 합산을 한다음
+
+.argsort()를 통해 지역별 도서관 수 순위 indexer를 반환받았습니다.
+
+무슨 말이냐면, 예를 들어
+
+>강원도 10
+
+이 의미하는 바는, 도서관 수대로 정렬을 하려면 강원도 자리에
+
+10째(0부터 시작) 위치에 있는 '세종특별시'가 와야한다는 뜻입니다.
+
+47번째 cell에서 볼 수 있듯이, argsort()에서 반환한대로 순서를 정하면
+
+도서관 수대로 소트되는걸 볼 수 있습니다.
+
+![img_jupyter48-49](https://lh3.googleusercontent.com/9O5NT2S4gEA3-K7BY57Omcq30E1MqErQ1e7eaSDkERalc0OEHQe9kt_uzSZyeVCHK7xLvBVO3uvjjcT3IQTEVATx2QNOPW-0vOZLpi96Ickzf2aUkv0NUZs95afiVdQL2pzy8BHZ_UQHh1nJzg5E8ngPKO-JY7lGnQyiS1kxRgXpRD-4uoq57K1CLoxv2H9zMI9w_W73azyahJCUZgeeARgMTz1xvDL8vEtaY3NMiAx_zUVb8dw922o705bcoR22cHCnEVhexInlhqsNs4rnf6O2zdrkbnnZZcZPP3LNorJHVyGxbNoebK8z6Dx-I1czb_AUdRHSvnETcuQar0BfMXt2iDYCFCEYawvMGinjfrafUKYGskiLvo4OTVYgrSDo5MzjPwEISmebci0o8AgqjESPPFQ0INwaUbSYHwF6IfYC5_fGMc4-DB6ys4LYDVrKZFwDpk-j-Wri7ajtoBWUJASc7-qSHt8NN0KrpHR5EYTd2wsGifPuhyUuC45GeRuWqXbiATd_M1QwaiSBYdXf6lK0FCaUROrX0guwEvZ520LB4lQzatqDfP1TPhfwdeT_ytBhxOhMV4Xn0jORJPcm9IzYjNrf0NvcVDA4ye9s7w=w2196-h1312-no)
+
+이제 frame값인 agg_counts를 .take()메소드를 통해 indexer 순서대로 정렬합니다.
+
+47번 cell과 똑같은 순서대로 정렬이 된 걸 볼 수 있습니다.
+
+![img_jupyter50-52](https://lh3.googleusercontent.com/8w28gMk5JbLnL0vAOtPlmoe_OjoDH2qoatMxJAf5VN9EqcVUfcR4-U4lMAGl4cm-xCVAbXNHyZSxEL_pwZrIr5y0lEKmHhOmGstK9CXo40pbEK7cpsaS-68BKNeIBe9z0MLSB8e126zz4HU5okHgBrUvaOeoSQHe4eQyMGfWAZNZw08wOZhlJQB3BW65jzpTbHLyvd5g3pXmYbGEFfTcUZBJZW79d9JpDJbRM5-hau6p-4nBefjClK8umxpErkbPRrA0Oyo3P1durQBWPpN2j6Ku_UpNHPd8rGIsdAZdTRRa0suoPzA_3JtjTKNRhzDTqlE7yQkqiRLvAvWek29s3CSHGrfjF2xWmuv8IW8uvdcPgKuOd1N0K1L300-1VAf5l8G1qeVu6P6hfidBKLIsgXbc64diRMk4xauVR62TkkdGNNjrQ05JtCXet9oo9ScRwKJV7vndE6py3fm3PNB1B8ZBbVatEZ2Xl0twDPj0bQPY7Mn6ltyseWukKGnjiBCmrwBQGg8fR9qL0B64HDvr4_VLgtMngmPrKN4BPz1RIFjCJTwtKR6uJBt_tEQ1TTCaG0GWVgrF6i1JddoefVL6UG19oZ7TGMkwQVN81y7zwQ=w2194-h1414-no)
+
+stacked=True로 하면 지역별 공공도서관 수와 사립도서관 수가 Stack(쌓여서)되어
+
+그래프로 나타납니다.
+
+<br>
+
+지역별 공공/사립 도서관의 비율을 보고 싶다면, .div()를 사용하여, 위와같이
+
+각 데이터값을 count_subset.sum(1)값으로 나눈 값, 즉
+
+비율값 데이터를 normed_subset으로 저장하여 그래프로 표현하면 됩니다.
