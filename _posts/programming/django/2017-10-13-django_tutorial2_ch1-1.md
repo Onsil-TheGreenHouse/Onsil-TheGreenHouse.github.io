@@ -11,7 +11,7 @@ banner_image: /programming/django/python-django-logo.jpg
 comments: true
 ---
 
-Django Advanced Tutorial 1-1
+기획하기
 
 ---
 
