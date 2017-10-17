@@ -11,3 +11,6 @@
 - title: '- diary'
   href: '/menus/life/diary'
   parent: 'Life'
+- title: '- dog sound'
+  href: '/menus/life/dog_sound'
+  parent: 'Life'
