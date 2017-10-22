@@ -463,7 +463,60 @@ div#homeimg {
 ![5.img_index_with_css](https://lh3.googleusercontent.com/UpTMWn7bDpmi-Yj3bv5LnL6SO_vxItiyWURaRph7PXtqr9PUCXDIeUentIH6lu5AxJiTUISxjGJLsYFxwdf3wJ5GI32QpBg13ZysY0uddqvKNotusnqgzwROMVjeW5ammoC1QQBB5Eu9yjU1taGLbuKpPuW7MQ37UBfrAiWWP0Z0qmd5UvYop8DBvOC4WL82KS-SKLRTLEOa5cIwzlzghwtbV3HMgNtHVxZK11ZRAEBgf9eXaGGXcT-WPdtHj1if1rnSVDl_OZepLLyAHBy8pi9omxgBlArlYVSVDdiXo3Siqn3GCRJcSkYazs0pEs4DVNFO_3lZ9w7pE5FPaWG8ldQG0QD3sVAhlHdXcaSmfPtmsSXOaVzKRTwiTlr5Mv7HyjIgWeg409DcPpFS2CvZwn3HYw6titE8C1BLXF0vdiKvUcHY9QIUiS7XUKqGhGZjhwIZcN3IdRfiQDvH8aqTD_YKOdeQs5vzkZrOSFLHi5Q-L4NgGn6Go3mYdVgBfLJkgZqTxM74uTKVozYdkAjL8Waf6h2BQnl3U0_QB776I_5e3f2nELObhUOA0iQKDrVILTY7gENLDtTm7KRbUBalc2TxgX_JNUestb_5zD6dZw=w2240-h1480-no)
 
 <br>
-<br>
+blog와 관련된 다른 템플릿(blog/templates/blog에 있는)들도 base_project.html을 상속받으면 됩니다.
+
+{% highlight jinja %}
+{% raw %}
+{% extends 'base_project.html' %}
+{% block title %}blahblah{% endblock %}
+
+{% block content %}
+기존코드
+{% endblock %}
+{% endraw %}
+{% endhighlight %}
+
+이런 방식입니다. 예를들어 post_all.html을 보면
+
+>mysite/blog/templates/blog/post_all.html
+{% highlight jinja %}
+{% raw %}
+{% extends 'base_project.html' %}
+{% block title %}post_all.html{% endblock %}
+
+{% block content %}
+
+<h1>Post List</h1>
+{% for post in posts %}
+    <h2><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+    {{ post.modify_date|date:'N d, Y' }}
+    <p>{{ post.description }}</p>
+{% endfor %}
+
+<br/>
+
+<div>
+    <span>
+        {% if page_obj.has_previous %}
+            <a href="?page={{ page_obj.previous_page_number }}">PreviousPage</a>
+        {% endif %}
+
+        Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">NextPage</a>
+        {% endif %}
+    </span>
+</div>
+
+{% endblock content %}
+{% endraw %}
+{% endhighlight %}
+
+가 되겠습니다.
+
+<br><br>
+
 
 일단 첫페이지는 아무런 기능 없이 화면만 구현한 것입니다.
 
