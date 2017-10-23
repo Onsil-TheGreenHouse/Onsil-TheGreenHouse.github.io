@@ -58,7 +58,7 @@ class SearchFormView(FormView):
     form_class = PostSearchForm
     template_name = 'blog/post_search.html'
 
-    # 제출된 값이 유효성검사를 통과하는 form_valid 메소드 실행
+    # 제출된 값이 유효성검사를 통과하면 form_valid 메소드 실행
     # 여기선 제출된 search_word가 PostSearchForm에서 정의한대로 Char인지 검사
     def form_valid(self, form):
         # 제출된 값은 POST로 전달됨
