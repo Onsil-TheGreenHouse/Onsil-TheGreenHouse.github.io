@@ -2,7 +2,7 @@
 layout: page
 title: About me
 permalink: /about/
-banner_image: sample-banner-image-2.jpg
+banner_image: about_me_cat.jpeg
 banner_image_alt: About me
 ---
 
@@ -10,7 +10,7 @@ banner_image_alt: About me
 
 <br>
 
-이 블로그의 목적은 스터디 겸 알기쉽게 설명하는 스터디 자료 포스트입니다.
+이 블로그의 목적은 **스터디** 겸 알기쉽게 설명하는 스터디 자료 포스트입니다.
 
 개발 일을 시작하면서 겪고있는 가장 큰 고통은
 
@@ -30,5 +30,3 @@ docs를 포함한 코드 설명을 이해하기 어렵다는 것입니다.
 `e-mail`: zaxs1029za@gmail.com
 
 ---
-
-{% include social.html %}
