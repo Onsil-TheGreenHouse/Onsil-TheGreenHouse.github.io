@@ -72,6 +72,13 @@ $ java -version
 
 ![6.java-version](https://lh3.googleusercontent.com/YcGfD66TN_Ca_2XK2FpZm9Ny-R9P7LEeY6h4dew7rv_RsuRouE7--e9r39w-QLRnCaVgWbg8RxGxSCv78GmOWOzpBXbJY5kofYshg2fitHms2MqYys5wZvxQeNmIuSS0uLq6SRrI_ENsS2eFBGA0s0OAkFuLhIglbEXA9XaxpfdDHmC40aeG1gdWbQJNx6qvf0SBkU85ozmi9X76YEqH6ChvrAOSX7fdsQuyja6LzVakHXZCDXDLE_PJtbCzcGpQgTIhp5yV-qTC8Z8aC8neufMu8xoGd5JhuMS1YueXi_cM4_aqf9MifkbJQa9y23GSKUA1TwL8orxkgR01j_NGh6b7-dDvd3UnrsBl3MywiRiaangtm_t46U3i8pcqhIf6QIhfA1eHcGyW70HLK_pd3yMiXklVr6xriCwGk54SVlUfA5SaO1rk5DhuVQpwg_iPnZLD0hx5V1d8I97Vjju4WpT9FjRZXvB81WlZu9bNiYin33JG8NSgv_t60fmcCz16RmYSrauN4YgUB0xTbye34uO7n6hFy-YwA_zUIPnrx536bMbOzkSJZYdw6xBjF5WbtrKbMoDGSSFX4ahm76bQhDkYDcZ51pg9Rifo7B8ZvA=w1294-h564-no)
 
+<br>
+
+(윈도우에서는 추가로 PATH 설정이 필요합니다! [여기](https://opentutorials.org/module/516/5556) 동영상의 4:00 부터 path설정이 나옵니다.)
+
+<br>
+
+
 ## Hello Java 작성해보기
 
 <br>
