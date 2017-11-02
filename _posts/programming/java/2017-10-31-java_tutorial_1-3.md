@@ -10,7 +10,7 @@ banner_image: /programming/java/java-logo.jpg
 comments: true
 ---
 
-[Java] 변수의, 자료형 분류와 종류
+[Java] 변수, 자료형의 분류와 종류
 
 ---
 
