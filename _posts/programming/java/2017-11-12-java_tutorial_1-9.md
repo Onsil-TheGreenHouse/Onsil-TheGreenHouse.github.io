@@ -48,6 +48,8 @@ comments: true
 
 방금 만든 c와 javapackage 폴더가 모두 패키지가 되는 겁니다.
 
+(이클립스에서 패키지 만드는 법은 맨 아래에 덧붙이는 말에 있습니다)
+
 그 후, c:\java_1-9\c\javapackage 안에 Package.java 를 만듭니다.
 
 >java_1-9\c\javapackage\Package.java
@@ -333,3 +335,19 @@ public class ChampionDTO {
 하지만 public클래스는 최대 하나만 존재할 수 있으며,
 
 public으로 선언된 클래스의 이름은, 그 소스 파일의 이름과 동일해야 합니다.
+
+<br>
+<hr>
+<br>
+
+## 덧붙이는 말(이클립스에서 패키지 생성하기)
+
+<br>
+
+src 폴더에서 마우스 우클릭을 하여 New -> Folder를 하여 만듭니다.
+
+![img_eclipse package](https://lh3.googleusercontent.com/yx9a4mG0Vn_lwe8vdtJpiwVpmEM5oGdAa0K_MppHmp-zsQhF2oMOO_X_ACG-lq09eeYBBQr95xtgDiCi5zlySmuwJFLtsd9-ShCioEErByFJ3hbDNEhrfy0BnMtNma35cQNAbOwWMe4a3kMUST544qkABYKaAwPKmPGcyV57Oy2Fj8L0r7uO-wQhoE4yi7L0sqCZ8gc4bC5aJMO6tjmbs2sb4jbYLCEm3lbq2bCMKyCDSbtPcLPKvE5gU9lt_MRqY54gr8ZzBjZa_yaG2sYjr89LJRWlIfbEVnNNAlzqw36D4mtdmlJxgdX-zyk-iipHDCvJ_dXBk_wQQFO-erUu9axcOstKtBm3_Fhvhb5sG2X0xNsjKp81OedfyN8Obgv_-7G7gbCZ1tngkxuX0uiW0YY0Lel_lWld7xCEtHaE8cL4_TJtF9f68gyMCNdl6BtdnXZm8t5lVbz7mUgDmJ3pCzi8v1LLFbx55EDxH95FuXsgt4mOXJWCgkEOhH9Ny8Gzn8y3TmsN_h_e3GSnFYEJKHhRvPiOxWESMGP_KLSvuwBF_-XzuSqW5GOB7PdIGaMEIYP1VCFWOHOXR4pIgHaZ9f6RQ-FgS8ZMqOPkYgxcwQ=w1328-h1010-no)
+
+다른 버전에서는 패키지 생성이 따로 있던데
+
+제가 지금 사용하고 있는 가장 최근 버전인 OXYGEN 에서는 폴더 생성으로 대체합니다.
