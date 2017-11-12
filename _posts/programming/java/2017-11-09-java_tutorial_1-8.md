@@ -310,12 +310,9 @@ print()메소드는 총 4가지 종류로 정의되어 있습니다.
 
 예를 들어
 
-~~~ java
-public void print(String strrrr){
+![img_wrong_overloading](https://lh3.googleusercontent.com/BizZ2z3M9LXAUZ6v0CWgVdVe8RbpAZ4MJIjJG8zKTI2sa9MwSsfNOcjRmjk_S4VgiFJZ9_MAniNt_Gx5imlxsl1GpU40Hu10hMbe7Ay4WwGmDc4C8-0l45frxgQxU0NokU4aWnH222rhp3zCMG-usQwBddu-gEM11mKYJCjJfZV3VqJtuVu5Ai4IaZDZ1LLypQnr0eyuiz8YiQLWqm2vT7sjPT3fd5QBCnxezbsy2rz1hTK2nWxGNnxkOUZoyN1qkf2knvsb2J5B2bTFP2yWIO0Q8KgydsYonSPgkA6m-szENmW9NOxfr7YTMbG1PQgyAiiEidRc6qhgY0R-O5M8bpaveI4oKqOI22tTUGCwBKNPP20_BLpCqs9zzgKi9jycfd3lMxted_raTnoKPjo2BQlVFxH_QDARbgoa4fTMlPtviadvLCcJfPcaUqdQkcty55i7wkZ89YGvUHV0wFuOd4qqolxZUq-OaAOJiwydaQwERm2SqzXwkQ91Bc1dC-cUzKVts-yqrpHtBEh29YCilOS_haW2nITnkHrc_9lqT2mE3RdD7IPcVyXjwWqlwiContgrOEKiHL75lDYY0d2qBMYPjzid-Pw4_xswYg34Wg=w1362-h972-no)
 
-}
-~~~
-은 두번째 print(String str)메소드와 타입이 같은데 변수명만 다릅니다.
+은 마지막 두개 메소드가 이름, 변수타입, 변수순서가 같고 파라미터 이름만 다릅니다.
 
 이렇게 정의하면 이미 정의된 메소드를 또 정의한다고 에러가 납니다.
 
