@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "IDE(Eclipse, IntelliJ)에서 equals()와 hashCode() 오버라이딩"
+title:  "IDE(Eclipse, IntelliJ)에서 toString(), equals(), hashCode() 오버라이딩"
 date:   2017-11-19 15:00:00
-description: IDE(Eclipse, IntelliJ)에서 equals()와 hashCode() 오버라이딩
+description: IDE(Eclipse, IntelliJ)에서 toString(), equals(), hashCode() 오버라이딩
 categories:
 - programming
 - java
@@ -10,7 +10,7 @@ banner_image: /programming/java/java-logo.jpg
 comments: true
 ---
 
-IDE(Eclipse, IntelliJ)에서 equals()와 hashCode() 오버라이딩
+IDE(Eclipse, IntelliJ)에서 toString(), equals()와 hashCode() 오버라이딩
 
 ---
 
@@ -65,3 +65,13 @@ equals()와 hashCode()를 고르면
 ![img_intelliJ_make_equals_hashcode_4](https://lh3.googleusercontent.com/eslU6qc0Zo_BzGUlP_8PsuSMlQGRK6Sinb2YTY4Ffj9t5B6RXjRSagm0TJuV00Xq5PKjO_o6RrAFrTCYnEek-pW_kb3mfuId5AyO030ZVPsKuBE3fbLJOtf8sDyqWq1ZTw8732OBG0Vy-2r1gwgnck1V6zfDffOKUZsKeiz1ZOLlyvKkIsc04okbRgpS1GGl1ifhp4ivaAKzLEYQAg-rgKKAWBXMfBgaKeugzUm6uzwE4w5KKWMHrlS_mE7XI4cIR5qydxGltqT8RvvvdDZIBlfkMjaSVDfKUPkSlGyhZKoXJC59fCv1Cgeoz9kvunVnxA7XOgaCcuD9BosdVp-NFTRzwHTASv8IcD2WQ_x57Nzq74kJz9JG7rSuPurjjRfDVu3pJjtgxnbbliAXFr8t1dq7RT_-LwIvpbuoCaPK9PIkxtzBmwj5tE0I4D2Dqu5mhzK32ESBd0GJbMk1XnRwos5fUBde-fL8NmY4xSwY1oNjexKVsFzm92bwF7a7M7JXY8TY_L9icfZzpk58BVvO1z1UlLv0NSLMIiVF2pXGUOSExf-rl8qm2-Q4CWZkaw26CU8PZRaOL3koCcGS8Lc4UZEnLzJwFhn66hd_zb0sNQ=w2462-h1540-no)
 
 두 메소드 코드가 생성됩니다!
+
+---
+
+## toString()
+
+Eclipse와 IntelliJ에서 equals()와 hashCode()를 선택하는 창을 잘 보면
+
+toString()도 있습니다! 클릭해주면 됩니다!
+
+(절대 까먹고 안했다가 귀찮아서 이렇게 적는겁니다...)
