@@ -1,0 +1,172 @@
+---
+layout: post
+title:  "[game] Uncharted 4: A Thief's End"
+date:   2017-12-13 15:30:00
+description: 언차티드4 게임 소개
+categories:
+- life
+- dog_sound
+comments: true
+---
+
+언차티드4 게임 소개
+
+---
+
+## Uncharted 4
+
+![img_uncharted_main](https://lh3.googleusercontent.com/VGnILVm9ZM-AUvdXFha6_BtJ9esX4WQfSAyOXWKJTDANxpkpQ_xjm7Pbzla8ej62ZWppvxByVMHvL5doyWb2xHbo1eGdJQvsOZtr79CTNFlGBLzu5ibNLR3PMhOHmpbsz2BkPsEOqWFOg6xm458qm6i5ZVExx8oq1xjxzy-FMT_EDjuDWX_i84wzMMdKwjmhkHsVLEBCtSsG4fULuoQBrX-2HzkOEfE01a32ZZpgx5eKN4oK5HYxvxiFCHV1W8I5I1DxPLk-7DPUqAo06scyH6Zy7fDUFZF7Uy5Z68Q4mFleIdkx1Km7QyEPIRJQ1S59f-T3vSlphuyRrRE8aMpmIRcDKKnFs6wxN5uT5LQUUCdSnkb6RuS_HDXvHq6XwC2w_o0q8Dvv8V5PzWXGcO35No7IQfrH6X7c1VUBDIf-hi-jKF-AjMVcvMKqGboW0-imTLCMzZTX72ir_nRGgCfXe47Wzhrr2Y1OyrZIHNwWOcwUKk5ZTx8tq1TO6pO1m2zxu2xwOB_SabuCZNc1jxv-mJfAMaSizUip1J4vmBe_MMyNrCKXs_hTzYb-zLDbrMObdt3fCRJyQIXDz1AbnXyoYcNU9FZomdrCmJVFAWEF_w=w640-h360-no)
+
+며칠전 친구집에서 클리어한 갓겜이다.
+
+![img_clear_uncharted4](https://lh3.googleusercontent.com/LanmGpRABALay8j1C47blbCj3DsiUwHKvzCc5tUwDQFRgHpv5IYjoYryPrQKqVbL-BCYF2OesG6xW_ELmKJscmSksrcqB0oX6xYNAbwsjpKVbnwgojmEMaanntRLBdhByhL81Q5hfEO4UnB_AXWp2h2l9Ss6ESMAQPj7NY1xHHm1As2FqgM8Fr7HItBmvIvcVlVymFlXiM2AYzmSLck48fCIJ3evXM4VZ8Jutn4F4qaBOZDoQE-mYayqvglk34yJktM4TYKGIGa7G47_mZ0S7xVWH6p5q0ZX5fAMhgGYwjIKvH2ucFLqqxka-aVAUjxzWPTHmdDvYyM4itxrb0A22AlWVNPiaGXc-XKy6u1gR245Hi4sGo7aZrE02eYu7S7EhTiC-EejL1cKiHN4bgNr2KeE11rBHSczSKr7Xw7Bv9uOhJBSLm5CvPNvbFDKrZw6dz_2vA3zXA7Q3nGTfI9Da1wYTDskoQJvqrSzt-yvMWA1MQv4ssvRb4cpJ5D3IHwEagmn5DRVWWx6JRLcTQmGAH8k2L_HAkaTo-So9SSH-NbhFzsdpbw4LWBXnsK9qS9lnc7mtnRxz5Ar5BF9ngKLqnxufl9rmlUUVp65joiLRw=w1167-h875-no)
+
+클리어 후 여운이 길어 간단하게 정리해보려고 한다.
+
+자세한 사항은 나무위키를 따라갈 수 없으므로, 여기선 소감, 느낌 위주로 작성하려한다.
+
+참고로 플레이스테이션 게임을 이 게임으로 처음 해봤다.
+
+그리고 이 게임은 플스에서만 할 수 있다.
+
+<br>
+<hr>
+<br>
+
+## 2016 GOTY(Game Of This Year)
+
+<br>
+
+![img_goty_uncharted4](https://lh3.googleusercontent.com/d4ni4yamqJN1pGKlsou4Wouyhw6mwt35tcjup5Z_y9CLAodWCwiYDiwCvd0JBEDdbMIa1mwNXwTBeGm_vLThfTPM5QpWbJBVFChxttFSNcTVWyxqhOON0Xh4Tt6POfvZnZrxLe-X6EW3DZ6bJkeX2Yb0wpZblOrWjWzaaz3jTU6II9iqgi_64HBJc9gVVnh_tCUjjEFSMx-NUJakWZJkNvFSrHyFu4xIomJJBNoeDVY61Gbfwftb2p3yiS59nEUCvWfBMlCsuupo6jN0nu1lrhbOcL7NmvLCmkEm5W-pZBp-XQjPAi204QajzVoYoYErnDuf5fHa44NOOOFWRLg-fEYkvis2SGcVGjKp_idsoLTFbpkKY9H6uLoxNEYNicr6J6eEantet9dgLNc9jRDaKKkiSsR_jVBEgXcBUrHEHa4ZthqHcSrJhhhRpV0O725ZcTKc-txYNO7-jJjLB6uYzS1R2JGSZxm5Y80RTzIJlyhf8KRTP--ELH3LjVBMpiBhF02eTJnQyosMj3ZTAP2IOIlOi5NEcWiWCm3ewlrJosJuK74AeZY1gr8_XOVYdJOay6rjUMwNXaKchED_BERS0dVHWt1Mh4Rjm9b11JZE1w=w752-h783-no)
+[출처: 나무위키]
+
+<br>
+
+GOTY는 비디오게임 위주로 전세계의 주요 게임포탈에서 올해의 게임을 뽑는 것이다.
+
+2016년에 최다 GOTY 수상작인 말 그대로 갓겜(God Game)이다.
+
+<br>
+<hr>
+<br>
+
+## 시리즈의 마지막 넘버링 작품
+
+<br>
+
+언차티드는 1, 2, 3, 4편이 있고 이번 4편이 마지막 편이라고 제작사에서 발표했다.
+
+나는 안해봤지만 스토리가 다 이어져 있다고 한다.
+
+1, 2, 3편을 한 유저들을 위한 이스터에그가 다수 포함되어 있다.
+
+참고로 언차티드2도 발매된 해의 최다 GOTY 수상작인 갓겜이라고 한다.
+
+<br>
+
+마지막 시리즈 작품이라고는 하지만 또 모른다.
+
+디아블로 시리즈도 2가 마지막 이라고 블리자드에서 발표했지만 10년후 디아3를 발표한 것 처럼...
+
+(내 인생 최고의 RPG게임... 디아블로2)
+
+![img_diablo](https://lh3.googleusercontent.com/mCHHF1e9CxSaJebFrVf5goepYYAkHl1K2DJpL4Br1TkCiJQu9c0IVvEKEGq6Oq8o0c6IYVSb0TuOj4nTxHYNVyGkY_AoBgtjar7vhmeDQekfSuazh5_oEHiUhlRtNHnyAmUPp3HagXHt4p9mhC_ffuZi_ecVDllFzoONUIDYySS8S11VYbznOMJO7smffBeXdmBsOsYtP_A__D_qlh6QfP-AuTgpP2SRpBxETxPrAUR2PtqceG0eNVATm9o2IpDH4HklbDdLsOOBM9_mXL5IMDBGCnDgI0QHsXJncYavqkNvSbDPQ5FPOicVNhHIfGe7tSYm1TBzaGn2CgdKPtQNzLDecieaVzosIvihknQKw-UrfALS1uY7xlisaMIo1fyxmLhrnheu0DFjQm440-GdXa_qVbktxerWKMFsxUnVPViyy85FzwGA4UWo21xSHIT7fnaTods6cbRpBkRiyqEZKR5ahlmj129G75s5Jy2gLOnhrMOkWTCC9gzH8enysycy1kDoiuQ4_TqqalOUTreadeTWepEZKBjj2Z-uuALMT8zMBDRaQrmNi8HT112VqlKquSu1EZK06k6rXNWBJIlpsymMIP3Q37PqZ462CpFO6Q=w609-h875-no)
+
+<br>
+<hr>
+<br>
+
+## 영화같은 스토리
+
+![img_uncharted_main2](https://lh3.googleusercontent.com/LxvrUzeMsIqteHA-Fe7vqqj3uS_jwQt7pRH8kKdgk5_0R3X9cNbrmvr6S6JkCyLHTwfghHtcENojQP8a2jhuOrlgrzVvo_2y-OjFslEmcTZO6I8nhAPlpnHoZKLWp8zrqhaLcrgZko81ul-dkdcShkI3yzbm-pYMlNHXi-aCaTI7_AC9cwm0WxkdgVJMiNesKlVkoiSX1A3q2JwMbBvxHP4Np35DZXXdVGlzAlMZ6hg7vZhEgeVXXLSRS6znwa9lc7OOAvVeF4d2J2Ta6rUBAoU5pHEK1zjezgbB4OKhgTMv9uAYKbCamAKXeHPNszTvTGFYQT3hyEtIcuezOaL8Uq4UHI0xqkjK98QDJQ9LWpqWeAzS0euv3vqh5_a_WYLFy_uQTabI7KR9PIVnaNEXxJn4Vc8qK9-M1mmZqa89Jl69rm_PwwIiglRf7fDqIZlhlD1YFLwkXXgLV7kOkXUAdz46QF3zp6c1WB8F4si2FTo0ODS4hiKPPk5anAjBCu8aINoB112X6_YEqMHvKNKYg2-pq6kGCgBFypKExEEg9WKFbuNfTUdobl86lLo20KndxFhHS3AUMvC82S_YgDuDa2QDgKyQrKhJECWqv-qRDw=w750-h303-no)
+
+단서를 바탕으로 해적의 보물을 찾으러 떠나는 보물 사냥꾼 이야기다.
+
+즉, 전형적인 단서를 바탕으로 뭔가를 발굴하는... 다빈치코드 같은 류의 스토리다.
+
+그 스토리를 직접 주인공이 되어 헤쳐나간다고 생각하면 된다.
+
+나는 원래 그런류의 스토리를 좋아해서, 이 게임 또한 몰입해서 할 수 있었다.
+
+<br>
+<hr>
+<br>
+
+## 후덜덜한 그래픽
+
+<br>
+
+![img_uncharted_screen1](https://lh3.googleusercontent.com/aCNtMKr9_uauFIm_fvoUojfuIdxe8qCaqGEx707zhAtb2TzZYIaV-Qpr6MdWZ6A-SlRdFLibCy31s_ff-AajY34VpMO_eFShIk0YJEM8lU_UR9inorXbaZ6dhSdWWwRdTQL5RN9pxDJ7wp5HUg2lttC45to5Tt8m9rVWM3PvMhmBYmlOb9J9LRWwagdgdOv7KKTJmYhDSIPXjb8uZkQuU9S1G46TSJsvP0tAKi-Nk11L-YzXMnFlqKoq2zo-XfHBeJJFsMTB7PpK_l7y3lSZnVMLe8jUdKQ9zR5OVh9W2z8fFBH4ljXbuknAnUKitw46C0xWifvZnhpioP7ky_ibE-AXfsQl_8PevX03acayaV2ZlERIPwMNSCaGRO59MfIDycSvD5JCfAYErq8CMqAUCBiTNTDN_NjLKn_FDKDE1X_MbgOd5v96iD7K-R6qMTpbqrhKdU202n3o6J_VemX6X9f11TlQwDsOV4qDlbpSYR5X9J-GDibH2_1YggC9XCPgwjq3kCZz7HAMMFUqDjwJMH4z4KqvuZJhs9FjiWTIQZ5P83YnFJdXxtq3nI_8iS5z5T24UcD6pqvXeFCveLM3tIEW2WD0kTH-RT4bnyoX6Q=w1231-h693-no)
+
+일단 그래픽이 압도적이다.
+
+플스의 그래픽 성능을 100% 사용하는 듯하다.
+
+이렇게 그래픽이 좋은데 보물사냥꾼 이야기다 보니,
+
+스릴 넘치는 플레이가 많다.
+
+![img_uncharted_thrill1](https://lh3.googleusercontent.com/K9c1kqSzVI77V3bdl2MVbV1KZF7yaXmfko1LGAamHone7S5r2CNSgMb7JFq4IphD_tLwPea7CIDZAQjkWjJt46637McB-y723t83lBhcIdCmU_GAkgpMzNPxa2YS0Y6zkFYBeRgfow166X2gswizVpXHN18ncKFJsmKftVJSafpN0s9eY_P5LSc2uR4JIPjXH1N1Hw3lF77edAoawIyzAu_XT_1hEzTq4FrxIkJVr67K3JM-4eSXi1nKRCxPg_-gnMxm5uK_7NsaOt4tti8Cd8QmgyQ66YOtwG71NsBsK5qS9ZUck1oIqaRcisxgE9xdJ-5w_P38cd1nJ_yQYWYkC2EERZZS4lCSCLSTBEya6k-6W2xipv2bbxEhwtwcDpTaEzHHTXUN7wh98Vd9Vl6EPHR872K1MHXpaYwJzQYWDqYjtgdYqIstiu-l63dL9g3eZe0vOxl6nOyIorXJ8QPpev0nx6exNLnR1XyQ-ppg6260Aqwvz-rCi5FQ9XjGb8UWbY375zsPzuEAHJi03pHokiCnwA-9sdl028hJrXIkJtI7-yNmiSFbd5BVo5t796FQvjThcVMskizfdAFEd5rYFUzf-zKeHrQUqu4Isf9gfw=w1231-h693-no)
+
+![img_uncharted_thrill2](https://lh3.googleusercontent.com/m5jvwQbZE7sLZ3ktoonzBghAO3J0io7wWMzRBcBAA5jr-MP9ptRuPY3it67J9BOLNCZtN40REopDGsb0Ts3gWF_Akk54yNmzJdVWkYJojSD9adPSBUwnQHq8rw1A6tcNzmfKQZo8i9QUr-GCX6elavNlePa3CRPoV3BwpBxsob7QaJu1h_yndbqncwl0mGSQZ-LHLXj9Rd-PpV4jBlJbEoxI9HNkszHEhHQRW3nG4ylWntAXUK02jYew55KiFCl29sBNFQeOxlkGp4-ksm2aEpuDJeWrVmxgPZh6O8zcACGevuzmwjknhLqmsgQOmOWsdfRwYXKaQI3a40GO0TBpbRJGyhoxFjanOjumh1eEMx7LZOPr2O0uYBPsbMbIeJiiJnndv8Z-c6SsPDUnJO__VbgEjwS0cq5aoD8YszqJB_xhztDdK5FMqt7ZTYfdd-4R3fVDJ5WIoiRuPkxm9XPsEO-O2T8kAE7xeeCGGk8tiBowURCm9mujdnQ6SCrIDtglxPjP_KytgThwDwQkMsclUUDwCSD2RpoPWWb8Gao7Ch0OIBp9F2pTEIUU-cWZJUc1rIwnIPOr4WXHWc12emmyHvsHHNEmcwcx7z-XIyEGMw=w640-h334-no)
+
+모두 인게임화면 그대로다.
+
+발을 헛딛거나 줄에서 떨어질 때마다, 진짜 내가 추락하는 것 같았다.
+
+자이로드롭에서 꼭대기에서 떨어질 때 그 뭔가를 지릴듯한 그 느낌!
+
+<br>
+<hr>
+<br>
+
+## 다양한 장르
+
+![img_uncharted_puzzle](https://lh3.googleusercontent.com/5najVYAD5wVOx0pNV52LWtqLF8Jeu0zzslcba1iA5wBmg9mfnFPDyMtFF8fPQoixSt0O_GaY8YBkTeFOir9eJDdy96AG4SpDdXQH4D6Q0_vitz26ltcEgjBcEsesgOiLeeKNNU8Fm0VoBFceDL35Bbr69EUArb5lkptIharr84xcmCmJmFZZb3Cwfrzk5gFVVghIFw8LJpq3psyf4sEkTZICCCJ7Q-57DacILckjqx2hAqaoA66E0R30GduvE32IrYwfgTkq3AvLST15Da8mtBBF0qdwPu6bj7QfftW0_maqj9Zim_H-1p-IRcZHcQ44AGeQTwsKSQNyirLRMnWr_5nJSMlOPp8x7lleYmJ1wyQ9Bx1iDYWAR2uIPjpr3Kdllckl_QsqJ34Oy3Sxf6NUGarkrhsxAsBsM81wN8bUrAARm9uUwMwjPloFCR1GEm94PoF5whpm5WW6lflvqsmV2iPBEBEXs_lljm5FNpIOKJFtcfR3ayyn8evXqw9Uy_iXGcRQSjNuhno1NK0yvTItvGC5qjGURv7XOslEMyWpRtIvQ9W_4FTKcIai4KWbScuT-DBRL6vaUXLkzHlWMbuMu90atbtOxoPjSrpcP-naQg=w1231-h693-no)
+[뇌지컬을 발휘해야하는 수수께기 풀기]
+
+<br>
+
+![img_uncharted_shooting](https://lh3.googleusercontent.com/-_nHYXXDTUkblQHJIPRFGeN1NHmKFYqVfNJg-m2vJdEPkl1enBrq4Xvnag3YeSLuhcl91jVg8bbFQWmZMY8EXExkqClZadfAf5XHTlg5cUqjyvrlWiMrfu1yXwO3z2vmiRDGvUhnwEtvcqYQSUl4DJKXVTHyKH4A37R__MZ9TmUT5c8K1yNtZZMk8TU9Z19vAkjcprH5UqvNbWgPUXRtn38jKRA7oe04seHfuGNLIUExaxAAOA7xFP6uN5BPhqrpEbwHhWyDDm1Nk4JyzL6Q67EjG3MClr_Kg5pc-emwuLstbuUaZbc3kAEu5duck5TWyxGxmQiccCvIvs3Zm_Ay2me3hQIHLz3cpFQgeAaHW8uY6UYeyLbsJ_04Y3clUVWW9_khRNGtNEz3xVcgXJWRXGl2W1fUV5zzjskDLlOwEtgr3y3xecO-nnqYpj50Y5Kp3lez2ebcqnZcp-UHFf-7GiTJs_M584gwbnrKh6CGDtkrCNoQr-MRa0FLt_XMBb63vuV2qNvkPH7a3K-BPMlKqr2MBrS0UqrcjJqcqL5xoDhPz1OEy7lmd4A-2zIajlSVdLcrtkgJNR8X3DSKMpufscxgsu1nFbXO3i-Fy2jP0A=w1231-h693-no)
+[피지컬을 발휘해야하는 총격전]
+
+<br>
+
+![img_uncharted_driving](https://lh3.googleusercontent.com/RS-BowpKYX1gIWgBn745DvmkGhjz8mbCjEGT4u0rBfUpxC7LwmXZbC0NAX8615pNQKphzIDvAbxaByhYRo9m01fabzwrgII9JHUN5YpDf791FPgrt804Rm4VRP0OwUev1X99YSGc-zusANrPnqmEtp8i6U_putNCB3aiseRsO2O1mZUdG2TIhPxGq7w3gm_CDBl_5USMlVd8eRI9GTPj5PPtuYAncrh6duhqpk6MZ7yLyVRa_L1wzIYBdEELjumnR8IzZkG5fyAzwiDpdhg2_x17Q4L8UAx0P59eK61weclbp89umhy3LaDWihUd15vnh7BNf4MNPOedslYf5HQOPM5qbrF4EWHIygcs-Cowivgcdifbw2z3MdUWVy8daC7GKxdKwtYrczroP2xkjmWWOcpAHHcQFqu2_52OD704_QiYdDshyUYd9SdxU44o2p_6dH-xT6U_nm-GlJC8nEfWzMQslpDXnJkiLmC91HgEH72zg5CCcm7h4CLG7A2G7bCXRyrdx37y2n5kKf0WrjCEzbUtX0TxM0m7WyX0bLA6LPIbhjxEao-Ogw9ByD0BVuGpnPZ-hq96883j53icIu2dN1-ycvdjJSG9e6HyfvHypw=w1024-h576-no)
+[레이싱 장르]
+
+<br>
+
+![img_uncharted_chasing](https://lh3.googleusercontent.com/RE8k9-wGPhIDJIFOEZ9rAjJSRqlltXNr_0ph-o4QTCjswP6euhKIF5i_XpdMkiAsIxL5kRQILjMqXSDI4tL8xKnINjQ6t47kkVnpysE0JFCGfb1BlmZAfLmZtRI5qd4Y0bYo2wEb69Dg2zWk6nUUEsVEgNa1asvcaBcrZIqHilmmaLKp6TdSkK_JG9US87Q55JfhzxaLaREumtUtHC7NvJ8PMG4jkQq39mAVlFz5-vZ7_pOeH-ANypK_LnQq2PYZrE2fAwSuPNc48SQ-WJu7hrwOxrCVSm7y-UjPaI03gYYyhyYo8ZU0VfBhYvWFfoF0YhfAjda-z_zh6aEEb3c2fDKEz00myZg-JZCI_lwYwTyuHRKISPu_qLKOe_20BAq443rQm8bBSBB378666YuGJCWqpoNNXl69pmZgZFxfraiDT2ZaeaQ93yEe563Brv7S_s9yxUx0X0eH8Q16DfprlsnO1OG3xDBTMH3UcX2_UxDwlcZc3cXjuH-a2YuItBtdV2vagk9v_DBzF5NRk_8p9Fiy6TobWUxjf0drOSYBigsMRzRcjtHPZq8e5yK9yFKpTzarBFbXTBRnLowi4L7k8hRhc77QXUU9u9YLLCNdZg=w510-h286-no)
+[스릴넘치는 추격전]
+
+<br>
+
+모두 인게임 화면 그대로다.
+
+장르를 이렇게 많이 섞어놨으면 어떤 부분은 허접할만도 한데 그렇지 않다.
+
+그래서 더 몰입할 수 있다.
+
+<br>
+<hr>
+<br>
+
+## 총평
+
+<br>
+
+게임은 IT, 문학, 음악, 예술 등이 결합된 작품이다.
+
+따라서 유명한 클래식음악, 미술작품, 세계의 명작 등은 보고 들을 만한 가치가 있는 것처럼
+
+갓겜도 인생을 살면서 꼭 해봐야 한다고 생각한다.
+
+<br>
+
+한마디로 총평을 하자면
+
+**'내가 영화속 주인공이 된 것 같았다'**
+
+![img_4.5_rating](https://lh3.googleusercontent.com/t-9PHAQgC2zZ-m02-WmvnGXs0C-QqlJgHgXpIrKmVRe9j1qdRe1slbfx2czge7wSoknpMuXAKeZO8EMr9_UAO_FYSGH5Go_gqCJt_BLYBlYK96L0MjnN2l4vddx6M62dZqXqRzuMljh1FHhBNc2hbnqn9X9_6ydRpbgEawlt2cIW_fAYphHQ7_khEeWHy7P-yIxF0pkKpVvqP_gIJorL7ncAIvuLWqRv0eA1uTnrd8fgdmfCn5hbQbGiXpbKwyz7Fap_6G5OG6IIa3xwesPvyZeH0pZCqYne4ux6V6EM1S2aGl5hid9ZordsiRTrBu-7AyfkIqYebE2DoKTU_XPuDr17Fm0FA24JVan6DKouH0N6G0dFraSu0J0Bdpad1io1bFH3uaLc8Rj8MQoZArM54idgVeeie2ORgnsEDlxp1jb-MIc75mjzPfL0-x9MegOHgbX8bsiXi_Z7h1bna_ozZWTe6w9n5HkDg_oVwJaIhjITxO2b2yuoEdKwbDh4igj2x8JwnDNH_0BJB-46xLEpToXhnrPTN3lHI3sVPXOuSpq-VDfUJME85CUhRn5I593HQv5ZkoE5Cc8IhVle08XgqXigh_ppx7cCXEGI7_64zQ=w104-h19-no) 
+4.5/5.0
