@@ -287,7 +287,7 @@ public > protected > package-private > private
 
 그리고 자식 클래스의 printPower()는 public입니다.
 
-만약에 자식 클래스의 printPower()의 접근제어자가 package-private이거나 protected이면 에러가 납니다.
+만약에 자식 클래스의 printPower()의 접근제어자가 package-private이거나 private이면 에러가 납니다.
 
 <br>
 <hr>
