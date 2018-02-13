@@ -557,5 +557,5 @@ public class InheritancePoly {
 
 이와 같이 "형 변환을 하더라도, 실제 호출되는 것은 원래 객체에 있는 메소드이다"라는 것이
 
-Polymorphism(다향성)입니다.
+Polymorphism(다형성)입니다.
 
