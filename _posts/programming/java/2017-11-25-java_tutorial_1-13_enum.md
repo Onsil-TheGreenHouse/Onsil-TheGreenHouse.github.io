@@ -203,7 +203,7 @@ java api 문서에 Enum클래스를 보면 clone()이 다음과 같이 설명되
 
 <br>
 
-Enum클래스에서 오버라이딩 못하는 Object클래스의 메소는 4가지가 있습니다.
+Enum클래스에서 오버라이딩 못하는 Object클래스의 메소드는 4가지가 있습니다.
 
 아까 못쓴다고 한 clone()과 final로 선언된 finalize(), hashCode(), equals() 입니다.
 
