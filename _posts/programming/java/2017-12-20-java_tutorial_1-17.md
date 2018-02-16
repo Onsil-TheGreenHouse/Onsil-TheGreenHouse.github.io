@@ -149,7 +149,7 @@ $ javac AnnotationDeprecatedSample.java
 그래서 pwd로 현재 위치 경로를 확인한 뒤,
 
 {% highlight bash %}
-$ javac /User/onsil/programming/java/intellij_default/ch17/src/AnnotationDeprecatedSample.java
+$ javac -Xlint:deprecation /User/onsil/programming/java/intellij_default/ch17/src/AnnotationDeprecatedSample.java
 {% endhighlight %}
 
 로 다시 컴파일 하니, 어떤 부분이 deprecated인지 나옵니다.
