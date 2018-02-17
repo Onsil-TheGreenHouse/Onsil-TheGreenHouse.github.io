@@ -567,7 +567,3 @@ public ❮T extends Car❯ void genericMethod(WildCardGeneric❮T❯ c, T addVal
 한 메소드에서 두개 이상의 제네릭 타입을 매개변수로 받을 때는 ,(쉼표)로 구분해주면 됩니다.
 
 public <S, T extends Car> void genericMethod(WildCard Generic❮?❯ c, T addValue1, S addValue2)
-
-<br>
-<hr>
-<br>
