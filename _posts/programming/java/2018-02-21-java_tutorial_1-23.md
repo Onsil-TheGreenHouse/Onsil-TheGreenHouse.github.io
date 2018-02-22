@@ -107,7 +107,7 @@ Set은 순서가 필요없고, 중복을 허용하지 않으므로
 
 알아봐야 합니다.
 
-자세한 설명은 [여기](https://onsil-thegreenhouse.github.io/programming/java/2018/02/22/java_tutorial_HashMap_bucket/)를 참조하시면 됩니다.
+자세한 설명은 [>>여기<<](https://onsil-thegreenhouse.github.io/programming/java/2018/02/22/java_tutorial_HashMap_bucket/)를 참조하시면 됩니다.
 
 HashSet() 생성자의 설명을 보면 HashMap() 객체를 쓰는데
 
