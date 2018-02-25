@@ -6,7 +6,7 @@ description: Bubble Sort
 categories:
 - programming
 - algorithm
-banner_image: /programming/java/java-logo.jpg
+banner_image: /programming/algorithm/algorithm-logo.jpg
 comments: true
 ---
 
