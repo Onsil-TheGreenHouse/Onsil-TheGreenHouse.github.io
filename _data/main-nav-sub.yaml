@@ -7,8 +7,8 @@
 - title: '- Java'
   href: '/menus/programming/java'
   parent: 'Programming'
-- title: '- Etc'
-  href: '/menus/programming/etc'
+- title: '- Algorithm'
+  href: '/menus/programming/Algorithm'
   parent: 'Programming'
 
 - title: '- diary'
