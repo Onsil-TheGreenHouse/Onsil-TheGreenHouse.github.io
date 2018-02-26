@@ -5,7 +5,7 @@ date:   2018-02-26 17:00:00
 description: 비트 연산자를 이용한 부분집합 구하기
 categories:
 - programming
-- algorithm
+- problem
 banner_image: /programming/algorithm/algorithm-logo.jpg
 comments: true
 ---
