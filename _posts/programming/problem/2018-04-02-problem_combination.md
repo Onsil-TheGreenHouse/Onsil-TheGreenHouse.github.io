@@ -110,7 +110,7 @@ $\frac{N!}{K!(N-K)!} \% p$
 
 <br>
 
-확장 유클리드 알고리즘에 대한 설명은 [여기](https://onsil-thegreenhouse.github.io/programming/algorithm/2018/04/02/gcd/)에 나와있습니다.
+확장 유클리드 알고리즘에 대한 설명은 [여기](https://onsil-thegreenhouse.github.io/programming/algorithm/2018/04/01/gcd/)에 나와있습니다.
 
 다시한번 우리가 구하고자 하는 항을 써보자면 다음과 같습니다.
 
