@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Eclipse(이클립스) java파일 실행시 argument넘기기"
-date:   2017-11-05 17:00:00
+date:   2017-11-05 13:50:00
 description: Eclipse(이클립스) java파일 실행시 argument넘기기
 categories:
 - programming

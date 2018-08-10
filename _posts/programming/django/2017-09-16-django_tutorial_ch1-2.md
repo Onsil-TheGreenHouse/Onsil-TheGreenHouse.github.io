@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Django tutorial] Ch1-2. Django 설치 및 실행"
-date:   2017-09-16 19:00:00
+date:   2017-09-16 13:50:00
 description: 1-2. Django 설치 및 실행
 categories:
 - programming

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Java] 제네릭(Generic)"
-date:   2018-02-17 21:50:00
+date:   2018-02-17 13:50:00
 description: 제네릭(Generic)
 categories:
 - programming

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Django tutorial] Ch3-3. 클래스 뷰 적용하여 새 앱(books) 만들기"
-date:   2017-10-04 15:00:00
+date:   2017-10-04 13:50:00
 description: 3-3. Django의 Class View
 categories:
 - programming

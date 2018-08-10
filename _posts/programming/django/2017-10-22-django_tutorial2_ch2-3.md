@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Django Advanced Tutorial] Ch2-3. django-disqus"
-date:   2017-10-22 23:50:00
+date:   2017-10-22 13:50:00
 description: 2-3. django-disqus
 categories:
 - programming

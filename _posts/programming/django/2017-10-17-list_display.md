@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Django] admin.py의 list_display에 대하여"
-date:   2017-10-17 22:00:00
+date:   2017-10-17 13:50:00
 description: admin.py의 list_display에 대하여
 categories:
 - programming

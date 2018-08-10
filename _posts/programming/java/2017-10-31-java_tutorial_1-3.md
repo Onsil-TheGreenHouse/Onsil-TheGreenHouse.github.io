@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Java] 변수(variable), 자료형"
-date:   2017-10-31 18:15:00
+date:   2017-10-31 13:50:00
 description: 변수(variable), 자료형(data type)
 categories:
 - programming

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Django Advanced Tutorial] Ch2-2. django-tagging"
-date:   2017-10-22 17:50:00
+date:   2017-10-22 13:50:00
 description: 2-2. django-tagging
 categories:
 - programming

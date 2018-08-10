@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Django tutorial] Ch1-1. MTV 개발 방식"
-date:   2017-09-15 20:00:00
+date:   2017-09-15 13:50:00
 description: 1-1. Django의 개발 방식
 categories:
 - programming

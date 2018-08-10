@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Django tutorial] Ch2-3. 간단한 Poll(투표) 앱 만들어보기 - Template과 URL연결"
-date:   2017-09-24 17:00:00
+date:   2017-09-24 13:50:00
 description: 2-3. Template과 URL연결
 categories:
 - programming

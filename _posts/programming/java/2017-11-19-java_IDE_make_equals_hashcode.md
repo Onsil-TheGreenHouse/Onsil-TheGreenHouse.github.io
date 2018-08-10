@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "IDE(Eclipse, IntelliJ)에서 toString(), equals(), hashCode() 오버라이딩"
-date:   2017-11-19 15:00:00
+date:   2017-11-19 13:50:00
 description: IDE(Eclipse, IntelliJ)에서 toString(), equals(), hashCode() 오버라이딩
 categories:
 - programming

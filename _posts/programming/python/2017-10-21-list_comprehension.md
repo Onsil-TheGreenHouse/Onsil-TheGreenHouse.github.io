@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[python] list, set, dict comprehension"
-date:   2017-10-21 16:30:00
+date:   2017-10-21 13:50:00
 description: python list, set comprehension
 categories:
 - programming

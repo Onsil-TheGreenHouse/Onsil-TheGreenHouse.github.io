@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Java] 상속(extends, super)"
-date:   2017-11-12 18:00:00
+date:   2017-11-12 13:50:00
 description: 상속(extends, super)
 categories:
 - programming

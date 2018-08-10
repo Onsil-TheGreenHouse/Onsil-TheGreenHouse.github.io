@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Java] Interface와 abstract 클래스"
-date:   2017-11-25 18:00:00
+date:   2017-11-25 13:50:00
 description: Interface와 abstract 클래스
 categories:
 - programming

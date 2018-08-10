@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Django tutorial] Ch3-5. Log 남기기"
-date:   2017-10-05 21:50:00
+date:   2017-10-05 13:50:00
 description: 3-5. Django의 로그 남기기
 categories:
 - programming

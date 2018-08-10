@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Java] 자바의 자료구조 - ArrayList, Stack"
-date:   2018-02-18 23:50:00
+date:   2018-02-18 13:50:00
 description: ArrayList
 categories:
 - programming

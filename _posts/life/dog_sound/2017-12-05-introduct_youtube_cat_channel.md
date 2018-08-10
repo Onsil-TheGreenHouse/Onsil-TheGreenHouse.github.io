@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[youtube] 고양이 채널 소개"
-date:   2017-12-05 15:30:00
+date:   2017-12-05 13:50:00
 description: 유튜브 고양이 채널 소개
 categories:
 - life

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Problem] 비트 연산자를 이용한 부분집합 구하기"
-date:   2018-02-26 17:00:00
+date:   2018-02-26 13:50:00
 description: 비트 연산자를 이용한 부분집합 구하기
 categories:
 - programming

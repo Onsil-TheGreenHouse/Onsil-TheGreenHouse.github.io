@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[game] Uncharted 4: A Thief's End"
-date:   2017-12-13 15:30:00
+date:   2017-12-13 13:50:00
 description: 언차티드4 게임 소개
 categories:
 - life

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[music] 외인부대(임재범) - 쥴리(Julie)"
-date:   2017-11-05 17:30:00
+date:   2017-11-05 13:50:00
 description: 외인부대(임재범) - 쥴리(Julie)
 categories:
 - life

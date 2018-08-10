@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[IPython] IPython을 이용한 데이터 분석 1"
-date:   2017-10-09 23:00:00
+date:   2017-10-09 13:50:00
 description: IPython을 이용한 데이터 분석 예
 categories:
 - programming

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Problem] 피보나치(Fibonacci) 문제(백준 저지 10870, 2749, 11444)"
-date:   2018-03-29 14:00:00
+date:   2018-03-29 13:50:00
 description: 피보나치 문제를 푸는 다양한 방법(백준 저지 10870, 2749, 11444)
 categories:
 - programming

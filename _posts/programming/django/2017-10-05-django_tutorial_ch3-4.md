@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Django tutorial] Ch3-4. Polls 앱에 클래스 뷰 적용하기"
-date:   2017-10-05 21:50:00
+date:   2017-10-05 13:50:00
 description: 3-4. Django의 Class View2
 categories:
 - programming

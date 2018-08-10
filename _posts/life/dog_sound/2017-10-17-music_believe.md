@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[music] 부활(박완규) - 믿음"
-date:   2017-10-17 23:00:00
+date:   2017-10-17 13:50:00
 description: 부활(박완규) - 믿음
 categories:
 - life

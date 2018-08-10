@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[Django tutorial] Ch2-1. 간단한 Poll(투표) 앱 만들어보기 - 기획"
-date:   2017-09-21 19:00:00
+date:   2017-09-21 13:50:00
 description: 2-1. 간단한 Poll 앱 만들어보기
 categories:
 - programming
