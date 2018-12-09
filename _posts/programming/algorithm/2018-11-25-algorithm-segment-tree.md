@@ -40,6 +40,26 @@ Segment Tree, 세그먼트 트리, 백준 2042
 
 즉, tree[4] ~ tree[7] 을 먼저 채운 후, 그 부모노드들을 채워나갑니다.
 
+이때 주의해야할 점은 tree 배열의 크기입니다.
+
+현재 [4, 1, 3, 2]라는 4개의 정보를 저장하기위해 segment트리는 7개의 노드 크기가 필요합니다.
+
+즉, $$2^{n}$$개의 정보를 위한 segment tree의 최소 크기는
+
+$$2^0 + 2^1 + 2^2 + \cdots + 2^n = \sum_{i=0}^n 2^i$$
+
+가 됩니다. 하지만 데이터의 크기가 $$2^n$$ 일꺼라는 보장이 없으므로,
+
+데이터의 크기가 k개라 하면, k보다 큰 2의 제곱수에 두배 이상의 값을 segment tree의 크기로 잡는 걸 추천합니다.
+
+<br>
+
+예를 들어 데이터의 수가 9개라 하면, 9보다 큰 2의 제곱수는 16입니다.
+
+즉, segment tree의 크기를 최소 32로는 잡아야 세그먼트 트리 관련 문제를 풀 때
+
+배열 때문에 문제가 생기는 일을 피할 수 있을 것입니다.
+
 <hr>
 
 ![segment_tree2](https://lh3.googleusercontent.com/3j85Ep_6JJK8PTf1aWFg5FcIuPBL1JyBTPbZgaoLFdiFj2tkaYbgQMLKJAp0mxghePCk4KwCPdlawBVQr7Pfux90CQ6_BCsuv6nlOcfa8I_x9NN7uDZXnanSfBpJErhGkQapbnBXkS5bN0AbkQq3YHA7MqY_HQHpE_mMVpJHB21k0rLz7FlPKDDlixOEueuIzOO7lGAVFRe5ev_Jwdk8w8BZIO6LoPaDDMMzYMBIFCxehF_xIGrGI-AO52ov6wUoUx3-fxAwuGG8ZUDjNQlP-ZheBFu9NT8bW-CiFENpt-BBEfZpmahxJacCvIn6uvG5EUzJtGjyXrlq1qYV0ml3cAX6YGo4s2xtA66GJJpOsWFdWXNCnLl7HUWe8obQyvF_k52pPoSrqchXwoMu-XoRXiOKiq2D7ZOX7eCZaxwbUtnV4Q3REPaEHjYs4LksAWk7piYGPX1S2jQh5zRv6t-gge27upxbFkFoQPzNVh0bgnr7LpzNGVVtE9nia3Y-LpiWVKaM-Jj5DtumujiMTT0rqLxFc5XcvhViUY3SnU64njKOpSm_ZqZsVYJik0-WttWzhfva4CGPiFNMxC3f8a4basMaqJ_6CNgHYIf_68p7GsxkkYx7NZ5MT9dtLLK_3AVDU-fS0icb6IcbUOICqI_MmU9O=w905-h503-no)
