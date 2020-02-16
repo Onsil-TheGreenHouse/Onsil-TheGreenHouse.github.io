@@ -26,3 +26,6 @@
 - title: '- dog sound'
   href: '/menus/life/dog_sound'
   parent: 'Life'
+- title: '- unboxing'
+  href: '/menus/life/unboxing'
+  parent: 'Life'  
