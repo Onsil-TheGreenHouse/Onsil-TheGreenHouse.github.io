@@ -150,7 +150,7 @@ notebook안에서 pip를 사용하려면 앞에 !(느낌표)를 붙이면 됩니
 
 그 다음, 각 시도명 별 도서관 수를 구하고있습니다.
 
-![img_jupyter12-16](https://drive.google.com/open?id=1b1DaVDaLKPtGdki27-0Xc_X2BnUrYGOR)
+![img_jupyter12-16](http://drive.google.com/uc?export=view&id=1b1DaVDaLKPtGdki27-0Xc_X2BnUrYGOR)
 
 지역 중에서 도서관 수가 많은 top 10을 두가지 방법으로 구하고있습니다.
 
