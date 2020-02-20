@@ -31,7 +31,7 @@ $ python manage.py startapp polls
 
 를 입력하여 polls 앱 생성합니다. 물론 폴더 형태로 나타납니다.
 
-![startapp](https://lh3.googleusercontent.com/ctPBXKixd5YRvk6tpHCkxwwo67wRAohq5xx6VoNDUI14e7xZB7mdto_X--bX-QMoWQq8DDtMRPk3XKwiFI66VOgO8F0n6Hjs5mtYgNQm0SduHClztqV47JxXCDSJotUhp86N_3d14b6J6-cYVyIslHARQ90PiLujErLIyVxRaIl4B5zXXDOSUldSBrorALsmQMy_iN0JWhfIkXjPaG4k006F3UPHQbD2DF90lU9dG0tfaTWg3wJJHzkWb1EQWndS2PAQctDK1cWpj-aRIbt01hQDpTlxTyJDm18YASw1KctbOwqqJit7qlJ6fJIeDrH-1Tmebva-wJUcIuEkn-JTCpQSvwRr-gUoXn_whKdFF_ifUQWM1XoxJWEpKLQnxFA82h3jFd-kY4pTx-bRBmVRnuWEqhnCzcj78wQAKs35lQ4jS-YtqVpZ_3EM1wvjvWVcyesFT4boGIc8HcftZ12PKu0WcY1QPIbm-rc1WSto_CPGG-zte9RVxXp9KiX28jY2AVlBqhY7sl2jffE1YjjxJDHdT8DBwEK2Ax6gO6D8nEaLtcwNfREUIgg2QYKQdSDTqDvfrfSBEKHWcmIdGynOzjHAQNQuB0QoHUhROYToHQ=w931-h338-no)
+![startapp](http://drive.google.com/uc?export=view&id=17eeUHpi7uzLDB7UQcx6YRyVQL6jo6N0a)
 
 새로 만든 polls 앱폴더를 들어가보면
 
@@ -62,7 +62,7 @@ pycharm community version(무료)을 설치하면 됩니다.
 
 파이참을 처음에 실행하면 다음과 같은 화면이 나오는데,
 
-![pycharm_first](https://lh3.googleusercontent.com/z_7Jlcfrc1YxqII8pgal6hdvuiSTgtCllDNmrAT1EMttQcZ_WPoXiLDb2iluVmd7flIzfPn0vSNf9GFnLQpvIxPRpCpDqbg925RHHLW5oNuWdJQLRknwykARLrwYyoxw40VXhX3JkLBFKJUuTnpoP89gMjbeR6r9yae2JbEtEtFtuUAX0f2VEI-tCXJgPpKeli-_iLhXdQV-op2ZG5EdpA21_cQASlWpi7fEXZ6A8s-I3tTa0NXz9KcGKZD1tyq-RInPS4JXIxvbUceFRR7xaeGje-f4ohtkEcbWw4dvDICyfwzrXj06dJINwXMiHgy8ZXJTdbFXmXK8JKFwzl4PrecRhWKzm0lC0GIM7pmuNdKGkoxfofPLcu1KEmLTGujmzlLyow5qaBmsqrxhk-ZKNTWon6NsgLioOp5Dw8hg6KV9Q4u6G0-_cF4SwHGkOZzccKCeQtw0xeaVkyBMeLpu-XsHbo9SMlUNWBiNMHWUAfEircTcR4Wul-d4KJVDH5EHy12nrw31toSQeWYStxfpf7FaqnpOdqQfbrfZVzMgkngzEQ7akviNgV3hQ1lmhQvcCJPh0QN1-thLLy_1tHADfb8nLhhBAKEJwlkaHqn0LQ=w1778-h1188-no)
+![pycharm_first](http://drive.google.com/uc?export=view&id=1_POQkHgx76iR8P0GBrX8ImIx6d5nSs3G)
 
 (윈도우는 살짝 화면이 다를 수 있습니다.)
 
@@ -72,7 +72,7 @@ Open을 눌러 프로젝트 폴더를 선택하시면 됩니다. 여기서는 my
 
 그 안에 INSTALLED_APPS 에 새로 생성한 앱 이름을 다음과 같이 추가하시면 됩니다.
 
-![installed_apps](https://lh3.googleusercontent.com/RC2UWYXAktT9XY8-vpBAIafD9ewYpUIPam6piEQ28iT4XpgH6XcP0LmJSVjnh7Ef114iZfpKVcrpECDalj3RyC1X_9C3NzHWaI8fu4K6-IJqIh-BWerRpIAUT5ONTkWwVCH9ibS0nyM6IlhLO7HU7uNnhMFrtUl8TMzPPfxoZYuzNWGminqdsD5jRTpuZzTTlwmIvPvvl2TD-Grri_aR99k8VYJ1R6isR0b8NMGd4Qk-2iLSk1noAZmQR0f1zHLPErmBclQ9WJZyhXc4l31mcdd--m2yYWCKjwXRMUknEzVe3_nmEyfM0Yi73ENqPW1pSd9YIy80TBcV5k7os2OPxmILr_pux20HOgtaxKFLIesZ4YiMkwq2mq5ql7wBIsiM_YESgIjz97lOf19qNkuj6B4qAG7_mCiTWwurorsu8YmDF9loiQJ692-S_FNtQNddTuAfw_wMoEDuLZaAq2lxO8oNxBIOPANliEwNFCzjsHjr_t91KeXQdoLxCNjw4nR07eSjCbfVNizUPaKXn6IZmLX8Nn5WjJA4FPR_y72x9XEaGgHChP6AUJAQZzmY1MhXUCqVpRVznUh0vEj0V_0RsPmK7agz8P79w3khGpd7TA=w1088-h540-no)
+![installed_apps](http://drive.google.com/uc?export=view&id=1t5i95HiwgG5hqUGOQG-fUtNd6cYeP0nH)
 
 ### b. migrations
 
@@ -93,7 +93,7 @@ $ python manage.py migrate
 
 저희도 polls란 앱을 새로 생성했으니 다음과 같이 migration 을 합니다.
 
-![total_migrate](https://lh3.googleusercontent.com/_HJuc0Iye46qvvl0iNcYSNCcYknKqD5wpiWF3DcryQqAksacf25vqXW05dadgQbqrM_sCu_WYMGVUeizgqgk3h3oI11tewKWYby26fH1cVqlgTGzymJfbXTpLX82jXbMPbd8TdjEK4i734_-tLkcP-JpgxX4fnJ3MVaSKVfMNkfFhhvZIbnJdsXg74vl1iT2eZqb62ldBsFytLWDc39AUOKLSNtPmmJ95K3IubVZmQOj_JVyhrbcP7bDvoCT60GGxDCd4qcAzB1_az0omU5Oa6QavCN9RMh1SE7tQ3-JxpwkJq-v4FWZD8QI8Tjku82rC-a6-kmMC309OGg-sFsznpH739b7IRM7g3juqitU8L0hDdP2hKJc3me4pTK5tYIWSS-6IBmyXFFXFrRhVqMgcsAKN25ee1gI5-EcQXAsGVRhoi60ZmlTiwvJwz6bCCDFEqyYHn3k_gjUlKaq-cMsF7sfd_a7BNtBk0MQLYzaS_4mMPnXmfwvfYjYWwpJ0wAn0gdAOwAtVGhPDHtLEzlHAqeDEoJh2--zS1BqrLLeqZg0gGnF6QdM_4LojJFLOoGuyr73CmxSonmXic35PAhmMz80N0mAjdYqceV4xU4zGA=w1658-h974-no)
+![total_migrate](http://drive.google.com/uc?export=view&id=12G34RMUeP5TAAxu_vXR43506IWIo7qWH)
 
 <br>
 
@@ -105,7 +105,7 @@ $ python manage.py migrate
 
 pycharm에서 polls폴더에 models.py를 찾아 열어보면 다음과 같이 빨간 줄이 나옵니다.
 
-![pycharm_red_line](https://lh3.googleusercontent.com/7rVbsll0F9qOGjRjO1ljSzahDhegfw1Bs8U0IG7F8RMpGkpT2g9NMfMZmlYieNlU4EZUC0vcQV-Tv8TDtl2LaIFMmXK5j0_0V7ZRpxcvrsSiwcExFaLJk5nLHaCyaTih_sORpCtNVe0gGO8rkitcegROsbDOZtIUNb9MbGgek43YL4Q1j8P8tMbnXr7Ofm0PfHSmgddCfcwB9b5o_uJNK99FID9WSaqMEjiYFYSLwFP2O8TPMwZp9rgU_ckgQlWhdhcRGnMfoNS9HS9Fmyfkw3eb7r-NVOXxYtvbYtEB2X4mw2bUaTupeHmk06tZ2S5gksTz-MPLcZNaVHhneeq5PP5XfmxZFjCmfKRlGfBq2mIMIDND3fSr7wEXsWFdJ1Zx-yg4p84q0t3ZPscW5qrrzHOSTETvvrvfhS9m4ulmPk4o_srAEs7qO9wywPZjaEiA3h2IEc-nnooSWFhXprfsfBinevY3n6JQsXvEfFyUpWIifh3Q-DxHMtkdPf0aeDOCMuTUpgIVYHo-ddM43Ku0IuvNHsSFLqFqi0k56uIPD3S1cb7_PS_b-x73TBD1cDJzAv9Xs_IRFv5YtLDQy2skBa-hAyZRCq7B93Lkde6IBg=w1008-h682-no)
+![pycharm_red_line](http://drive.google.com/uc?export=view&id=1GCOByjb6eebUYJOtExWnBJUVlhMKeR2U)
 
 잘 보면 django 라는 코드가 오류가 나있는데, 이는 Django가 설치가 안되있기 때문입니다.
 
@@ -113,29 +113,29 @@ pycharm에서 polls폴더에 models.py를 찾아 열어보면 다음과 같이 �
 
 가상환경 연결을 위해서 Preferences나 Settings에 들어가 Project Interpreter에 들어갑니다.
 
-![pycharm_interpreter](https://lh3.googleusercontent.com/7TL2pQkCnrrqTrZjyHXFjM38ll7zVkVvqjYm2Cr1ur8J5Kdn1frIMe9jCMnUnCUvnqdlL-p9MAQCx9FLIvZr505BNaNQI4pEvA7P0tqrfWWSij62PeLt_10TPQWg4foSxQIHzLRsDmNiAfhfMgKjyEkgjHIhWr5fQ2bSk3uIxVf70EPnpVoUJ5JUmjP4Nhk0fHsSVg9dkYAstYqUC5UzxxWadTyNVBD6kcDHKwUJLBbKlq6dkZD0mGNsDU-bSRQ7x-bf8lPAMGxon50EJwqymuRKcVubyGqPQfXldzFWfkcPCWluTD1dC-cCvIiXK2LLs9Z2lB2icGWl6GOlWwWgQ0OFkb2CYmetR5xmgHzQGURaaNlpSEBcCk-x1CG6t3_UqXzy6mjS4qmArtMGLHRK2Yz3FaPm4qpB8OMN3qD41QVutgwe8SXUbmjNAzW2aCUtHXgUpHz7dxOeyfaxXFEQT5RHv44dhdlpbwL5BTmPGHAetXwApBFPJdMZB0OzE96saG1pFawbzgB3uYnAio_s2EEILhJFqmcRJH1mf3QdINXeWqOWCJaAt40eUcbwOz13fNyNYsh18M8NfpbfiPpajcFC8mOOCFAyxHFW4y9KpA=w2042-h1354-no)
+![pycharm_interpreter](http://drive.google.com/uc?export=view&id=1yRDGEgyo1xjumrGHFuoMvdLNvYLtyYDI)
 
 현재 기본 python 인 python3.4 와 연결되있는 걸 볼 수 있습니다.
 
 우측 상단에 톱니바퀴 버튼을 클릭하고 Add Local 을 선택합니다.
 
-![pycharm_interpreter_addLocal](https://lh3.googleusercontent.com/aRJbFvPDs1ItFpuF1Z3cliPWEHmo1tTCVwQ-jNMdwbgVD6Ji-KgpAt1dnOeq0QXTl3jdXK0DuBt83yo8JsvhynYQ3tdu92_9RL2haSBWWCtgnDnjI4Ds1gAFfLpJ_jb3nNu3RpZzneWFCgA72ZK1OupvSji4HLgp4gDqEC3En9p7mJqayNlNeFlCC0tzyiS6DfsZ5xEUF_GK5dpPvTbINTFRNsszGXRihagUHoFyPyYHME9Q1uTnKFhT8wujT6vidKhKCm2lRh7-omKA6CFezfmKsQSE40xdF87VZ4fST_kug_2UPAT4YxKGiMmbC07hJ9rUA25sBkKZuUEJscOiPE2RrN2B5-A3wxCTJbTZNYQ3Kz1I5_FQNKdY5FS7n4nw2UtD-Bk2T4WyeGU5HvGOIoJ5rra_RG3tz4PjU0YUuzpgDc3yYs1yLUawiScBQc0_Key8-ra5YxmDClBs-aO6vKfnlwtCeGFxd2PlRDS6NGBOJ1-jhEkkfeGCiKqftXD-1xWCA7SNz52e47oRXlkKIq16Y-VJB0L-aw9XjjHfF1gYzdznkG_dN8tcVrZrEw8mwXdASV73e-IqigF6gXkz_mVKuQbZeJUOlvjbI32lUg=w1732-h156-no)
+![pycharm_interpreter_addLocal](http://drive.google.com/uc?export=view&id=1G7ZZTLUUgOPnBcfw_I3V6hUA-_XqeiMf)
 
 여기서 저희가 설치한 가상환경 폴더 내에서 python 파일을 선택합니다.
 
 (윈도우와 경로가 다를 수 있습니다. 파일을 비교해가며 잘 찾아보세요)
 
-![pycharm_interpreter_choice](https://lh3.googleusercontent.com/fZeMT6oKRqJQSuloUPgUhRWrjBzEshHjDfe0RTz2QH2At3rAwmLMaLmqgZ0LZn_Wp3X8vUpZvNXUJSHuqrLlyBhak7J81Az_bBjWmuX76XZXFLR8WcKADXJGR2fvPataQYl4acvACE29ebneZhGSeWbYlTP96sDBrpHaSvSPq3oJ993Zo-qcoQ3SAOq2_WWyLGnT6PtQkm5duOlWv2SejyTUoD0kb9XdzIAmq5eJwNbm_PMhi8QmjViHY8KXpm_HwpFJv73txgTyWCVwY2U9VEi2bROw9mwiqsEcCU2AmuT4aYCnmMXHnII5FjpC8Paznl4UxcLyf0ffxrElaDZoX46BOouO5PEZqmG18VauSneL8yF1XLiyisu9QWuuvb0mpUYT6Weqa3M2gyQWf6kTTleqQVVKE0txlm6z8KrxjqLgJ-UEk6H5YkQhJsKAZYxQB2VcWmABLFCzVWdHk-4Os8RII5xmxPoVs1QsdnuS7ze5t0K2lkPtbFBHpxwWcDHLBE0z1TPdkvgajDSLdHDpqJa-aNtHs54ogKxnCIomYSJsIBKB2S-2nKi0Flt6ad33YSumD4NEZBMiI844qZsxuUL6BB1M9Ze59OpAG5Qfxw=w1196-h1268-no)
+![pycharm_interpreter_choice](http://drive.google.com/uc?export=view&id=1mjYnDIcmY8PWv_bhGfJsptHv85qLbzfZ)
 
 그럼 이제 Project Interpreter가 저희가 선택한 가상환경으로 바뀐 걸 볼 수 있고,
 
 django를 포함하여 해당 가상환경에 설치된 패키지들을 볼 수 있습니다.
 
-![pycharm_after_choice_interpreter](https://lh3.googleusercontent.com/PYqnowxyyzrgLObYy0TxOnGI7zOPy1DLgIzBj-aGIKPmViZVwmpUc7zK3X4pyraGNr08iU55W_LpVPiM-kkaFe8Qy5THoBLr56SciyLUOw4WaWtlfJuI_LjrH0jcyBpkENTUlde2EvJHaOVmKoEG0hV7s0bNPW_gKmLTWgIq3lYb-uG2_wuK_UUt1LJEi0tO7DEZsEm1fRGUFvYJeFKOmTmaE-jcR8eesg9DisOkHgMV_-6Hotue2uqIQtqvruiEmyiXzt5wCcpCI46iKtwy-FPJuiPuy52Iir2rL1plh_wFZAj0hhWjEjx0Bb4TFSpJ80WpEyw5LcCyNEh6hVXAXG4e9Ekx_7j_GtQc3QVZvZ5B2FY6GQdnOwgbwtR09EtiZuInSNCTrytkt5uDi3GP1QvrKEpzmwNZq-3c63oktu3dRa0dYDGqQBPzqqWkuLJHpbdoriiHfow7ctG_SdG_rpN_-tP_na1aVpTbsZdiRT7VQCdxk8bcZPWwHtSRLpaG1nI1vzwjF3ZCFwyy0y1x7sES0LXQEqrDKPgGENHW2LlLwh5SZg5dFrM9494UETSq-ZSXiH4aQRHn7sQmh37zxKNEyM8-QunxpH3dLbd5Rg=w2048-h596-no)
+![pycharm_after_choice_interpreter](http://drive.google.com/uc?export=view&id=1lEGaHopG4mCRmDiBYb0Ri-kJUPZl5aPE)
 
 코드에 빨간 줄이 없어진 걸 확인한 후, models.py에 Question과 Choice 모델을 다음과 같이 만들어 줍니다.
 
-![models](https://lh3.googleusercontent.com/WrNIiI4KtGimPhYmjr88u4PQS10LUcgyb6A-YWKw5hNXCtgSizhzmMGmm56Fuarl4ivohDnJ_c_fqwIOc9XQMgsfb9W-HzYROViA8urlphJyCTihLZEqOS3-acFDiowAS2amt5X4cmVU4eRln7EZ1cq_MQUZ8bRxVFCkTslyuL5o0lJ2baWvijdgvY5DS1HXXqkaYnsZRSJOQ02cQ8yCefIOtFTptFbPuHPprGhz2gl5DHUF1o4x9gK7yi-UWJJl-WNYGayqGRoob8J_OeejlvHclgcVWSwv_5D8UxHmmNWF69r020mswSLzH-0Sbcx8oa4rTAQhXLgWBWTMjKlXSq8gbAullfNyFBCsetuVJXbjEdH3fEPoVeZTyvOxoSy3OeW0_JNNlLhC2mZkvETuQL6v_W6xyf-ii-qvkqbpYBt-oPsVzsQnnREsL-TT_uAb2vgmg4km827HkeUHYHtAqzymXvvPk4lof_dxKRDw8iLsGAwq8XH43y_dD_7JwVPSaxvBxIg7SjQs77_qmH7lIVEEoyrjhh2z_DeS5N9HCgDRLLiKLfu6aPSZ7UjV9lPazmxovXBjhsACoQ63TADIdGDlM536qfVXTv0NqXJ8sg=w1752-h812-no)
+![models](http://drive.google.com/uc?export=view&id=12z2CSJFvN7i3ZF4tBT7JpKmtd6hdHRKn)
 
 코드를 간단히 설명하자면,
 
@@ -165,7 +165,7 @@ django를 포함하여 해당 가상환경에 설치된 패키지들을 볼 수 
 
 이제 Models.py내에서 변경사항(새로 생성)이 있었으니, migration작업을 해줍니다.
 
-![migration_model](https://lh3.googleusercontent.com/7HBRlUiLQin05d5EZ_HFVnwJZMpzzqtkpCOPucKlHd2PbCEfDboMRigGRv64WZLzvsCznGoHWQ3KMyEFFY2EIsL4krO3GfIg-PzuCH8jkCGz9snXJyqzajElPDZTyGJ2t3AXIYTTG2AHzbukiRmpabba2bg9QkpJYhxmhvpy4FQ95ReYb8Je2_91QxsJcy4msUOKcODfeabTdF0Ghn9pvT7vQqIBsl723oFgpibNwFK4KA6PiQSu_6fFbE9ezEJ9F_lpE41d-m5PgY6kY7MVd94dnUjKpiFEDQaE7lrJtsqGaHAUHSNsGiv3tPNIDRtSDDDApPyVe6BCT6Jxraj2JE1DamR01FmqUwOvdJVB687tXrS1M7IdZThf5lNDMv6svdVNbRDvYcQn-st-Yvq-1IfxXx6OOZEJjBb6RAN-lJLkeDX31VamFtRNnseHOp6p0LJPU40CwUmUM6rBpqquEIT4InEzQwBr3D_nv_ocuKkoXdhLVG__SKIg66a_eviNKneMlqQC_YRxG_I6I7JLHNdPlxTDxXvBLcREM_UQiNmb6hHhpE_tdNhZVuNNq_Ajb_SVhjLXCKVy4vd_lG-IgQylvu3rWLah6bZ7qbHYNg=w1658-h974-no)
+![migration_model](http://drive.google.com/uc?export=view&id=17HWFvS_gHV5DdHgXZdAsLnwXTuvFxeKI)
 
 자세히 보면 이번에는
 
@@ -196,7 +196,7 @@ polls/migrations/0001_initial.py
 
 다음과 같이 0001_initial.py 파일이 생성된 걸 볼 수 있습니다.
 
-![migrations_file](https://lh3.googleusercontent.com/ttFI_hMprdLqfvWB7Yv69ydTSeBVxSfyhegIe5jPPrfEx_Vu2_6jkYhBv_rJFFN9Z6lrIQ8yppSdeQLl2BWvYDVAUODkEXrGWd6Vug42Cjqs0ULyDghiT9oT8puhCtBw85EXAcKhy4AvyiGusbynNpc_YRT0t3Cw3mX3JFH4hYMxn5pY1vnsbZe82JrueS7Vpz6MTIfI7l2kagRdZnDOxnUKQzKy83Hv9eTwr7QZA20bOzRm63wQ7bxidX6AZ0UgvLX7bur21pXseWR4nCGrztXJmVvKpE1QiXC5ITten_gK3D4GUy_ZKmEjrsGS8WziU50zBP5-d4hF8ihOth-O6vxS51Il7o-q73mlwSL2vIbv1L_qPOfWlj9GUE0gGhHy8HHigH4ofxExS5DK4sqUC8ktXoK7hsh2sOh_P5TbMtLdJCkTUbkWhF-AucYG8it36MlKCXBpI-XJ90KV5id4FbUTHi-eGgyB9Gf4u5CxF0f5gjfXOfXtIWD0zgZSjKXWFNz8FpIHJFkbYQ8Ls9H88f7atIc0BkTJ6mRxwmlwRwIpLYz7LxBTfXBcUpJ4b0J2HgHtqEfTukLwbC38Wkxl8Ru5J4Y_mZf387bYcCO5Ng=w687-h358-no)
+![migrations_file](http://drive.google.com/uc?export=view&id=10Tjn-kKpN-qc7U-ti0qKk7f7X5MwB1yh)
 
 이 파일을 손댈 껀 없고,
 
@@ -219,7 +219,7 @@ http://127.0.0.1:8000/admin/
 
 그런데 접속해보면 다음과 같이 로그인을 하라고 나옵니다.
 
-![admin_require_sign_up](https://lh3.googleusercontent.com/moXsF7sSzZJK2foTCyCP87bKRZcYpDvWGKSOrKlg1yBvoeFmLnAGq4d4SKJKJYn-ynCtJGWOSnWIpHOOiEIOmAx9FYnej1s6EC_yz49PLij6ax1ofuKe8EvdGUIGbnpD6f6dDXE8yncz5joS5cNfXNvyv7eqVwmU2Aj4T4Pyll_1wkKOHUOumsnPn_rEreqvXR5V1Y8Cnzhv-Ljn3dkvrpKHdN9zK9DzV4OG8OJSZICs0LEV1-hxJIiIeeZ8iI8KKXBQzHuQrPIGKjHnNTpJatRUuslz8raz9XeV6A6A9AqZGggkHEHvB2ghGfhBkjaTLdyVS2ySnyc_haOToyq997e_IG1PdGTrGMErljEkiJyK3dftWglDPwBcQ0nVK4Y6SnGLJzQGN3WMFwTVP2jjSsMpxdU2iyRUda3r4yUxlZxnwVroT1gZD-vRGmFYTScmmeOeaOJ1qQkohHEEmNr--pJgZYwT0qAnTWYRb7CPAitJOkDDfRSY7QiKc25Dk_y2nkqs0310XdFy_60uH-4ArVweH3ztY_1nAqz7SyR1pDKpSiwryXd7jhQ1Vc25bDhVJUGmlFwOXO3aLww1C3LW6-SgvdY1IF0mdd4ans3SZg=w2524-h1864-no)
+![admin_require_sign_up](http://drive.google.com/uc?export=view&id=1dLGuyPvo4fI19m0HiC6J0KbQzafjZUrp)
 
 즉, 데이터베이스에 접근하려면 관리자계정인 superuser 계정이 있어야합니다.
 
@@ -231,13 +231,13 @@ $ python manage.py createsuperuser
 
 명령어를 통해, 다음과 같이 superuser 계정을 만든 뒤, 다시 로컬 서버를 킵니다.
 
-![create_superuser2](https://lh3.googleusercontent.com/w--P2bY837bERevGueHkIApzND-xZWb_aFI_mxS5R0q3AerMtXLr_QKoBGg27ivr43CGg6VP9HN9RG5CY3f-m5AlwNbNmbrK5JygNXzlV1O02OOofsEp_QuoVqqe6pSiNGLNWUr4fWVEXikJ1NfkE5820cxPQzfNJj7U8DGHiQ2hv76Er4sQ3imTMR1q8V3fZras7oYyF4eZZ8Z3EAGSnsVYSY_4dcsiMdlNTUmHja3QeIuH2-Mn6RR9JDYhgSUzLyMODMT6zsNpSIz9BEmGVEnTDEIsoifEZOvkooAGOvLBSK_hAYZPdXj9qD8AMcSoagfaG6ERw4mqYSqBkxaVa0T5yY4o6hCo7sqBuHUg6pF9AEaPMz3dE_Vvb8oALSDoxIw8S_CTAw89yt_h9AJbaMImzk_NOkuksEhSCyYrwt7s7otXV5meOGFpm6tApt5anMM78qln3ApkGKwkV75BsBjI_4UiL_pYeTjlntxIzpYvF13bClO6jST9wcaiU84DndjC3r1txHLER_ydhlo_lFsA4D8HsptcW94rxW29_GBKWhZ9WNyThfWinfFEoo0dr8xVlg5A6g_gjrjIGhcxJefIs_bglI1-07QCKrI9Eg=w1658-h974-no)
+![create_superuser2](http://drive.google.com/uc?export=view&id=17PPVZOnsKaaui92ycCREaeRuMyJDn2h3)
 
 다시 admin 페이지(http://127.0.0.1:8000/admin/) 에 접속하여
 
 방금 만든 계정으로 로그인 하면..
 
-![login_admin_no_model](https://lh3.googleusercontent.com/GLQE0lY7Fisxgo_w31CG9gYi3kG9zDykicXjYCSESdQZUmrlP2W9Bqi09tUdKvAGfLh4CVHjag4VakTTAn1DrA2zkNWu-U-IgGTUQ_ZNSD7iLhQyIGBPnCyHLaH6uG4KR35DSJrgELpFC_mC8u_RuvmxLhtd8HO5SFTkcN9tRBstozi5gfLf-m_ors6pwSl_g-EXInGEFL3_Y6twt5V9yx2hFWeRUhVSqXNVWggMS4e4cwtX_xbdlwc01WqK3KZglFCZ0pBBNVnqi9XrMTuasKsOKttHXCfwuZ8eLwWpdjU6AA_qwT53GDyoChN9ncnp82h-V-HS1g9426xxBCzJbjUvkxkQUZ2F5z7fKmSaUedf-QILnOfbrEwElm4ivju2wHv98XGClJey3kTB61ErFwTkfIY7LtSsdnROn8XhaKdKo-pnMCkq6umQT_FempKMoITD4n1vkp7POZWl3YolwDqHX-x2J-a8vclc5YSd5GaAwhBKPUpk0YE19LBScmLKEk39KeynYSZVbUISG-FVJPy_3EQa3GQWXWwMmq51IJPIoN5bw_joE0xaWIevss8KvDLX4f2BGEF-BmHIPqr1bjVlpOHmH0nG6j3kkQ9kRQ=w2630-h816-no)
+![login_admin_no_model](http://drive.google.com/uc?export=view&id=1UOs_Pu8_zOw3QpxVbOV9chU7n38TKWpO)
 
 우리가 만든 Question과 Choice모델이 나오지 않습니다...
 
@@ -245,19 +245,19 @@ $ python manage.py createsuperuser
 
 다음과 같이 polls/admin.py에 Question과 Choice를 추가해줍니다.
 
-![admin_py_first](https://lh3.googleusercontent.com/m3qNd2cXJBB7pVDz6tJHxfEWLW-lOdk97AbGCSs2fD7VieSx9e7vk2KPDJk4UtXrksDUvIuXq584QdJGMeyUKYCDeB-zK2lFR1nR0sghiGcgKvnxKKfUqJwWI2MRUYDLYz4RROIKXvJe3_8LyRMWUwCs_5gCkNVgErZvJtdi542IVLlhabNMWge0kHYPWMh9a5l77gdHZXsSBMHMo_B-v5rnztCzvUGcZgcWl0gM8nEEo3MrWTEPds1rqyFFCUlNxW9bv6oyapwEqWFJqcWgjwtfi1Iqk10bS8XRKiIyfUJXofBCf6Xv66k42mkYEBIERMg5kzqSF_Fv271uPqbgEEZYoGEwPHy8oT4KlwTPONlS7oEeNd1wsNTDRevu1og4CK5mIioO5GMc7zhUtk7K1gM73mVqNw7H1mTaEwkpfQZpfAjYBR-CUZt6_4p0MGFXpQwC5vz_U9b3-cYWfSQdeT-acFthFOv83PrwrrA4m0aa9de_lUfl7zDZRa26dqZUSPnZ-LJUWAKW8ei_UN-NsICx2MIDbjmGAz5cOVumoQFyW9KWhdmpMhSTMK-Xfqz64168aalRchDw2yQ8ycN3WN2n4-MOaskJpb3yabg3Eg=w1192-h386-no)
+![admin_py_first](http://drive.google.com/uc?export=view&id=10eCm9ceF9S5e1CNRnRdIVXugd4zsjGiL)
 
 admin페이지를 새로고침 해보면, 이제 우리가 만든 Question과 Choice모델이 나옵니다.
 
-![admin_add_model](https://lh3.googleusercontent.com/FbNPtGFtJWmF8CVU_Xwo5FOhiHSKE8SwV0qmQO6hUdwTv0BviCpkSskTRj6c1zGnQylAwHS4Clw3IuFy568_52GtKBx5SqrxK4ftZQxRvKTNFMvtsr2SFkPVHYChTztg5-2p3Z_M1OiAxESEs7Ex2f_hnJZ0U-s4OjU21t_6Ff1eU3PZ82HjSKTTjosIofH1e5krp9T-F7hHpr8jT4-2_csvME_Ukgv5Kx4GkZzRpKBVKYyyRkK2IqE90wSvqwZDbGFx6ToOD2Ai4xzLBYfs1M3usSj45UVlCe6N4N8igL17iQ76WIDWQZrUBXufN45I22BdvcIejvwx6WimtZo_b3bTvikpxIY6up8mogP5tSVnHtHY6GVCbjqOS2ufDwOlbWF69jSk-fwlf1-h6cKo7mf62-FS4Z0on3JOPs7j-nW2PDgn5N92iLYRa3OHIDRGpgPxONTibBJJGVdezDudib03vUTUuxhwPFXzVRP9CdO76p3hoYndy-qXvDYKj13zj0jBpxiXHbtVs74GPIZRWeI6wdb6oOiux1Hcdn9Lz7ccYmVjQeKGMQ93y7qYnB2DcBsjqwp5OYhdCYQ3pgN98xMquZtIGd_Msnc1vc71iA=w1886-h880-no)
+![admin_add_model](http://drive.google.com/uc?export=view&id=1v0QpEb6KeMarWlfd70dd87JXU0V-Cv_z)
 
 Question을 클릭해보면... 아직 아무 데이터도 입력을 안했기 때문에 아무것도 안뜹니다.
 
-![admin_question_list](https://lh3.googleusercontent.com/7FvO0JE_QhtA7UNLO6Iy5MAbXM1NDyXORKXSbWnfUtfomNbvXtAlC-emgVpCZFFcstCWn7fh30vl4eohwQyHc1-QbjKuzuze-RsBMs4iBFIJfQFd4PouK1XtNX8a0HUGmmUZp2x-dfDquCMs7yP4d99MKcylUDmAXrP5HFDNYvsLmw8O8LJuDTWAh3bmu4TBEOxPNA-O1SHFI8BPkDZcKR9vYrLbb65MMCNa-FtE3m6zdMmzLZ5fR6IZ8yvNqkdTU_Flw9FgnjOmwEugRZJ274rfhGWa7fvEYnLc8cFYMoBmBz5U3kEGkjt1jBNUSZzNZrZmeTdfdyHAn4aX3W0-23uoICOn2ZRoBUp12JziFxHumo13tEoGCh3uqtTeRVwO5PQc9PByZGizTD4t8Fl6I8A2v3SLYe3C0z0BGGMZxv5i7Su36D3O0S1UsXXsxfUdCivKoTU1KAMpOrCo9iaUMw-MRT7-tgAHvkXA9Pk1Ieak3qzf0VvkGaF8UhJ1ICw13CStWJNxmQ5mAOck1TnOMDm2wfiO_4QFI-sOvsI-cAsieIeVf3lxa1ydNUiAFdA1dTvzitm7Kg3IP0kOwS5I42eNm7h5w99I2mwEfyDlsw=w2634-h420-no)
+![admin_question_list](http://drive.google.com/uc?export=view&id=1xtrXCP7XZmITBSaQG7tK7PGSL9FW0GXv)
 
 우측 상단에 ADD QUESTION 버튼을 눌러 질문 데이터를 새로 생성해 줍니다.
 
-![admin_input_question](https://lh3.googleusercontent.com/zHxUFe1-iQwHZbl4TIONRNsH5AFd5iMEIwmWJjMVqMNb-KpSepNJ2oQTx0IawXi_6UDTKznWFkm_VJCiWJMF0gVXX-J0F0if7jCS4upMsG4t3PzGOg16M7nGwc3T0-hGRoO9CHcHAdt_9DrT1IazAODe47WKimMnR_3SeD4VRiPPsOhwve1rPmcek_gN2_A0QyGlgGAS0IoQ_wZltO00IIYVZpxncMZmSKNpZfi6n4rmhp7chTVczceu8349uIj2d-RTUU96n_SNRcrExUE-mcpmXoqMNGDQGKEB8jl-LMcCR0B9mlWROi6BDmZE8zk_CvqDPjYwiclcohjZWL-4kwDCV67t3usneTxjH5MAEg2sHAL76Kqvr3IVjUZALvkJ0nT2btVsLxTK6cYUV7Veu41HMGr-vjTHFdD1Jwva1zzXJgf8PxcEmZ26W8f3nh-0tZlshSFTflI8XWUNNJkINeZDoTUul7ipyQGimNhUz64OdXQUPi-od6xLnn3EFb9yK9gfYkE9jIsbmtfqW_WtZuG4UkLetGMExk-C6SPOw2F6yuBH0tLr8NL0gupUc9EogKWT9l1raSrF-uPCZpqZ75u3-QNSRLViPrJZwMINmQ=w2636-h664-no)
+![admin_input_question](http://drive.google.com/uc?export=view&id=1UIALgydMKzbMdEm9xAQCYZiSW8e9XuLu)
 
 '질문 내용' 이라고 나오는게
 
@@ -283,7 +283,7 @@ pub_date를 auto_now_add=True로 설정했고,
 
 일단 'What is your hobby?'를 입력 후, SAVE를 누르면...
 
-![admin_after_add_question1](https://lh3.googleusercontent.com/VTvhIt_SE7w9iE3TLDPcWdrVqdDoL2XjnD8cthm3Y6WxgmcGx6y14Wplk42osszLTGaoULfAIj4gLN0O2JmJHuRTwALqu7fBkQruwMU1Y-wHMLI_ICmnGf1g-vZwngE5Cyr_wTOhSgW5jJgTITzEIYSgbzqZOnNfWVz0h571eOcEE9Cr3LCnJZpseAosV8R1C2pdhDtgJbk1hJ1X4DkNILEbOpP9C61sEcrFsWELHM9Y3mQ2IrFBmuNIEhGPUu0l7I_hEF3jgbAbuGBoG2GMPvMFIVeR2g5QyMR8BQumGV68XC17f9JZCAR-JBSfkFshQdPENSYdevQ378zN_Pd7_UloH5BbbzpPRsddv06h3p_6g5wVmP4Y8OVWs-8u4i3jfM8Y1UmIlwljKWNEO8mFxhZG8t4B9dkCCn4yUQ-xYUS2gZU_l2ojIUH95fCV-Kbk2QNiC7MUY8npsx65vGn8pzjiCfysMtn-fMurn6GCZMu60DQew3pZ2sqMNQPM3zUyorD4kSu4-ONnqHo4t69EJm-vbFYRir2Xkk2-RezW555WNP7NMWvLczUF5MyW0N06j3Du5goPrRg0ARSNWWPlH5h_iZ6T5mbLvRS9LXD8qQ=w2622-h750-no)
+![admin_after_add_question1](http://drive.google.com/uc?export=view&id=1T-3M8F-5k8rFT4Ow0mKnJIctN_il6UMV)
 
 Question모델에 'What is your hobby?'라는 새 데이터가 생성되었습니다.
 
@@ -295,7 +295,7 @@ Question모델에 'What is your hobby?'라는 새 데이터가 생성되었습�
 
 pycharm으로 돌아가 polls/admin.py에서 다음과 같이 코드를 추가해줍니다.
 
-![admin_py_add_pub_date](https://lh3.googleusercontent.com/t9JSPyC2lNOxoPyKogMNSK6yW66QTkBRVa-P7ROKmZNpqamhkbz68Ns1AtT7oGwRPSWAXB3R4CsrZrldGP5PoFdJEjFIiy0rOqGyVKdqeGEWIvW2r87suX9nEcN88C40_-GDGCJat7at1EiDvjac3klQGNw9wHdD5BptA6NJfhZp_OINmIcQRaqT6fS_249wgzQ78JUxuLNqMjd5_PNMxMcF4L63KehcM4LwI94x9q4Lx4wad8q3W1FDy2QjTOs26uXZIBjNKO1nWo-b3AxY5xsnqXFDAwuXg8-tNx9WxAzWg9lPnYIRAr79enXV9zo_L9lmjAiJ8NLE2ZHFZXa06JqktZClFeDol-AsVqgySh55hGp_EE8Ndrkm3ZjzFUJ9Xqe4Rw_aC8cprOjEJyXhqlXW6lVfHp2I-KvJccVOsUxs2pnnk3fY5fbi1AEGuNyGtIMlf1UpiqdW-muqWG8K7HPTpMLtw5DpGbvxKO0YJtrW5Ddz579boQAwQVb2rMxpf8ewSt8sajNrcAvy2c079g2uxSqN7hdq524EYxuHnP2keZrHy-ap5cs7frm1EBjnRJ2JsDqEahOpYAW7HPsc7fEghQZfdbDzFTQ7sHyaGA=w1292-h820-no)
+![admin_py_add_pub_date](http://drive.google.com/uc?export=view&id=1WmuUd8kLnY_wqc4oEE2I5-KxS27NU0Ni)
 
 field를 통해 보고싶은 필드 정보를 넣습니다.
 
@@ -307,7 +307,7 @@ DateTimeField도 수정가능하도록 설정할 수 있지만... 그건 다음�
 
 이제 다시 데이터를 클릭하면 pub_date가 보입니다.
 
-![admin_display_pub_date](https://lh3.googleusercontent.com/CjnblrMpqB-na7n2s6UyZxVyB6UA49dl8nnVX4KxEbLxAhgiFB1UTdQzosQDGoa8DGjDXCPHt-ra8m2tlg2zXDgG4wx9xoZDVapY6VH-0APPyEV1KP0Ugo-nEqkKzR4UHyidbuAFeQ0vYSqTl64L-iwXvdNXnJzDhi0fClTS-VNEw2-r1lm89UAMjjbs1CHDqwKJBEapdGVvH5N4nlsp2GHOlL7HVIshCvQAvK1UezV2_rXDvwuwANUQBPxAGMcQCvsUCYQhqdKNdOf-V2NkV7J-pQDZiF3PfHxjrWALPDiGEzo_SDlnrU8oDn7sYI-6eUwIfO3Q0FH7lqrlmP5G0tPO14Q_7P9xskhGkLTGVRwjdn7eZNAceW30xujVmg5XAgc5U3Oy0Y8UJ1P9IHFZr4Y3HYfQ5XMA49rQKChRpSu4b1SWAtz-AV1BUGBimxAipdVduBtOh1d5sptUJ-jrvv9Rwmf9RYlbITLexWiyHM_xc8eXeehbKtFdFewYr4vNPAfcaLOeTBuQUPNjDBW2eQSrXBPBngsd-znYh_EnRgFXS2OEp--KYCYBbWi7yRwi77TO17QIXgkDHhFuzrGDUWFhm0eGgUNGXp51C7J5_A=w2640-h740-no)
+![admin_display_pub_date](http://drive.google.com/uc?export=view&id=1ygD0XtOaNdsqRF364B6SSPZFOkj4z8XW)
 
 pub_date의 verbose_name인 '질문 생성 시각'으로 보이네요
 
@@ -315,7 +315,7 @@ pub_date의 verbose_name인 '질문 생성 시각'으로 보이네요
 
 같은 방법으로 다음과 같이 Question 데이터를 2개 더 추가해줍니다.
 
-![admin_add_3questions](https://lh3.googleusercontent.com/N6C1Yccdxgd6qMRQpf3eURBlJBMUCuV0ZZfGdS30UqOr_fH73-__cIikC7qAwBgBZmA3VpXAx5CGzjfFseiVIg8r9MKon7tvlR_A-lg8zZjCQFFou04oJASyETUf-X_T1nnHsLwRCVrNn5rArgUG4PZ8EgS4JPriPDlRbg1N-Qsqqju4OlsDdaNyX8xm9Y18Ida3TlLU2r1boMeezaxp62FnkzwxXkL01KL4V4S0rOvGT7jRLULGHuu3VYdUZMv1IT3Hex82p62Mo-Yp3V9en_YMWW4vYzdMpBP2O8rylGpZcW1PC9-3yJcmAdIc1r2E8rW1o8zzz9UuWbiorThAZXVExShtfqW20jnhMo8ynIDHs1kgAqII4KPLm1Lx9_V77n9Qeb1fTI6-chGe6s8qFwMWaSGKX5JJvr8V5pIK1emuEyPK4qAqQjbWdusdFxtMj6BKabG0-joP6MjozCHIjSEnJ9Onxo4WHW3jh1747fQfbXhlpjalLbBwQggfnSQ4ZOe45Fu0m7FG2lwcBnkE7A9-CExmHN9BalLxDMyoWlZtHPuR5ndHB7Co1UWsSNV-JbR6up1xbGdKb1O24D-QF0H8ynGYvrZibije0-ncAg=w2642-h878-no)
+![admin_add_3questions](http://drive.google.com/uc?export=view&id=1AoS3LpxOt_SH5EkR7ZXRuArxj9P8tZ26)
 
 그런데 여기서 하나 눈여겨 볼 건, 데이터들이 question_text 필드로 보인다는 겁니다.
 
@@ -327,7 +327,7 @@ pub_date로 했으면 질문 내용이 아니라 시간으로 데이터들이 �
 
 다음으로, Choice를 클릭하여 입력페이지로 들어가봅니다.
 
-![admin_add_choice](https://lh3.googleusercontent.com/8HHkjkn-6g1UrllmUlmv2Soo7k7S22qxLWpHRLy6KDeSS5JYLyWBJTAj56o2i-R8xZuACkbEtnRq03qt6NFpSxNVkLbXDbG9u8jKEWriqg4ShHgmCae-3fx0S4hVZeiThTVaSavweMMUievCzmd51WrKnFC9DRI7ZvGztVu044LTPJLhp0e-rks3-JhsB0JnYA_sUT3rfzNZp14XEI-_TcAnEEZQ9DxPfzooJ-XL8svg_tbqg3ksJJ0zYInmYGMyY7MCpvwbSrkjx6BdGVOApIh7iQWM9IR-PWkUfgt04TL_XNsRXNoWWgGh1IW5QkvHkSMhdn4ETcyes-DmvKbgBrCkZ19w3nLAECUBKI42ySCUFX0MmPXI8fgN0QiS8bNA4ODP-wgg9ZEh1XlW9cfIhD7TeL1eGf1XHCltShicUl3Uu1qqTrHcUF_w3IWJe0AnR6X07y8eOqp1svi3EqRrwtcod9NcQg8yHXPXUv4eOZKko9Q6BSBQvG6ctKXgiWVQ2kt7F3CHJykkPdfM3w_tAoRCs0i_vSe0xguE-D2o6fnpUD6MlG1vFIQnnG9T7TI83K6OdHqn2DBoxJJX9eDVT-AdLqbci6YHjNOOMSg-pQ=w2642-h882-no)
+![admin_add_choice](http://drive.google.com/uc?export=view&id=150lR28dGOjpCXgTUKJYOlOicP4MkafGx)
 
 일단 question과 votes필드는 verbose_name을 지정해주지 않았기때문에,
 
@@ -343,19 +343,19 @@ Question모델의 데이터 중에 하나를 선택하도록 나옵니다.
 
 일단 다음과 같이 9개의 Choice모델의 데이터를 추가했습니다.
 
-![admin_choice_basic](https://lh3.googleusercontent.com/0-vaGU5iredoyJb0Gk79u7JNBiLKVd8O_2cq8SVXdgYS6FnI7icpuVK0Pf_w3-YdDjjivL0padmBuS82KkLlnl6otXMLIrCARKhx10I7R6URpnoTMROvkntNNtRnlzAm1DLvf-GioDvedh9SZTU1T3egtiKlMrQN36tqQtSW84WEh7Tn_rNHkvmNiKNtwy9lkM5ijtlJ5oFk9GSaoEExiqRTOH2Vr4wyyTEYdxb3X3AHCyHYcXTKxYeU-F5JoiVlf2CxqzlOoo-fMG5RdWgu6TmboYFaVOsDSNEc5m78KM9s6qwMeQu-zTQN49tVhZiM8_evN6dImeWvooEMOTWbKDn98RZBuFvMn_fQrb-So2jbwghh7J6kcOpwtkrmukd2KlWOnw0h7PrePYmafMPujiKw8ewQGhDAspGcAP312heBxGm5qEDS-qErwrAEc767bXBwXCFu0JcmuXl8gyekvo_VVl-rRO4aP7PXjA6MjVqgCqIwOiHxDsaR9frZggLGxY8lZYKn76Vi2RYRCfby3hIsz-oyoc6794_3rnTcf1sNdrONXcTiFlS1aosTV1ZJVKoIns_JYJAOAV6a7cTXQyqfDq1p26o3Z-Qa7efRJA=w2636-h1262-no)
+![admin_choice_basic](http://drive.google.com/uc?export=view&id=1FU1YHrTZGsxkhGndUEMtiPm8El9K_KOD)
 
 그런데... 무슨 질문에 대한 보기인지 안나오기 때문에 답답합니다.
 
 데이터 리스트 페이지에 보이는 필드를 수정하기 위해 polls/amdin.py 에 가서 다음과 같이 코드를 추가해줍니다.
 
-![admin_py_add_list_display](https://lh3.googleusercontent.com/wUMQQ5Umh9tBu6YCYtWUuS230pgTdtBfqAGqHHJNXZ6KVUAAZ1PbAiJ6AXy0LMJ1N6JnC9_4HKfabnuI0iaiEJb8_VdIHHr06iuCZKBEANnKKKFMVkRi9ZXoxFOhv0phSR1_3cw8lumHkWvNa1b9sHUN2mqZYSRDRZ8VscbtkqFSj-5J7fO91j36DIHLHMAI9UuXjZgFR8YH8e1aoK6GKAfH0XzH-lHWe5WFwK84dCp0Y5ndlJLUYTZTY5vW0u_T5IfRJ2hL029I2_EAFDJ1OEs2TNov_eX_wA2wUyWzeaHcwSxihSm7ZPtAf-gRbMTQpXKblBRkpBKID76D-X5bVIwCcz3az53qn9bYQbTJt1ah7YrAmjl2S_tggzs9ohTTdxSgixjpbnqyxOLqzccM_y5iNPss-bMtP_8ZdF7QeM79NZ3wE-rQygoM2LsaeMo3Srhh_iRzhyCdCW3HcOCvLUrQDB0SQpzWeNOLyG-xu2Od_KV-8mSzSpb57ftK1FTBTOxbU8Rt5UZ0sExAn1AW1UBfGed9L1hfPnDX3qCL5lIjDT8p6XP-wcCADBifMV6YribnX2zahG9_Zph5zb5IvtrhRPH12I7b7ggiNI_FnA=w1552-h808-no)
+![admin_py_add_list_display](http://drive.google.com/uc?export=view&id=1mNhZSe_uco6NOgKEYCkMvYJlE6Q8tFA_)
 
 list_display 변수에 보이고 싶은 필드를 리스트 형태로 추가하면 됩니다.
 
 그리고 다시 admin페이지를 새로고침하면
 
-![admin_after_add_all_choices](https://lh3.googleusercontent.com/cRnLwEnvIimBbKOOWUDBrgcNaXllixrBK1PhRluVCLeqAZXK9M0rD-OYZIOBg3msGPU9N9EHL0svNN4duCNCIs8IJ6NqqXK5Mqj5G-LKcqaeYkRat0-6GyeSv1ZmExkLR68Pmu4__y7vmdeO4V7kUVDSkWrZu9Bq8zv5vnArKfdywrdpKRnjh2lWg7vDSRcf4pAfCnmYdMrEmxMCpzqXCzSra-edMyz4RPZHgf__eunwiMbNMC0nKg7CEjpd4dMVSzToli3cdoP2u0G1w1yAnKsdpVuTH--NCnNSM9OmGcU2_fQoPpfQmce_GQYspNA55-zy88YXclHCmsV6Gs9cSsyvhNfd_yS-QVHGAO9GpYbWFihJqOTcI0N4SqqemzHVBRDg3exmPpzKclE-BkH4XEcvqb3m8g0igkbyGjoF6ikgEmW6kJg70-GxtmokTl93UNMNvt2F_osoVctOAMBr0CLeGnuiy1pCJ4f3FbCBzhbjz2hGmdvFDhT6y8lVtcNsl4iSMIoXQNBw81X91JOCN9Fidtg5Jd70w-zBmMTWFCE2Nslb7kJXFK-S7GQ1Q-hfOm3zkVBRL8sGZyUaRlWii9oRgCLxYdPiCONi_qOJqA=w2640-h1230-no)
+![admin_after_add_all_choices](http://drive.google.com/uc?export=view&id=1WRUCrwJmmL_lOtCfONBff2ynsfM9JtBu)
 
 어느 질문에 대한 보기이고 투표수는 얼마나 되는지 한번에 볼 수 있네요.
 

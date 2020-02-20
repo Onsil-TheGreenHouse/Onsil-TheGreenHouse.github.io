@@ -63,4 +63,4 @@ MTV의 View 기능은 MVC의 Controller의 기능과 비슷하다.<br>
 ## 덧붙이는 말
 <br>
 #### - 이 MTV 아님
-![Image of mtv](https://lh3.googleusercontent.com/Twen3RkkOKOo4sRX8iEhVSCQJI3YfsuaX2to5L5CRGe_mghbveaKIlbH0IMc4gKrTlaUT-2WWcEBYjvtyMOktHif7nGgSuUGieQ6IYf5wK7jeu5hHY-Pc5GY6-cK74uKfTmstS3WXPPwpq3pm1QQ91Cb7lh3RngItzoCRSRpVDW8XOLaJYbFS-CllB4BJms190XeS5VYn2APPtFsGW15QxL919FB3WR09d5mdJcQWiFvOVa_EBQQ2FYTf7drjMEYyZPUvqR1xnWvfYF6BWVybsKFVe2cb5FjgIYbgiu5Hi6Kd363pNXY9xRvWtqwMy-QTrXd-2rRTB-FBiDFEMziJz5m5y8eyYeH646VPLYIRPJ7cu6jqCR_E5B-EYfhd87RC5MPxPnEknbwWpFc9kqUhBujwLwz2ImyzoGqC6durXgY3HcptYc8b7B2lwv5wZbqOziJGmKk3-XNWcegrpnFDZWZhhER4fjOw81ZIXq1xOXkpyt9KCATI8TlQvf8lyYBUXlwwRGLqMLrt5q96ueEn88M1lFodFgzPb-FYqUjuAvXJi6_ztRhny4T9neXP7RVzdsGhOmrbDpdW7xwnphttyn18wQ726v8jPyUrehB=s529-no)
+![Image of mtv](http://drive.google.com/uc?export=view&id=1c8nGlD0NLpCWnvrF5350eBV5Ou9Duh8l)
