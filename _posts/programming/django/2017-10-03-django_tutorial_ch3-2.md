@@ -146,7 +146,7 @@ urlpatterns = [
 
 템플릿에 적었던 {%raw%}{{ form }}{%endraw%} 이 어떻게 나오는지 살펴봅시다.
 
-![1.only_written_form_in_html](https://lh3.googleusercontent.com/ZcYLFepPcG-9W-LhMRLZHvifvXHr846tP1F37Jbm4I0DmTncBvB0IE7On4aV7g0FvDeI-mr3lJj8d5KAC5JBZTRHg2Z1yc8-_5cqvnmvABrrZobeynalR8vKMVo7euFvg4jOSOG2CwyRUYnZhYdBcXbdBSYdm3_6jJATKX3tohhecLo_HTLvB_85AKhq0ZQ4xNpmIKN_QHy9q6_e6VzHysBcqV-qOtLXc4pjFWIBfQqRiUUuTkLatawNs5RaV-v6y5M5FKtcIzd4UMkxd9Y4ZyIHyfBcCYuhRWgH7fhzPg4TBnMcZLzEO4J7cfbfpWnZ6kVap4DwvH8FHFpIoY_agxxN9PfxdYRItGc3YcaP_DRLF35u33AFhDeoCloq2E7AUi4uP04bP5MZYuWtMVLBz43Y9E43cg_S0tH1WZDO-HVN7IV2QsuPzFJJC0xjGoVASKAeLNVWO95qopv1Fe-thUgazX87vUVDwxyADTJ6UhHLmD8b3-F0LHtfOz_dZvz2ZNl2lF3gFNHFasM_emJ5awiTLeNTJMS6QHdzqxvV2_mdFJxxqYDI0Zxk3EKADBQKqAtRsDgj6iRxc6_Wan124kbqFREKvRvkb3EeAz2cKA=w1208-h408-no)
+![1.only_written_form_in_html](http://drive.google.com/uc?export=view&id=1iPil0heVws-MnpRLfaST8h7k-WMkWNIR)
 
 그리고 소스보기를 통해 소스를 확인해보면
 
@@ -188,7 +188,7 @@ urlpatterns = [
 
 페이지를 새로고침하면 제출버튼이 생겼습니다.
 
-![2.after_add_submit](https://lh3.googleusercontent.com/LtAFRs2ez1TIxSygZJ2cjW_JQA8ksZs-2BEVQxXLpBWla5eYcIjobcfK_2XOaEVt15Zr9b95MB88g9OQeLU3CnVA6Uw87HsggR6NGAkBIvclZSSTEdBusmLqd-OzimjwQvZBGiD-j5zSQkwOMR7x1Hpiu9sT4BnwTEtP56OtYM85FsbuuC8uHLjG_sTrRMUgVFw9doXEBuWXGuatrq4ogXBkXY1oRIXSVqt0evnDWYvR4AF11r-xMYiLcTjKU3V6EoT6-8K9Ja65KMAJei0ls6_hUmZCiy5nVR0_SKOu4i1Eb6Fl4j47xc75La0lNjKxZrCEAs-CntYortLPj5_imWGqroc0aPtU9_cZgYTxuenATbvzLNX_zNje2XMt7vPXfxc1PgB8VAvBeMjFG9_xr8YQZWP5lT8Lyt3jBonXnojKM5sM_9oNXn4t7YID-fIjX7RZqbGT2v5FTG_Ac3L4bL2xXF4LOdJHNltAEPAEBRkJWQPykGHYMyq9O-FYYXgZ2Rus1LhSc9VXxCA5IhZvtmAljrFHN04-0FD2aC2KUySBuxotEUGXaWdDSn8tFCrmIXIi1TOxgt-UNcy3fKgjIEFOV5Xw3v7QSmvuGPToDA=w942-h424-no)
+![2.after_add_submit](http://drive.google.com/uc?export=view&id=1OjcSKO81aY_MaUTgYS-GFhKI1XiI94_n)
 
 Submit 버튼을 누르면, 폼데이터가 action의 url을 통해
 
@@ -335,7 +335,7 @@ urlpatterns = [
 
 로컬 서버를 켜고, localhost:8000/polls/form-class-ex2/ 로 접속해봅니다.
 
-![3.img_class_based_form1](https://lh3.googleusercontent.com/4ZInnl4H-BARgfLtrpPzZ260gYEu6meJATtUPEFFeShxthlkeXgxPVzGoL9ykcktM6Slagl5SDaXBAIXsPFOUHd7icwUBEzK2uvowYFsJ6zgZ1a4f59Vw-fv-yFghV0MUdER0ck_2FKpB9RN9AXCSJjhPBXd_yvhCmgoGDw-3sd5eeA4uFVvuwZC2x17T10DGci4qmKqHF85fn8g5y2OwL3meSpZaLBVhp4p6yWfpw-G_2sTQnjmo3B4cC0r57Jty6b_u9jFtpEnQj_rViOYarEDPrbXbUukQHKaLDTB2kyMLD75MG46mL-VqpacLNhqBmQLtgIKJ821wfskydKG8L3W3ip2aUFvqjoolFsHFOqb3xLAApxXyHYlnXEUSPIlipV9jqYj3_P25rAxQcXGRVeMH_fb7JTZQolfEdCrFy5mR_If8_7vz4qEXwUuSwRbpC1YDYTVgEyBqKjqKxGWLc7dDybWgwxY3Zg88sylQVDOtDOkBawsl4Z0eRS-R5gIuo6-zUm0W_NK3V4YZ2qJt3c_0EbtBY9kx3Lco7oisOumjnd-ZcRGdxv0czmasGMRZX5bjZN_h483FypMfls5Qu7r0iGnylIQpDYaauaHkQ=w1506-h440-no)
+![3.img_class_based_form1](http://drive.google.com/uc?export=view&id=1vYHIjj17VMFdsdhezUHH9qE8vOIq5sOv)
 
 함수로 처리한 폼과 동일한 것을 볼 수 있습니다.
 
@@ -378,7 +378,7 @@ urlpatterns = [
 
 이제 localhost:8000/polls/form-class-ex3/ 으로 접속해봅니다.
 
-![4.img_class_based_form2](https://lh3.googleusercontent.com/u-8N2XA7kUIUkJygcs_hbL6YQ9sWSNrvLTGnkdYfM5Ho7hMrO9NW73BspEAMqkRk33XQeNyDqRmO4AlfjIK6UcbT6ue3k_LMsncgVEUjx0hA6Hx_zuHNznN-YhhqBV_HI5yU795zcdTYUdRy9aRnucWiL6Fha0amJPj698FrWb_rxnbySG43YmXSxe6AQ8bwGXOYVFZ5uCsor2UGHWa78w15-rOf_ML_4LxUxwHgsGkHqPa8XFk0Kv-sNQ4qUl29rhJkLjRMAXOv2tGGU_P5rGbf2OMP3YcNjPmk2Tf5PmUpRoENkl1MTSir2wD1gutDiqxeSBW1RT9E8W5srgSj-IdX-E1t7evH4tXWct4Q-aWLYTNVhqrDRD4JHeBgyhBwpC51qkdsL0mhW2UMpyijqdgsWMilaqWernUqgkF6PtsWxGAVL4dp4GbT-AldHHFaVhZYz6Xlb8t9JwP9-vYICm3mk0dQOSjF_-YGnLS1VP0o2QOvPC98abqktRn3g-6jvpvBRiX1kWOk4kCqo6i5qn_S1Wx7SWiM24wqoIS-g8aVXYSnymxcf5e11o6EE7rVZtXPLf7obqKz06DteBt-QNOZ3XsV2_rM71ZQi6ftnw=w1520-h528-no)
+![4.img_class_based_form2](http://drive.google.com/uc?export=view&id=1XS_xLE8k2dwRq9tRq-XjyA9hvJr4PU54)
 
 함수로 처리한 폼과 동일하게 나오는 걸 볼 수 있고,
 

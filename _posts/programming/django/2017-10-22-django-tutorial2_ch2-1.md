@@ -53,7 +53,7 @@ pip freeze를 사용하면 현재 사용하고 있는 가상환경에 설치되�
 
 그리고 그 텍스트파일을 살펴보면, 해당 가상환경에 설치된 패키지와 그 버전이 적혀져 있습니다.
 
-![1.img_requirement.txt](https://lh3.googleusercontent.com/lefZObTcSSO_aEDHiRopFSzxGnLvuUpaFdDdxMXX5MlW92Wfjgova4nQDy38OZNKFurGPWnSqCtwiSINlOQbh0vWhSWYUOs-EUIxICgEa5_SrmAwepeHG6_SH4NlDEQBMpd85jwve_FNstJbGDvqHqURmNku07gVy2_HApSCmTXysHQXnl-GGss752yVjRrlFnyEdhxa-dQ087WgOHs1xONsq-BEuxhwZ2aIRcqdmggP_alXlCB1wFzG7F5drXO5ICd1l-bsQ5fIPIN-E3BCIC0sn0DqyfyelOp5lKzgtJumMalRvePWHyO4NcbAPVCpiM3gBRVgoCYw_iJDCs7YPSK27u98J2cYfNAy2cK-ZvmEQSIECJEAIeNWWzudMN9Utsfz1Z0ceqQ4bWtlIOzI1MfZFYtrWtGWokCmvCbFLwsw8gLU39-p0p3EfuTXhNcsf4Id-NGpWM7o61rQkYbtRDQhSDZa2hayMrHuUfUJ_dpiAHlu7q5UVEjFhdTsX8xY9yCe1WAtYKJhz5bFl9oJHEpbLR5T5UYU_03DtdaQMxASxDmTpdDo4GI62Pz4Wbd9yGjqPaqsX32Ynmij8ESn3OFLgsvyRNbsoxXwJyAZ0g=w1014-h510-no)
+![1.img_requirement.txt](http://drive.google.com/uc?export=view&id=12rG-VgWfPSVyyEB1bqwXlEuJGzFx9JGM)
 
 <br>
 
@@ -69,7 +69,7 @@ pip freeze를 사용하면 현재 사용하고 있는 가상환경에 설치되�
 (venv1) $ pip install -r requirement.txt
 {% endhighlight %}
 
-![2.pip_install_r](https://lh3.googleusercontent.com/AjEkZRPXbeiihXCNC0sbJwFdzFZxM39q9EioghTKucu9ey_AGQkrBiFWdpccdZX6H82dERvAQej781inpjm5zXtr_yu8owM6I9Ef5Rklvzq6e--yVFqkcYAIlZvwmseLTrRvY2rEO4eWLSv3JYSqSKXoZ6XV_H825ZclDXOsBwrhZ_LQmrKwJ4Y8r8rbKEcyDLlDTPhU3dj10luM-OZvbaJWEP8w9iGDUM_CoYb3M1VPNv3fLO1BGqaDVQ0NC_i5YYoTPmO2YbkVNYnnkQ56EALHVo7OVg_loNeKUzs99uCtB0RpRnPtaUelJ71dH4oHTzONWlCJaUrjxUIaEGn16QNOthLZbx5v_k3sorrlYkD0I_3LSMruPfjrYw_bfNnz03zt-RkmR7MsFfh9inyTZwAeri4Mz7K-TqwcPJhn72l4ylUZ4zOMH_nYaTIdZ9FlstlBVm5lE20LW0-HSaRFGLugEFN88r3ekHMZJlD7sDdxUqHCsiDezdzmodOLQRhVwnkWpe5JewXRooykEPXjV7_MEv4ugrvvwPxdXmKC0aZI1r4B0wA8wLZgf4KNppGME1YHENXdPtZRYSXiGnM2TDlHE84tN-SLbjo2n1OrRg=w1546-h862-no)
+![2.pip_install_r](http://drive.google.com/uc?export=view&id=1ZMhnh9LnOXWNC-81Erc5bPveKbK3x62G)
 
 <br>
 
@@ -81,4 +81,4 @@ pip freeze나 pip list명령어를 입력하면
 
 해당 가상환경에 설치된 패키지 리스트들을 확인할 수 있습니다.
 
-![3.pip_list](https://lh3.googleusercontent.com/m71mU4ryc_31yk4PMaJJ-krvJC67rD0edyle5_8yxlrk4D5lem0M6UWifRSYEeUDxH0sn2JJ0x7h8BU1jJ_rovkezi_w5wO0uHIzC7R-SVI4zSUpfntNYDOKkLs0_SupL8laE57OKBJUq86sDy4bjBPWuL_1-R8r3Py9HgzUvEAXVmbfcK2awZngfFLzpFqPwZPlu2r_1U6kAqk2IggdPvlzF8zo9Bksb0EZdKjq-yyVF8qrDfxdyQyx1OhnjUkSMskbyqYxqBx-wh_bq-o6yY4-Q0BsD4czkzYv0uopk3Zf-neeUzw8OLdF45Vj_kvs9FxXe19KRC0FlUbVmb0JvVAQsiEoP2fJCrvpgIqVEXHNS8D-upPqLKZMea1SUyNhC7o9XWnV1mEwd4m_N17O1ddlQGfFjWH33Wzhme_MH4JADZlwBczkBG3hfu9euCpqIn29U4VBnWZo8_zltO0HRIwsx6i9_UxThxZYi6nj4k1YL05XXzNVp_XD1wBoNWb8EV4ywk4vuiLsktl-ecsGcG9mQbmIBakhXKA0Z4eLsZHWePmaDVxeXOq2ITEysmXlCjRlKAW0mQfxwf23ajC2rSr6tnp__xTbF6RZbpjzWA=w1546-h750-no)
+![3.pip_list](http://drive.google.com/uc?export=view&id=1X1J3k7A1hcOjepAIsqFS-_PS98K2yh5b)

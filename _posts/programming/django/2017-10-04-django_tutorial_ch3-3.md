@@ -36,7 +36,7 @@ polls/views.py에서 모두 함수(def)를 사용했죠
 
 하지만 장점을 먼저 거론하지 않으면, 클래스형 뷰를 소개할 명분이 없기 떄문에...
 
-![0.no_reason](https://lh3.googleusercontent.com/1iewAajBFbmpV0IVKfvzC-ze6jHlsny0DzUITzCPdqFms7gFkvPk2rrfN9ceQkgID2CkfXcEEqul4J7WWD8KLAoefANfpGrURvpGFqOEbRXnIFLZ1bwPmbjaVV8fpvwLga51AflpoQRpKD3g_QsYO14kYau-wbdEDPgAFmITEw0aKIPNDPaHcWZL0rwbfk2QHIz_cKs0VjeaQjoqhalIQayHav-gbyxuS7FBsyMd8-83J9NX2IVzP3EH4zwIMSyfY1hWPccqTP6xGUR-PYDSyU7Bzp9Bhxq1-Uzoa9HBBu9eXMORK4DS0QXlrpr2fSbE65F8p6Mo-phuvOR8XbUJyybZgmkTWXxD5A3PwNSsQvH9DsIR4ox40ss_AWqSUTMjqDYcH0PP8gZhrfxNzbaQcesicOXoeEar6lG2UpkBGGmN2KbWwWOVVxG75Z3B4Tl3ehToMZG59LENl-gRbIqzAuGt1EuwWJBEwmcQIV_wTedRTDjYRqXRbT7Vwmqm8kKWgC5nu8qyiufJShoUyjoT1Y0Bplz3loybdJKtZjiLVpIVcCs5vUiqxofl-oPPZJSK6f1GRfjgcenZehqzaJIYFvZFOsCbl5OL8W9NywaB=w615-h320-no)
+![0.no_reason](http://drive.google.com/uc?export=view&id=13_VrKyGjfjzvn0TbdyiLU5xylrJEGqa4)
 
 실제로 코딩하면서 장점에 대해 설명하도록 하겠습니다.
 
@@ -46,7 +46,7 @@ polls/views.py에서 모두 함수(def)를 사용했죠
 
 UI는 다음과 같이 기획했습니다.
 
-![1.UI](https://lh3.googleusercontent.com/NFtWAeJ2_zryKoSx4J3xvZamWddd5CWoUF-AHf0H4Ed_BnS3l4JMqHSfwupWqM2ndsFte5_njoJUW94WebmhCk-kd7VOSame988AcQm8wTgLVsB1Fex00hXiWElyORoWFgNwBckS0Ga6HNmQwN_awxvHSDMCKtjrXMBzn6S1r7Diu_G3msFqBldStw_rN24LK2q0rYUIru2Tw2CfcoX4p3M6opG7fx9LL4zwR9FYVa04TtXV3UJ1BdAGghKMGkVAMkZaCTcxJyQpWV5hkX1RNYIw4_TFkTExzjxlGbTQ3KDl_O45j-0BpIppTHeg6qi4SkrDt5PmFf3Mn4QjZPVk_aeObjE8j9QLl_EM0ERlgEPAPsdXNcalqCQolX8Ps9F53kdaT_G8P0y2sT5nedD7KEHdbfeR-ruHU44MErLTG5rWwfuRDAxjaDPIKvR2j62KBpdqxDoP643bTmXy7wkzz364MGC4UbdQAnIeyaR-3diVRAmE0HHXLMLmWbQaMUZIEG7xnMNlYXp7fGdshCGTSjRtd3vuQn7QIS0utGOgfukZ3_xye_lhMQZXnkCHo9GZMgFTMYyZpwVhOVpVKQbcvOGrhjcH1qNY7M8fiL6e=w1750-h742-no)
+![1.UI](http://drive.google.com/uc?export=view&id=1-eWIZris4jZK3PWAuwHYy8lPutjRn-WY)
 
 index.html에서는 그림과 같이 3개의 항목이 있고, 각 항목을 클릭하면
 
@@ -124,7 +124,7 @@ $ python manage.py startapp books
 
 그 다음 mysite/mysite/settings.py에서 INSTALLED_APPS에 'books'를 추가해줍니다.
 
-![2.installed_apps](https://lh3.googleusercontent.com/QJHbs2etoMRsGSh5PtpaZUq2rvIcyruMhupiJiBY9E5Z6DlDrMZF9TnXNiP9sWFQKZzjhmeDIg92I0ZPh6-eykotrQH9EM4PlKYrqe15rPymry_yDdwGhaLHBHrWUKB_vw9bZ07JEy6yDpnje3T2fbu9Qk5QxWYNTiVafK5PKgDu6nwTQq1HDgEoGCaFmJjXVOABxa57CIaWIvJ-5JNGB-NQFcC-1l4zuMeabXRF-NcjUmGDNIQo7DXRT86Ghft_4a1Y6bhEHwPxOoXr4N62tfBqyh8oTI8slJs3mUW-5WZUI6tbnaDGF_gHZNxLaqVN__SmcihO9rRtRx2V621JkC57wBIEwB406bSEdl7PRSgLGrg-x80C6NCVVISXNv9dUSY4yC6rcu_Gq36c0W8VK74F5cEMgd3aVFKRX3XzwfaDZg9D7bUIhC-lkVtqHAbYSZWH7-JKyGjlc5PNl19qDhzaoUDNGv0CZHXte7urlJpRKOPFFKmdNlf5buK6hmp9HYbzF6d8tfEBAeCYSiBaVbh5yg6wVN6G8E81sRZL0KO2kJxwnQU-qdjg6nNcZOBbhvgEDDNoVfgs8ap2tubVVtSstisPMQYTs2LxMT1P=w1386-h486-no)
+![2.installed_apps](http://drive.google.com/uc?export=view&id=1YUGKAKnzPJEh2fp5ETi4yYdl-iJCLUY4)
 
 기획했던 대로 모델도 생성해줍니다.
 
@@ -198,13 +198,13 @@ localhost:8000/admin 으로 접속 후, 다음과 같이 데이터를 입력해�
 
 book데이터는 author와 publisher를 FK로 가지므로 제일 나중에 입력해줍니다.
 
-![img_author](https://lh3.googleusercontent.com/EiBcX4FZu-VjWeVq87ZdR_bV-hpsQv-Cf_RUBxEG2MzfJXVBz-svylOwDoquaCTVbLLLeyMA0b-uFBwJ5NIckzshHCI1_tbHd24qCMXjytjqex81EZc8qr7JFlQq0Oz2a6LNKDLD5v3CgByMmYHSI3JlBEsbA9N6-gDmQXnXYEBCG7YYhhLlQHISkErTGGLEhK7_hide0nOdVP34hBEovC9GdItNFHPrN1lNfNq3eyGFMbA77_lrWcBs5VYrgdeaSDB89ndIP2BFzWaDttIcjRxlzG5pV3_G01Go5ps40Vgicj6Ea2V43gko27D6OrqJMjpkP3gnGZJpgVN7tbh3PWkgBTAN5kM9poDg2YXZhK9K22NFhry5KsVUzb0vGTY6rL4Pe_NgU-vd9Jn3OucEU7KndQ3BH2hO8Qm7949rgdwYG4yR7KcHHktOY8lh7NvbC1bGFEdBx6WeuHibR_Vbz-H5Rk0O4CuNdKQKdToJluM-4CqSHr8x5ESEiJKC0OY55zAKNNNOaAxFbV_YcqZqNCYST4Jci6fJTLreb3EIP23bRZ0AkHK16CDA4h2yYQdaNVR9Wwj4QAANyJRGfvykei6JiU8_wWN-luC9TyrE=w1498-h1510-no)
-![img_publisher](https://lh3.googleusercontent.com/ZhQNwTTA9A6XY6dbgc3s0ZGxmgrBP9oRVEC6gpqEL6t22Qirvmvnh0G-1j09emRdAP2TsocOSSyIggUdVJuJfwYS3CHUKQu-kShU8v6lnrGFwlUTEF0y2nEGBWHck1rUE4xpmpV8JlmQpnchzXRrStognO1DpUJqOl3ES5hnIi77M9UHK4eCDuVlIraOwNybjnlxeSndSQt4M4syoHyQtOLmW20-5QCYnEaWiOfa17XgbcXSnPhnBlvzSv3kq_COADbeY6oT93Jia0P5vbliCZDoLJ_ZAaIwu1709cN5zrAM_FpTjNE0R8LQjM_HsklFKFJRzBjPlMteQiSxopccnobajdTERisr9UasjClDP_LcdDJNCUageKWWBHYgMDTaEaggjRLNz6ARRDUAFsnlE1RA-0CU6x-r-aHnIC6pTbLR-OuFUpSRZwREcKbCUe4gHNqamKvA7YO0GidofVOrB-KeDTk-Mi8_4-lraEgp7Ahy5W7kerNbHn41-JdSYpzXiz2GRwd5DrBwEXH6iivCynGlwfTULOjoWV9QhNyrUjnOl5xgOrc0F0vl2BOYaRYhp_XnFdSODOCq-07sRWG2XxV658olBPLIVs6PrHFf=w2090-h1510-no)
-![img_book](https://lh3.googleusercontent.com/MtgqUL4n0mALCsIUR6uI9AQjsV0-KbNWYf0HBW52tfCo1f5i8fe9ZMrUaw9S8i2k5UKB1tZFX8I854Ne20CHCmPPu_UWM7CqDrasF9qqFRfTi80XJaObVExnlUdBh7uNnVkhWgnD9chy9LEYJCuf3_e5eroItPomaVji8WDL0WtXykNkWJFYDoLcXI3D3ht_Id3_TWQLjdh8VOaqselv0WcJ8ylg__FgD7ompGfSVjVUW__-stQj-jWHRQ0RpbCoKV_bnKt61VzSbxSYCEFFbC7Y4oj13WV3ZPDOsULrRMvlKGmdc0Y_nlttgW5CgwQySmTWLntC3XfmKClcUI33rLpfogQMFWnfoVSMqTJYplG6mVRRXtmifHnQ4eJjXPyel-X5F21y-UzazsJTSB0qEC7BQj--SRv-LEAtotXfZ3X3fBwm-9xormPT-Tawzy179jsYbXuwQJSlfXntb_7mrQXB4RzcYrjGKMwLiHh1UTRM1AkeW3aV7VCmipq7ZxK_dCzHMAO8mEhoOgn6GRB646qqV7VSSOfynCrqRcTcqD1RHV8Wgp5Hi9gXzKXkjVVwe2u3ufc6Or3gx2Tc7D9p2-nOpZVzwfJuPuyijblS=w2172-h1510-no)
+![img_author](http://drive.google.com/uc?export=view&id=1izVFXnRrB8M0CvXreWYx1D3-i3SOKu8G)
+![img_publisher](http://drive.google.com/uc?export=view&id=1AdKxJMFSDZTEJWfx3O7ZSi3MBZaYXt14)
+![img_book](http://drive.google.com/uc?export=view&id=1kMZZP4J8ZfmbVi25BHM0qlUwp5YdDmzc)
 
 book 데이터를 만들 때, author필드는 ManyToMany므로 다음과 같이 여러개 선택할 수 있습니다.
 
-![img_book_data](https://lh3.googleusercontent.com/3YJF8WoRRxlBDTXOvDrOnXgTDZbbzVXwppFoIUE707YAr9zByahwLazJoAtfyu4KhEJPYIX3tg-ffkfmqgjUTzrMnHHXdmy0OYCKFaIy6desF5A9VtDxVWRYYX_sEjA2Z29M0dzz-iW6GY42PtOYIGbom7R1oVSSBjNS6XtXXRfb0v6i4lumjohDFYo-UjdoRVfpQNMa1apLu_XAz1-TmqvZj1gqxMDQ2JXehd0fPtNmo-BKWjh3mAuF4f61fOC5-bR4G1Kpbdozy9_-b6TrFuXW8P4M7x6kUw8wR0X9JfJBdsjQmXTnElJzNAKxtycyN_ue3yCXorj7ogGdAvZSdiEje1ISr7pdUWYTNIsNX6cXmkGb7EgVIJ57bfScpqG1vSJjq5bqaPvI4HFGDTdzHOI9I2-dnAV6BdDiPrggQXuPLpq_A4Nx23UVN67jb861zE-JQTFm4mKq3NPGv4nRg2jcj502DvsHptnbwfNy1RYV1PzaDg8ZB3H2hfHpbnS9pKC8QgvCSfX-GEiTXz26jbDOhXofrAyRe7kfwlMiNJYqnsDQhhhr49kN7HrAk81hCM_WVzhP01gz226jMu320Otqf2wIPeenIxqO65bu=w2172-h1510-no)
+![img_book_data](http://drive.google.com/uc?export=view&id=1m9agBgnkhX-46-yFVhIyQovo43MrA432)
 
 <br>
 
@@ -691,7 +691,7 @@ Authors:
 
 먼저 첫페이지 UI를 기획해보겠습니다.
 
-![img_first_page](https://lh3.googleusercontent.com/Gax4DQPMoSR5lLLMaHKr7D8u-D-BoL6t6d74gwB-oSHJ6_8zftD7I1HhdBYpd-6F2seQHWZIBc7t33Xvv1aLRFtUYNN1yBdQNcxhQQuJEDAS_NKeZtzHVX1f_JkAJ1L0HjkK7C--k9mztxhLTM7XS-CziISPsXXfZYD7rWBKAQF76lzkOs5Y3g6DJ9n22XZuMfTDPE4bam3g-32wXZx1E0nmGF99dldOk1l0M3giq4dVSG2HYO3V426ISP5JZdXqellk97GQRNyHmItbjhv7oVJQAHS3V3FeqLFUI2tAbt4CMvHv2Yxu08mVTX_E9jhp3EBdACFicEMbZNARyk4t_0tiL_-iBDQ9dB21rRmEtQYT-8wwKFY8M-jdKk7taysEJA8TAEfiKexRizJvuwLS8vR8Yr2ZX33R9o5YbV07gIEx_fkfBqd2cWx65oIsia0d236ZKSmrXLRm3D5S-lqaymJDI0FnflkpzvWMLDGdFuHtPgg7rIAmzrDDUrP8fZ8ka-XvL_y8UA9lH1kCIuVUgstoq_qFIRAZkkfwcqpOHQ2odTxJAF4a7_Mj55P4r7cnnH_8Cfyd7BM1OH-BGYsMJv3EaEEtV5URlyW02ka0=w1298-h780-no)
+![img_first_page](http://drive.google.com/uc?export=view&id=1EVtc1GJyHYWHr_LDCB8BlFWPrdGMh1Sa)
 
 위에 Project_Home과 Admin은 base1.html을 상속해서 나타나는 것이고,
 
@@ -773,7 +773,7 @@ mysite/mysite/views.py/HomeView에서 context에 apps로 변수를 넘겨서
 
 polls와 books앱을 체험해보세요.
 
-![img_books_complete](https://lh3.googleusercontent.com/fLySUmgM1bRiYUOIRzDPePoXsrIhvvV4xWSYWYaC-gacFWGcjU9SSpptuMqaa2n-bcOQYAM5m57FMcj8pzoIKDBugsV9Ahh-yLg3kL8Su2HvC3XO44FjSVQiF36yiEUaEsNcInvg-TwXGvOi11ETb05dLVudAtV9aCM1qGePUzMPGqzw1v83TM9hYU9COsybqaClswUJsGioV4LZDQrE16bu5c5B3YIIrZ7iIM33phlXNTvNR63hTLyHG9kb52OPnmYBfnBGICjSFkWSCyLml1SF-chizt0YO_oll7zLL0wn1Hufkj3KpOYQ_nQPL729WNGWUd_d5vA1wT0ikvOw429z-F9rf3ps_VQ4iqNZ2W2IbXFHQ12Qmyn9CTvTHTd6_K4VKkxQxqXjNzUCSSe_RQBDnl0wqJCix0b7x0mt91pPsQzWlt7RtaYPLtICV3FEhzKq735E-YcNeAmFaqFqAtKjrLFLlk08oAqVxXVijamzAu2hkEjJ4UUpJA1iz1_WY-NDcYKA-x9TryT6qqvw3PrmvtrLrQ3YPSUlVbH75RpGYweykGxMgOtzB44YlzUoC1MBqq16rBSboZIXzLskiVCbkAAvLDstntLFf674=w1870-h1062-no)
+![img_books_complete](http://drive.google.com/uc?export=view&id=1mEUNaTOQhBJ7XLfsU9T7PU8yyWFBOhzY)
 
 <br>
 

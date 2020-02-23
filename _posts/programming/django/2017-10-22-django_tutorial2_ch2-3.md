@@ -17,7 +17,7 @@ comments: true
 
 이번에는 포스트 화면에 댓글 기능을 추가하도록 하겠습니다.
 
-![img_disqus_first](https://lh3.googleusercontent.com/bW_G-mVb-AoxiXOm3vV80hsyshM7byGgwoBFzWwqZoBPcNRDK32GlJMY6FvHjfd_cIltOo-b-ytiG2GVeTRbbZw46LlN4rSMDbhttnOzAnD7uf82iYzcmmAFo6LLpUk3wGy0ZIc4S2mZvu8kg54SHV40krsjnjlETND2MHKBapn2osnxfakwWdU3CuhaIxRiOL53I1s8NSJac9CjufXAepVkWSVrT_UvbUZZD5nhSjP_XoDg9TUEYBqafkIOvWgWpRSAFpvSU4T93Sqaj5qs3lezj8ycjD1pjktUzO_gnYXRrK93h6grRCGU74q2-7V-qnSiwqS5JCp0KqYvViriQO0j337AOiPgT3-HZaxEboNk7isuUVetgMw_vc-XfKS30hQuOcVLMM-z47G-_nK8jx2AhIpJWY3Xk804jb6f0eOEepWs8fMPDyzgxnZp-fW2s08LJ9LIg8ZWLSuFPxF_pJAB49GsKD9zBryJ36jJ0tTXCYlrvfgeoRattTppkB9CxrYNtbOFSX3zTnPoToWQQwRo5xtSJj8MdEHFlfa2Fyq5NY2MlGcNX1jpJB39kf0McCvTDYQ87PdhNLvNTp0SqPzLCJnl2Azu28EKH_8KgQ=w1350-h1320-no)
+![img_disqus_first](http://drive.google.com/uc?export=view&id=1K8PrintpSEr_O-dFM_cRuhhb7UNKBcKk)
 
 이번에 필요한 패키지는 django-disqus 입니다.
 
@@ -35,15 +35,15 @@ django-disqus는 댓글을 로컬에 저장하는게 아니라 disqus서버에 �
 
 disqus에 가입 후, 로그인을 하면 다음 화면이 뜹니다.
 
-![disqus_main](https://lh3.googleusercontent.com/IRjjgZ_denVD5SPLbgfdTC0vr1jANzwyIWRvXJQZWRUhsns-Lqx7ihd7fFgyFyTWX-3lufJLi5nsHKKxF232uqVUTbuk80XUMDfCYxZYpx5uaCkIUgkatYxiFwGMSFmwOSg1k9J2gH_NhV9gveFokNXOhXl5gJ3gIuL0YfTPo3Fe6T0qZ-p2BujzZ0mP7AV-vCBCpLINeSDJHr67VLinyY54aWgRGxQEF71dgjJZvTCWouFdDtOLebofQgwdxT7x0mP63vuvEiVScAsvGAY7FXUSBfxFJwtzzBomptQlcPSVQv00wQ-2TGKdPJOdjAem5DGmrd2N5sxmqtJjv42VtsIfE6_MIQulFlUhqap788VGmNG36kYjMdkOSCXCUpuePE_IAYljVlh_jfjhzEGt8crDzA22cJFmkoAJ__uz39wqGQPa00vI7IOo7LvvR93VS3fIK4-HsuTvCOpSUCM1tOGlNbLfdS4XdXGJEqHYCwe8vl5497i_W-D_pc76V1Ov3tG1-MaTcdCzk0yULCAaWuvg7ZBPf4H2sbDmMtri-7DfbE-Lrz2I50LZPR3MIxXsZSjgKD4cum0TakMaIyT_G8MrU4abIMn21mHN2-uiVw=w2054-h1106-no)
+![disqus_main](http://drive.google.com/uc?export=view&id=1_5COctXtroT1uko9EjRALlXGMJjoOweM)
 
 여기서 우측상단에 admin에 들어가 다음 그림과 같이 새 site를 만들 수 있는 버튼(+ New)이 있습니다.
 
-![disqus_new](https://lh3.googleusercontent.com/T6Z-qJLBQUrg3y30Amnics9eB48lo-m1yG2NfTaskfhcsoqVmHk6jmMbTkqE6zVnkM39QyV1r2q2pg2LJu7z4ulNVJwy9fluQ6-PvrZmsZQCaJ7yFB4vOc3BRj9ddDs_38ASVcenVzB3zauRUk5B9s0m-fwa_g1ly2Pfk3t8qpQsp-3UYiTiMegSFOAkz4maWdgDkgamgqd_uLXAKEECfNP9mEaWJV8g4opXFppbLZ1XKpaJbxhADNvJq7h446rl5654CURzqs3NnimgW2MxgFjtDMhsue9UX4vuC3ERjInUSEjyk-0lA9G7quKswVEB_WLCqPrVlbV_1j31HUdQpo-XmP9tMYVfyon6fWQPIUu3LZivB_hVWYxQgKiA3NbTE-t0cAGiFsV6Ty8WbleOQi5Wdkr2ujE-CK1WdbIrT1o9nrV0R0wJH52Ev34WhncABfsVTeVNWcvpKLFRCne-wYrdkt4JYQHPLbXm2-aVj5z3UvSOW5TT54Nqha7AkMcz0nr1AH8HsTyOjWyZ5421LlWu1Xy6YXxSyY8XD6cu5rRkX_j38PaeDWCvYvdiZokU22BL3l5kKGa0rbcx5pjNYUtEDabtY7B_1uvd9Unxbw=w2054-h1106-no)
+![disqus_new](http://drive.google.com/uc?export=view&id=1SoTholI-Mlni2ocs-GcpiO8Lp_m6Ik2E)
 
 그 버튼을 눌러서 새 site를 만들어줍니다.
 
-![disqus_make_new](https://lh3.googleusercontent.com/0VCeCrzEkNtaaUYxCJf14IAXcYm6haHo1v9w819DL9fd8SiWdKTXvPQRVCXAqLOuaFARQB006E0lgwwKP4eus6Hv-tuQz6ry6tmdqROSfeYST7zE-Kk1W8arQC2J0Z0yZxt2UE_xKGt0yn5xbEkYjJc1nCmkJpuKCvBvC7rv5o5gpTUaNcZZabc8S6GslmWJjGSPA5nSIGQUKlEloOYsYfO8gYBDU58X9ZkK_Cep64tBjObEar0sHGK7AGGHRYGzZrFIQMs84jBG53ffimsi_b9uxmS7ipVazMPfwxFHnPwx519UjvqZPysC8Mq2MWkAziapfynvOc51X1GRLQfh4Xc5_8qqsqiVZVDNYHopKRtlki7Wyzt85RRATPYAWVufr_grMRo7K_2WfqpdU3PxcJQAMg7EHqWgvJwFqnZ6mzs0ED1k3bbsPmxoGo-tCor-vUu1_JNGnqgg--IF0Tc6Qv1SDFp-5tCHrLqeVjKD6_akliQCGgAf1k2OoW0fSTzGJ--AmFVahJSmyYiuew-O7s8i4ZSdb2sdnwW737XPPNUHbIs9JiQ7R_LX5GAmTxIFSa09B_5ZYLI5wlQn9ERzojbiZiIDvsSNBL6YJ3EbKw=w2038-h1320-no)
+![disqus_make_new](http://drive.google.com/uc?export=view&id=1LGwdT_3k8j2HBF5kNT7I_gS8AGgcOySy)
 
 website name쪽에 보면 'unique disqus url' 부분을 볼 수 있습니다.
 
@@ -51,13 +51,13 @@ settings.py에 적을 사항입니다.(여기선 django-tutorial1)
 
 만든 후, 뭐 고르라고 나오는데 무시하고 다시 메인페이지가서 admin에 들어간 후, Edit Settings에 들어가면
 
-![disqus_edit_settings](https://lh3.googleusercontent.com/eLnjm17XUYTsisoJP0aM0GnjUkzNJjcLdv-dhVU7NorxOSzN0FPgF29L3t5hnumNNptfFgvYqHLVrgiktGlgR0ciBSlJxLPPvqbW0ueQwyP8cuKk9AdbLhLrmeLiMv-ZigOwUhSaH-NmXYm5HMmoyG6z-rWoCCfrKW6NPR0iYwLBeS3up-NB6M4YacaMAlybDczXhZlRpStUwF8lNkG-YWVHHdKCixGIN_I8pH5M1ZK5OH66EHqrgM7irPg_X-Yd5K8aRwC5vOaWTOkMmNlvVhs4ESE4OXgPB5q3lyK9knDM_TQrPcb-x1sTdtjtxwgTscX5WlIkc70h3VM5CAS3fmvAlqcfltw6u3zesag7aTeyPljLu1r47Y1rEJ-Df0cdzLOLjGrA3kXQIxog2DhSZMXXJQ6tZkhwDDEywgyVUv19RtGR5rGnosZ2QKSMz-NYPu0gsJUmoE9L-yGE8-5fBMm3QmkR0kk91OtZizOxEWLhVNae3lLL0-utvpBCOXMH9GO1VoJxtpIqXKQhBWXQsIElKUajiJXI8B0ePqDyXCUclDAEthufvjV0aRLCt8WFqGW2ltEKCSJp39JRRaMtegq7hlZTNp81F2_tLZpq6Q=w2038-h1320-no)
+![disqus_edit_settings](http://drive.google.com/uc?export=view&id=11nOrk8TsDg2Ka-5yLETU5_abTqdVY9bm)
 
 다음 화면과 같이 해당 site의 정보가 나오는데 여기서 아까 말한
 
 settings.py에 적을 shortname을 다시 확인할 수 있습니다.
 
-![disqus_check_shortname](https://lh3.googleusercontent.com/sUs_EjSfitVSnRWXfim7JxlxLQkOarKboeq3JPOMxPSkfJohs9XBOFMfi9gybeeKoOz6APbBLeZjfLPrzU4ANvspf1_6v6Ep5ldy_qPe1GetBxBe211ukxj7Tqof_tata2T5QKwCb9PVJ85ei2n1q1PbjiNBejwYKe3dvZ-reOG2Ap9Gkss-ey-Jl_mCCgcsgZxmp-F_dY3wOMipBM-1alK26rgPExypXOdrgTrSfXhzBt5ME0mmN3dRVOZjQgs_WstCM9tNsd23MJV-Yw4T52fmZVQ0HqAYt2v49h15ZCiMWVklC6WIrdCuzGwNSdr2CMd1O46xZ0Jotcqfl3xgund6MagoTk6oWZ0n0g3ZltdvfrcoELQh3hT0FCb2hJaH6CppSmFzAct-qQQRyJhxkLqJxcY-20Fd00hrl74CXL920Sp00JJ4BqeqhvZqCaqJEpCA3j5CAbau4dyth6kD-iTVT_QMEa97CZPVJiAHu18HeUO3yrcq-5ahBJmObRm7OcvbR7hKda_in0aXJT83ZPkgaXD5qEDu53eloVXEm2c9NLwnkvpf9bx5SWHZrKLF0aCxsUdBIdKMK1jXCQu8BdPDLT5M6fxs9R0YEfcPuQ=w1778-h1320-no)
+![disqus_check_shortname](http://drive.google.com/uc?export=view&id=1F4AbG2m8VVwHKvNUNUh41EBnAsXByNeE)
 
 <br>
 
@@ -185,4 +185,4 @@ SITE_ID = 1
 
 이제 로컬서버에 들어가서 제대로 댓글기능이 구현이 됬는지 확인해봅시다!
 
-![img_disqus_complete](https://lh3.googleusercontent.com/cW6qFc3U4as_9XGIj66iheWDsJ-M4kyKjraP9lFi8MEMyS71LiDArl8mPBbC7oEV5eNNOxtujpgOPXEjwUgpHVuH_msisMrr_FQSUQrYEJuEBjYx-s_svK8szm-d2qfSzUeMIbffZCNrIUe3R4byfnQDjC2xPoS7Rpz4IYFTN7LkhWDDwP-4F1NV8pq3P3fmHc4yMQXQ01CmBQ9Shvc4TOoARCkbRWfzHMx8PrA5HMy6lrLC19_hnkvwWaM45lyGyROqQvTljMzHbGyEcmXOAmcwbkKZDlApbBI1gsrLM2KjaUUUluMRUfaTJScqietUt-f48kgoar39r2deigZDR78EBkYVkumCRl1cBT_qAB8--WiYwBWgFrv8vilqldlu58EcKUkfzSXODBWFf5emMAtIf4uTBiG8RWFUU57OfN5QMOgOiwM6a4xpuy9O1PX2KFNFSAR7ctNu5YHTLih9iFyrxFPI78Q_SFVVYbJGqXz_eky2DT5M0GCRfgbY2ISERbYHvmiG6jL3vfFli-ngh_ZtGJ1ZRrx-L_nANy8Qg2MfphggqsdF6jMX7Meobok9T0xvMNVqLIB9ts6o-NCoxEHyDlm82y7ocxyy90nJUw=w1350-h1320-no)
+![img_disqus_complete](http://drive.google.com/uc?export=view&id=1UdErb4D3Cyceof1s5eu8uUOoOkIkQjBO)
