@@ -243,7 +243,7 @@ int의 크기 범위를 넘어가는 수에 L을 붙이지 않으면 너무 크�
 
 그리고 1byte가 8bit라는 건, 검색해보면 쉽게 알 수 있는 사항입니다.
 
-![data_size](https://lh3.googleusercontent.com/zmGZcvFtzK_6Rri-X2zcq29Cs_doxu8Lte9PsJfH-t8OAy9a8_3DADLtdnXtLbjfPZPcpSYgeVyuiuJOjGOjOKzU8ehhNlc8FPPH2vezD9nah0nG8l-rdOycGEZtjlJjRcfOhekgw-XJB9EIZ52ol3seQ-HjMI4I4nLJIYnQs_9Vga0ufetphwkI7Qvlbmr-v1RCLLKz56DxfWCeQQUKV4HfH_251Px2r_6LsXQP-lbwDG6iv5POVgsia0DGcEh0_0IZvpXMs7QqBbwjI1I1v_Uk76bOI_92DcXXE6K7_dNuaRDbejLuyyFXtolWRFe6VSHLnidzJ8Y7i7Zdc3tzzXyddW5UKFFM_IJpUwynpSjtKwqEWmwSypvuy8Okncs6Mzkq-ltYlPjmyxMpx8qYov7Jz6b7-wIqwoibs0GW_oXE__LDIVryUKHNfEyUgaHd6jJgPZTYqnZQ-VdfvyrqNY1KC3fQd5r8BV0nG1BihGjYy_Yl921zWfDKRSXttIAyFsrWkMPMcoBrpb-7XlKgsyTkDEU8YbFoWBW2gJ1m_Q9tD5-UUeMMYrYWH81tUAPeS-ptndi-NY-NlkLpUabGpMP2NPOfMkzYu1FarT3Jlw=w1258-h568-no)
+![data_size](http://drive.google.com/uc?export=view&id=1jyIG2UrALQo0kdN6idTdDmMzroZkhWUC)
 
 위에서 byte의 크기를 $$-2^7$$~$$2^7-1$$라고 했습니다.
 

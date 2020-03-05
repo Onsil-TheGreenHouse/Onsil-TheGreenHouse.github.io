@@ -118,7 +118,7 @@ main()메소드는 자바 파일을 컴파일 하고 실행할 때, 실제로 �
 
 (슈퍼맨, 배트맨, 아이언맨, 티모, 티모, 티모...)
 
-![champions](https://lh3.googleusercontent.com/4VbHtcr0CIkVjho7PU1ap6GBp_ZHx-8fYw9vV308vrS-SP-1hvjMqvJdXdRPzJeYHDbj5IJb_Y9M88e1J6mLP5Aq2yWQn1IXoVu-RgERnZ15WXOYMdEn3PgaOcK4MxiA0lnTsNVEY8pee02P1I1vI6RvrvMqHulAuV2RKBeytEKxr6q__8suhdfttdVHWaJZIMXs3qwhZeJfIdsVQ1SRhnoXQ1-CDWEn6O0Z0rjHGwwE_u_tDjWrzlZlV3FLEmsPpOQPQGYGuNtnJ4H2Xsbwr1cQyDveXyvbdi0PoXl08dJ0oIOCR5dDDhJzdBLLdF7kbiBj6FNU6GhjfENuBeX8jeVd81_NMe1SOVpexv14lOF-4sN47aVJoCAkHoJ0ZaqwaPOXI8KLXsMtfuK5PwiaHcY9uVn7pjTs3zdZyz2_Oj4TrebBAgZenNPyHtqL3SG1vEGWBtWzR_L8jwsmnITjx2jjL9FvUaqXJyI6W6mt-iuTN0pAoyKqNbzaKBxn6OM3PtShucsijX32emlmKIxE4A1EpZPrmg518XKY-hcCyN1lMcWVfd8WMYLxp4Ll39XXbTJgmZ9PbQ4K4flOoYIR35G6lyszdVYpwpdNlV7AOw=w1271-h321-no)
+![champions](http://drive.google.com/uc?export=view&id=1WRf6ujfSGKZbaqz4cVCiUDJcsZ1Fa8Vi)
 
 이 때, 슈퍼맨, 배트맨, 아이언맨, 티모의 이름, 공격력, 방어력 값을 저장한다고 한다면
 
@@ -304,4 +304,4 @@ class Calculator2 {
 
 컴파일할 때 매개변수 넣으라고 오류가 뜹니다.
 
-![no_parameter_in_object](https://lh3.googleusercontent.com/OBrKW0He5GytS2jJ1BgdWi8TAWS__VhKsvWg7byEkSKVOFLdpZLM2C5PhbAiLn5YN2bVSgcWsadsEep_a-Ua5Xzo9EFrFpPinZ6RbyFs2FGDqRHDm8XoJx5iOH0Z4zvnsJLxWb03FoKkvdDqUjkWm_foAYacfzvJ42SrGCP82-ZOGgGGGb4Id5xYePzSEQEOXPP4IrfHnt722bY3Zeuhl28-KTi_vT-ysl9gCKN_4LzbUZnQjEY2cY1ArmgM1fF-_sglNyspQx3FeBGeANZPHotGW2_xZ59HtxBqQK-fxdynLLDBZD0_W7msf5ZrlP4BteSCRDpZSHJ8h8WFcSKtqJVZCWaWh2L7MgJgWFLggtgSTZtLfbNGqO5vqtjz8pY2JiFJtZqeCJlXf4nhdVE9HYtUQkeUQ4gT6sWejQCJp90Ii2XTiXkVnJWua1ijK5iJOHoeFvU74P_hKLxjEfwNDfCDLBrxfjdpFudESne5eYyZvFBsHHwp8YwtF_mXfjeDD5dtpf0q_wlwqCB__QiNNX_Tn207eqRKKhL-3QaWidwziCJU0WtZ3xIqtMXp9k6p5uqCUXmq84Tw8AgYMHeVb4npOA2ca3e4rPD3k1CW7Q=w1378-h984-no)
+![no_parameter_in_object](http://drive.google.com/uc?export=view&id=1s_EaMmgODJTOV9CKNnRxEL0bFkMPwHUG)

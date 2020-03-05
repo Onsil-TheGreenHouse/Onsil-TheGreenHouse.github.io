@@ -98,7 +98,7 @@ if문에는 위의 코드와 같이 여러 조건이 붙을 수 있습니다.
 
 진짜 teemo인지 확인하기 위해, 이름과 공격력 귀여움여부(?)까지 확인해서 모두 true이면 진짜 티모라고 외치고 있습니다.
 
-![img_cute_teemp](https://lh3.googleusercontent.com/lrfUKNvQQ1c6fb9a1rOn-R6qaiD2CfRmD5IPJ7VUonltuJANhRp0L4hQ2btocwWTwwioQAO8ySIXE3nR8NruVacl2ttuD-HJ4KiEV--9qZr247ywFzcYjKOUyGBCwjMd_vjn8_5lFtubt4ZK15BURngNlIHFMsJ_yL2DU6614awDOfayiohOJ9fognfQ626_AlvtrcL16LzVPJ-m9g8bzZ9Rgm_md7N9mn42yjRaJVHXd0PWKNRAutUlEh-bB0m1bzlSK-r4hNq4cbrr3EBoZf5LC8bki96NX8PDSWfJN7G1WAKg4F2AcPBpl50i63hlcTBeyxHqPTDlGnW-hzQomXv8eSq6UZpXHt0jqETIsDYYDahn0USSM_CG-HbHSebkQ-_szsiZ7slFrO__hswL3sFDb2f1W4TpE3gDSE46Fi-gPTdxwv-QomeVHVN5APK3k0xjwuWh9CPXb5LJ27v67_tMwcWK9XtAK8TJdFyAeAPwUeEuKdpWSrPxUXSMR0Vj8SjzQCK9EyMLXX__4CLq47fIc0iC8TVL81DxespT1tDDlNqqQheVk3b8R6IE11ZH5C054KFVQ-5Odu6P6Nb0TwC9nsgi8jHV5GEoNTLJ1A=w500-h393-no)
+![img_cute_teemp](http://drive.google.com/uc?export=view&id=1aXMkPBaLrUsN5M2TkgENXuWsbOLGwWAz)
 
 <br>
 
