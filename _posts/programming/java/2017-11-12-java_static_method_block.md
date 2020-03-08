@@ -111,7 +111,7 @@ ex2.name을 "Jinx"로 정의하자 ex1.name도 "Jinx"가 되는 걸 볼 수 있�
 
 올바르게 클래스변수에 접근하는 방법은 클래스명.name인 staticEx2.name이 되겠습니다.
 
-![img_static_right_way](https://lh3.googleusercontent.com/UNS_cqfFcHRy2K9cii_5EnxUOm2kaZ5VM5-n2AAQi1cHd8Rn4YrpcYQ6JKZzgp9L_thqkZjOWWAmVlEVrWDFPmI0qAxHGYiC8P1axQgutxiimIXQQwX8kDKLhL_p-GOI2DxKzqVAZrLl083Zp-OlEnVCUAjhQtqjjAef3lN3n5Wx2576jXY4nfyPvm2QmBGTEga7eZbUo-QkIAaFT_tmjzeF5Nl3CCbMysQAJAaE1aJYFDOfZKUr_KSiTikQezDkH92p3xpCfLxhkTWMZUazylBRIYlUmNJxpx-0Ftfnfa94UU9lJYDuvwG0ulpqVj_WiPKIT6y9ZkFlsh0zif8rb3VFD3iBGSAnFraIZNB9fM3bFQyFx5QWsoQaz5tl6PD0CrsqCGIMtnUTcFkB3am-ZxC5lLWxLF0bRkwOWX0PZoNIUZs8Qn9GmL22fV_kY43LnF2p7ZYO3-3Kb-AIcx68pus2oqXL1yAAZ4VttEIYZocUDFgfih3tLxU5QjVfDKufc2zEAYiyJocREEgwh5ZDgd_UU1GgTZP3ozd1e3bfzExXRccpmzocs4LYEEItOeqrEyjh7raO2Eo3q6LH1R9Ud0i24xDp7-H2xBR9yyglEQ=w1318-h390-no)
+![img_static_right_way](http://drive.google.com/uc?export=view&id=1UXNoWOIuqHo4I6FQkPoCyzUSInW7HSdr)
 
 **The static field staticEx2.name should be accessed in a static way**
 <br>
