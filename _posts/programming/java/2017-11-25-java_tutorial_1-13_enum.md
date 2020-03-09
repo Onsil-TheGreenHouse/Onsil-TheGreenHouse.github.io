@@ -197,7 +197,7 @@ Object 클래스의 메소드들은 1개 빼고 모두 사용할 수 있습니�
 
 java api 문서에 Enum클래스를 보면 clone()이 다음과 같이 설명되어 있습니다.
 
-![enum_clone](https://lh3.googleusercontent.com/5PMv7Q5MvlqTQoZkumzK-oP9p9ZydRmR5-K7SP38K_F-RRJfhFqV8VbPVSVP514DQImV77TzKlhL5xdE2QkeJXVSR8u9t3kVDboaRE-0pbua78MMSgPJVUEFp2rJ96EUyA6p2c8fKh4Iz5jCf2O2QmI2mWygrCetiQAbRg_pX0Hx6k0x09Q5Ahr2rIQ-ZbsqGjvM8tEkkOIsLg2dPMXJTY3b1QAy_8woAKRLLIrDRCIjM6Pd3c4tartsOAS52pTJAN2J-7MCjwY1jAdThWsItS2ycZTiUYR_kRfwnthM_Miky9kfS0FG3MCchuUXP4BDj1-lTjOtjPwTi2tnQNCYjOHVxri5NmYhjEpjxpY-TC7imOMmE40f2yOmLOAzKQkZ0-SeDuPDkw9RiHlKp7pmThWk4WCIOa2Y-r-x_M4-vlwMa8HyHY7-L4bauenohb7_39eEAKJlGa0Ke0viot1DtG8VpC5lkiIHkEsnvjUWhg0xbuQO0jXTy9J6IUW4aiwUKGCq8y3T4irqqnEm5YS9MM_1Wv_o2OZjOW6Wh5cUmdGYRIH8VgXf5wl4x0WWTILu-RLS0ugJr8qDMNE6-Qn2vVPd-KiAEq20UIrlVZwn9Q=w1816-h648-no)
+![enum_clone](http://drive.google.com/uc?export=view&id=127Oj49MGyXW6u6wHFqfnENopgb_gt58v)
 
 'singleton' 상태를 유지하기 위해 clone()을 Enum에서 못쓰게 했다고 나와있습니다.
 
@@ -263,7 +263,7 @@ value2(THREE_HOUR)이 value1(FIVE_HOUR)보다 한단계 먼저 선언되있기 �
 
 API문서를 보면 values()는 다음과 같이 설명되어 있습니다.
 
-![java_enum_values](https://lh3.googleusercontent.com/kMeLd-3Vt_6lik35rwmQ-LESF1IxdsSGO0vivMoUBkv5H6zcyTPZxXYsayRF_UJrr-WCv9JDis5B-Sf4rtIynEGq82wiYEc5jZ25Tx3DX710XOqpykzL0cX5iAjVIB_qHUBG0onf15VNS_JzNRwx6vS1PXMrymKRlrFHZUlZESrlCnMh6PqjsbY9HoBk9zWoF4hV1btKVgykmYajQb8v6pCQt8CQNBEcVwWMMMXoH5ZfpOLP6LaEiMVw5QuL-FF8CufKrzugrFpInuv1r0CmXiCbU2cv0ptPFB4WNVVppxp0fqC3UoMJR89DMXlMacVDxdPkyg_bJcskGtaHkGb5yRZS-emnSqdPHJ89vL2j2MGDxjoo18S8173W4gYfyz-Itz-AwFWBOC-xd_nnzRcTawtnAChOkOVLLZVnrYyaX241CtS0yQFyzUu_0YnkPM-TJB3oIFwCInvAUcBvHK49naEfqL_UOF6pHKLyPUI2K9vJ-LQQjyX7viH6d8o5q1CU14kIYZxgTL7XekNjrvggzw5tD-uvkTBUfxg6tsGOQ-R0eLv8a3W_Cdg_AX3P0TYOkDxyKebeTz_wHMqElUeE-Kbbs_VmsiGV_iJTv-DOyA=w1832-h976-no)
+![java_enum_values](http://drive.google.com/uc?export=view&id=1Kna7fe6Huw78vedvOG2ZGT-69I3jx0DC)
 
 사용법은 다음과 같습니다.
 

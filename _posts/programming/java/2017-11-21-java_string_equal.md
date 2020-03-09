@@ -265,7 +265,7 @@ GC는 자바에서 안쓰는 메모리를 청소하는 역할을 합니다.
 
 하지만 Java7부터는 Constant Pool의 위치가 Heap영역으로 옮겨졌고 GC의 대상이 되었습니다.
 
-![img_contant_pool_from_perm_to_heap](https://lh3.googleusercontent.com/4XjM5BIsM49NroFmT5aB8dx0KMsy3X31LFR8e5xBIbhIyszfgyMZlTh4yjClSv-pjrpjtyi3z0-XUk0z5HBNrpY3u96H-lR4FE1m8W0wqiBf0unwM0qzUJpJxjMOK827IVgVon5FKTes51eySZhy_5m1SPSbPjmaGO9WPQyJkko6D7YRpGgdpYqAkwiRT_HHZmoLz39IKnu6s3Yrcwnwwe5j0f3Z4wYsNb-CROhk3Lv5Wds6dr9oKL-bgZTh0-Ta_ojcG2CosgIXoXKuLjt8ObkwZvaxd7qB1KYPcQw0UJ_0n7hv1r0JJK-UWsb9y1lWt8OMZOBYFxfZgfUxmhIV8aK02-WL8uIY5WJwPGrYv85bCn43phIuE2CcS_7oGCxLgzKe_KtUcqUAUlaK_WJni2d9Knj1ME4Wr-er3qv0yV4OZBaxMh4J-f-zJNxhIXGUhPC43Vk9ibeP_bQo8_Ni_C_niV4wHjEoMJKY2ZvxrTn7rEHv7Gsh6HgkjY51OBFdx3jGm7340WuRfwoP0pG5vr93jCvZ1ZaqiHAPBGqmZMcnqMYK56fSF6JsMpdmF4Gbtc39HlN21_UuqtbjTmu99a-hfyLF2luxErqf3eXddw=w2462-h1098-no)
+![img_contant_pool_from_perm_to_heap](http://drive.google.com/uc?export=view&id=1nHCqF3xjZo89xfbtj-4oO_UoIzuBfrE4)
 
 즉, 저장 용량에 한계가 있기 때문에, intern()메소드를 통해 억지로 Constant Pool에 값을 할당하면
 

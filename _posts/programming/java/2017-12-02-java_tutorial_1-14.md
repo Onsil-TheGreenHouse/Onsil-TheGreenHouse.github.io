@@ -42,7 +42,7 @@ comments: true
 
 먼저 밑의 코드를 보겠습니다.
 
-![img_error_without_try_catch](https://lh3.googleusercontent.com/21BcRJBUTP9FS46WK3lzEUXpmJV8dkgzWZux1W_QYXxwzHcqaj-pT_uvdSsSFSLX15lfLri0YrjwO8ABj_ZmxTlO-Y8o3EjQFn6pD8TqfL9GECw2dln2K53Zi2akmBjbKrCvTo_8mr3tQmi5BFUD2Fc5NO3pgCwV2R-mxohyckBl8bmu4iKvU0rvSiZUn0L2D49KPlISHmQlwRnHpbUAVtiEOvARfgLks0ZGFirlz5lwDetjcRM-etMl-NEjzj4k9pGAGUkCctMGp1CsUIGyj65cYl3AYmT5BIvMeiwHFCBR0e3O56OWX3eyk1X0fnbIzaItN1RrtocX4KFjUlMYPNbvodeKbX5BXmKXHmWHlORvr1ERbwNaiL9lWiVzew4Srxd-qcPp8Z7Iw5yQZvV8iHgWdk_TVZj6cDQZvv9-z5r4rJnxHWsudUDnfJCo6BxL_qd6lUx58Hv7dJZCQXx8fCsQjJLhGthYQE4BT5vxlSm1weEM_j4Xo9dY9PM6qBCODlLfdzwqkbKnEzuxP3clavTB0pOjjj62474RQxY7fPc7J3Mjfl6KA_MyMyGKcXjBxSzl6AvVERZgXzEZu7eIBfjCAitfmHNDllaEeTJvzg=w1870-h1084-no)
+![img_error_without_try_catch](http://drive.google.com/uc?export=view&id=10H8_nHCSK24an9cqRQJPFe_DnF8NPId4)
 
 intArray의 배열크기는 5인데 intArray[5]에 접근하니,
 
@@ -118,7 +118,7 @@ System.out.println()이 아닌 System.err.println()으로 되어있습니다.
 
 콘솔에서는 구분이 안되지만 IDE에서는 다른 색으로 출력되어 구분됩니다.
 
-![img_System.err](https://lh3.googleusercontent.com/DWreiI6CgNFC4rtERZL6qaNwz3vvaqKmoVl6xyye9H6jD3sCe407tfCe68vUR8W6iMbQUw8LAWK7_w5XZXu8juClm4DGNq2rVPG7DvbRbs9xQ80Wye1ZHu0NddP2uXv4zAUlmrRe5Ih4fqt0krWDfStActEJR1k9NyNqXE39In1hdOOLrWmhRhBa_Ty0VNXq5nQq_y4-K2OHMqsWGg6O7h-AAXVa90qTVsdDLe-5nTr_03di7AFerX20SGHEcuq3EoY20xxfXkhi1IPc1F9GJBIRc2GoAxnHqpCds1Oq_4lj4FvJOa5GqmGys4emVmvIC0kPdQgwREO7FsvyFlpgso3DYMCJHfY9o94Pi1NuVmlQExfPuYWUfuoSBgzIcb0Ul-XKXHMomyufIBubVBm0i1bL1DvkRPhpDQU2rFfa6VeDiCtYKaSUJtKfthX3Ty8mvw5uVMUwb6rrxiwTEhFOY8nWx9Pxfo47bT13jyQRIh5YDjhn6jqEtG0BkxanjbhuXkO34ZiDcBQoyKzYTHd8CLMGUfgAS-hWNCVg9BD0VdeavC83iRw-mo9LqHBxu27VIOr8I528OL6DRBnYZO6JHSrLIUXhXJ5pkqfPDS3NXQ=w1058-h1576-no)
+![img_System.err](http://drive.google.com/uc?export=view&id=1KJczK7yVlpPPJqAcmNCTsh7_pjUIuAg1)
 
 이렇게 다르게 색이 나오면 예외가 더 명확히 구분될 것입니다.
 
@@ -130,7 +130,7 @@ System.out.println()이 아닌 System.err.println()으로 되어있습니다.
 
 이상하니 똑같은 코드를 다시 실행해 보면
 
-![img_System.err2](https://lh3.googleusercontent.com/su1i_jbLCcSaizEY1uSObXrYHfYHe189_UmfjRxQCAT04oS4fdMm84mpooyfaC5bxX328GQd6uzxgYhOqEGSjQmzRfRfKrsK1gukv49Yr_JIlw5EMVxjDCPcCFwT2QRZI8qM3su7qOoFsgsvjkcnUObMRfzWV1HuMKWyAulQ3HLVZmWUDGKhTTiD_QI7oi_w5fk2SeZUCaswwHHeAhWAD3sYhPiJ68rbimyXTy030sJuRar87tXCS2Fo0s1JZ5YFpRab3fVX9QdcTMatkf2ZstyZHYLciHmru8koAm2BTjONEJjZy-NIMNy2bNlzEpGUxCjsPgDQTBVF31tPdGWXRY8wTTFJjsR6NnRneC4JO08TTBe_zI-RUvkpNOFQgdr0hTKmj74Ltz-fMZVfdk8_3gVwkTlUbfri5d_JaWPH9y3sgBM0ca66A2mHrUdpqpNHGBgOrcM_TDCDk4mRJt0SEHLkxVMdIaKlrRly5HlODsRdU_YoxXwBGr7LNYcG2oVyS1_MrjewMJBsWmFmzNWkwFOE7cgwTrJNsC6bXqAYypnt-yZazVnoUoxeeKMcNhUQ5VeYxHqWBOppjbZWytLznGSd6YGoHPazjB8lEBHMng=w1016-h1418-no)
+![img_System.err2](http://drive.google.com/uc?export=view&id=1dlTm_Mg8RWrpvunAdS86yXL7yIFwlLWG)
 
 "catch section2"가 제일 위에 출력되어있습니다!
 
@@ -140,7 +140,7 @@ System.err.println()만 순서가 실행할때마다 뒤죽박죽입니다.
 
 하지만 이걸 IDE(저는 IntelliJ)가 아닌 콘솔창에서 실행해보면
 
-![img_System.err3](https://lh3.googleusercontent.com/MM7uWn0S5oh3b-tVFvVJjPvVGRsPYr8fjKM5gFG8kueGY1eRSc-sgRRMGXLAItDgrjGZo5YhbF8VGCdJWHbN6cTzlmUYmtGcWiM9MV2EIyFIW2tX-ZtSwwrVMNGufKv-cJSSOt6aHP29cGt6OTV40k2QLbC4M5iWUq7fjkXjnvqVCTQ-bmzZnw4pVV5Tzi315ZgU_-ohjBl0bwz7hx2U6VBrcbVkQPi4rBoDhFPxkBIKlvf7BN7tTDLvVxCneY-_phW8pKrR4daNjICHKa2NQzeUqqyMW9k3-ZX_9Kgz2Mc-RIMrEmb5BH99IZ30YBPjMz0uMtZErWV2mBAhU2usTDf9s84tYVWPO-rqNIOZphd1XjtTtnKxLl64zmk7UEjYHInPCmrDuMVLv30y0jVO3GJL1vPLjwMXX7n64Az6rtYwuS6Y6sb9gHEVkNUhraH5Ajy9Lp8jFurAKCg2vKgZg2axNmbOBpvirrTWRQ3VfKj4T89emphje2Eq-Q2EpIvJwaTi5L-KLIgfVW4K5pTv-_oP1zD22CA1noRTqBisROll4M05Om9ut03m7eAqqMlmTz875OxhHN2pDk1DNKR996kPyDaKf0saArRDmf2D1A=w1364-h1784-no)
+![img_System.err3](http://drive.google.com/uc?export=view&id=19zJypeNNV_MV-siBV5-znjW53LJyLVS6)
 
 항상 코드 순서에 맡게 출력되는걸 볼 수 있습니다.
 
@@ -365,7 +365,7 @@ catch(ArrayIndexOutOfBoundsException e)만 실행됩니다.
 
 밑에서 볼 수 있듯이
 
-![img_error_without_try_catch](https://lh3.googleusercontent.com/21BcRJBUTP9FS46WK3lzEUXpmJV8dkgzWZux1W_QYXxwzHcqaj-pT_uvdSsSFSLX15lfLri0YrjwO8ABj_ZmxTlO-Y8o3EjQFn6pD8TqfL9GECw2dln2K53Zi2akmBjbKrCvTo_8mr3tQmi5BFUD2Fc5NO3pgCwV2R-mxohyckBl8bmu4iKvU0rvSiZUn0L2D49KPlISHmQlwRnHpbUAVtiEOvARfgLks0ZGFirlz5lwDetjcRM-etMl-NEjzj4k9pGAGUkCctMGp1CsUIGyj65cYl3AYmT5BIvMeiwHFCBR0e3O56OWX3eyk1X0fnbIzaItN1RrtocX4KFjUlMYPNbvodeKbX5BXmKXHmWHlORvr1ERbwNaiL9lWiVzew4Srxd-qcPp8Z7Iw5yQZvV8iHgWdk_TVZj6cDQZvv9-z5r4rJnxHWsudUDnfJCo6BxL_qd6lUx58Hv7dJZCQXx8fCsQjJLhGthYQE4BT5vxlSm1weEM_j4Xo9dY9PM6qBCODlLfdzwqkbKnEzuxP3clavTB0pOjjj62474RQxY7fPc7J3Mjfl6KA_MyMyGKcXjBxSzl6AvVERZgXzEZu7eIBfjCAitfmHNDllaEeTJvzg=w1870-h1084-no)
+![img_error_without_try_catch](http://drive.google.com/uc?export=view&id=10H8_nHCSK24an9cqRQJPFe_DnF8NPId4)
 
 <span style="color: red">java.lang.ArraryIndexOutOfBoundsException</span>
 
@@ -373,7 +373,7 @@ catch(ArrayIndexOutOfBoundsException e)만 실행됩니다.
 
 java api에서 확인해보면,
 
-![img_java_api_ArrayIndexOutOfBoundsException](https://lh3.googleusercontent.com/CAGhB_qcmzSXXL2-ylvn_E9OocBnSlLNI7ak_aQIv3PU431hLVGRMNxR871SONHIMxdACUfM542crJaNI4-Fh8C01WKnSGtopVegqMcQiwM0bOHRhz4AP4DfmARGB7vPH80sqa5JZPl8hOLnI5RaQ3hNylxXphv5iBIGkei1nikPaL-sCYYaGBAWCfU6wVoteb62GAc32RsSU5onksNXFK5Rtg1KGiP22IfU5YFSOtZuwDMJ2vyJzj-5attf-f41Pl7b-qLB5rmjYs_KilCDm1PYBSOWxa-DrJquQrPnzebosX7rQQOXrKxRgvdW8_FvGdctwCQP2QazQo3s0iBN9FjxqHa1cqg85mzFuyRFCXL5mnlNGdjbOr_dzfDoGFw89UmnCIsPAuNnvyEvaw417cL-wuuvw8l-xG0uWNx9RDx-4rgjgJZiqM6Iu_XvMs45r_icALoD9qk3X72ukEDL6KUZ-iqR5fjIrtAOh7T375TmEveGZ2phobX9P7FwYn9GZcuKCeVmCVdmTzYgBGu-Z8IhgtAAUE1SAMqJEdAicjl2BrW1CGN6ASv9wW6MLKZyRa6_056gLHEqfg8r--lxZC2vi9kstLTexlRH8cEX6Q=w3124-h1952-no)
+![img_java_api_ArrayIndexOutOfBoundsException](http://drive.google.com/uc?export=view&id=1bDCclJsKFlIxIqzQ53AznyRBAAhF4jks)
 
 주요 부분은 빨강 네모로 표시했습니다.
 
@@ -381,7 +381,7 @@ java api에서 확인해보면,
 
 이 예외 클래스의 부모 클래스를 따라 올라가다 보면 Exception클래스가 나타납니다.
 
-![img_java_api_Exception_class](https://lh3.googleusercontent.com/PB1O3txR7FR6oe0DAt-O2Cg29xTaBZ2mQDemzqa4Ff7pXe8FYcHueFpweO8j9M-NYz216312w1_g0LdNlKC7bRSRi6CKdDDF_Ugm8GXxGqXmoYjmbawDjD9vXKkMDZqlBg9960pPLdTWB4NtGjwq3pZl0xg9bglNmFsTVvXE44CAYxooDwxa7ffet6qd5GM6vEVwgCrGQiBiUzBUdrcyJiGL7PWddq00FOLRqv4USIrrz8jch5g89m-Xdk1USlMZ2NtOiozra3y2TMEt9ucg7JteTjlSNinQHVYWKkIM8xrbd_LmoDa4e5XhGIh6IOVk9d1oaK0yQtBDpKwTK4JbB6z67bGGYbl-YBn-9-ax9Wqf45TMiSvLDEN5E_Cjuomjsca3ELKSXyATNmN9IaIa-RyD6lFrfvY47y3MK1Zyr5CPh6z_s1NSroc98NZjxoJL3kHD59T34mN7WGwaWs_Dyn7Pb0SbNvyCGikMg4NOu7s_VuCAqEjNgbCGmnHtG8h_ewcty8BKH0RLCUqdNC9dluJjqsdmfrOlsO0kt9nI3dVCrKmWI2KhPzZc_od37s6INVYJiKp44D2TD84anVKcoHCscNPRVMwGfCWO-s8QwA=w3124-h1952-no)
+![img_java_api_Exception_class](http://drive.google.com/uc?export=view&id=1f-6c-Fk4s3DPyYkKS1ULlvQpDtTHaywt)
 
 Direct Known Subclasses 부분에서 볼 수 있듯이, 
 
@@ -397,7 +397,7 @@ Direct Known Subclasses 부분에서 볼 수 있듯이,
 
 try문에서 발생한 예외를 처리할 catch문이 없는 경우에는 다음과 같은 에러가 납니다.
 
-![img_java_no_catch](https://lh3.googleusercontent.com/S0BbUzY_QD7ZfXETL87sefKzOxqHqt9Dtd-LLuLrbmFY_saJgEPkQKH0LLc9d5OmpG0DpeRkKRL7tYGmjYVVzBE_RkJ5XPIJPTDc4KNu_wflJiTxDg2q4QWBlO0RtCDs7D6aOCOWyb8aXYqM0tOaKYQe_tDOTHhslj108aWazzSIY5--3XR7AOwxlWsypMRECG-GmgBHZyn66b9ABwgJLW1n6PFwYGuxp0qjX3cmtmrikUunp9dnHbvKQuZ3pQlYyg6rwfOpCI3jzTwKdYA67gHCjKLdjdY-LVtn8gLU_SE1mG2izJmBK2LoAA67Pj51YhdliMGQ6uqXCib992gif-y7mKTz5qLuin9ix5y_tJ-psjQCR6dgsiRC3dXg75Nz-Xvix8sia3RvKOfJ_UERt_C8eWakAUTUT0-NYNjpR-5EUVZ9hOhd0zYa6S7hYLD-keHmCEq8Sopk8S6_XiWHbAyUH4WDvoa4gIzCeN83njfnkZaLou5JMv7bKq-RuVJmkf9ZZkvjk2BCz_ByMTUi3p3sTG7fg71ya9By2rQSRfutjvyUKxI8GBsMg1-umdR1ugnuRrUGIvpo2ds4W1uiioEAvlZo9eYO8DAkNYLmjw=w1064-h978-no)
+![img_java_no_catch](http://drive.google.com/uc?export=view&id=18-47bf6e9EZ3S83yTIkp_LkS5AR1262E)
 
 여기선 intArray가 null인데 배열로 접근하려했으므로 NullPointerException 예외가 발생하는데
 
@@ -407,7 +407,7 @@ try문에서 발생한 예외를 처리할 catch문이 없는 경우에는 다�
 
 여기서 주의할 점이 있습니다. 아래의 코드를 보겠습니다.
 
-![img_java_catch_order_miss](https://lh3.googleusercontent.com/3DhQBo5XZ97u20CDvxcbAPzfXETWpQVudLFN8q2UKtraUMrdLWWEiBGKr6psRGf_EoBEhrMduwEXffmgXKN2zouCQ3D2Xf5sJvPQxfFIHBZZoUx4GWkYMxYA7B9lI5QRgH7zcddgXggt7WXVfDp_IYj0DzSjEVMtv1AicMn8tMIplGv06lnpDueW2EsOxLJap-eU_ZT4FeUWdYcSVz2F_N7DoZYqkgMDwCH0G1hmS0GTObMc-iHMVGdWWr_PWD_izdW-7wq-imb9G3mILBWxzd5fmtv0-U5BqXF_4Uz2a5Y1Ahl4NSYWDemOQ146clHTbWhc70rl9tYVBY3uxsjBJnlKwcH-Cf6ZtAs3PZR7K6Cn7veFPg4K6aE7L4eazZqelMxwZnpUXxvEdoMIsvKa80K01BSZNQ1Cq7mVpaOUgICaEZRB82JB8TXnlDcMEorEoEm8sX_yDKOj-LU1Pz3y4V7g76vDmnR3ydHiy7jsLaYklCIbJDlvEysYd5TUb6HC6N9rJTLN5-dBJiNpGj6a0ITlt3PMKEYdekhrzkNqg5U9zT2OLnSXmGzXQkFam94EsxIuojwAm1Ds2cSMF0NaG02W4Or6egDbfiU0OM9VBw=w1150-h622-no)
+![img_java_catch_order_miss](http://drive.google.com/uc?export=view&id=1UVWsVE1JoUNYppuPNDHmVmpEoJ0TFuao)
 
 catch(Exception e)가 먼저 나오니 
 
@@ -435,7 +435,7 @@ catch(Exception e)가 먼저 나오니
 
 관계도로 표현하면 다음과 같습니다.
 
-![img_throwable_error_exception](https://lh3.googleusercontent.com/GKvuvB7JaUALvjjMIZT01nnC7OkX6slxwIOFhqNk_7H0DlrMn0RiL0ivtTu3TqIhjDF6w1VJUwpwXb269wFbK06-Bw_dOSJrgjDaFMQamDSE2nblkN5seZvfIik9UdFg25M8EIglM9Z9SLiLTF4ywXJIV25RsUTns5KiUgeBWrLTjxc6tLhQJ4kMrV_Ph-8vEkGUuSk8x7HiM37rvrzzyV68bbXoWyc6fz909UjAAdrbg2zpvfQGrCEqr7I3LXKqFaaLoqeNMvfjcYNqsUmS9mZHMSyKAVxbfvJsQDfEIJR4VZq1rHWfQPDBaTKIy8KHmql9JaXyxF-1RMRDzHy498pM0a7cnw96qj0KK-dN_skeHQdhXPTNInP35dWN6c0iAuwQzHeKgq8xe8b5FtCfbJYUIp75P_nUxut_ji65JgGimFxlkFU9DSPujIgmyonHPYLu52dFcidPg7mjKU54ftTZT6tCfCO3Bky9g9tQUlVMTQy3NAUJDEu7tqIQVjsTLjXKARwDlxCzVgWtvwsdxH2qTGi09VZun7bY6f2gTCi8luUnGCDw3r2qpSeruuegUvIZPrAbZi1TWuUY_cZQs71qZOGLMy9xKyy_gB3Olw=w1233-h810-no)
+![img_throwable_error_exception](http://drive.google.com/uc?export=view&id=1SCcGBgYK3WGxmlOnBb0QdjdaU3pCVUc0)
 
 Error는 자바 프로그램 밖에서 발생한 예외입니다.
 
@@ -447,7 +447,7 @@ Exception에는 두 가지 종류(Unchecked, Checked)가 있습니다.
 
 Checked는 컴파일 시 예외가 발생합니다. 예를 들어
 
-![img_java_catch_order_miss](https://lh3.googleusercontent.com/3DhQBo5XZ97u20CDvxcbAPzfXETWpQVudLFN8q2UKtraUMrdLWWEiBGKr6psRGf_EoBEhrMduwEXffmgXKN2zouCQ3D2Xf5sJvPQxfFIHBZZoUx4GWkYMxYA7B9lI5QRgH7zcddgXggt7WXVfDp_IYj0DzSjEVMtv1AicMn8tMIplGv06lnpDueW2EsOxLJap-eU_ZT4FeUWdYcSVz2F_N7DoZYqkgMDwCH0G1hmS0GTObMc-iHMVGdWWr_PWD_izdW-7wq-imb9G3mILBWxzd5fmtv0-U5BqXF_4Uz2a5Y1Ahl4NSYWDemOQ146clHTbWhc70rl9tYVBY3uxsjBJnlKwcH-Cf6ZtAs3PZR7K6Cn7veFPg4K6aE7L4eazZqelMxwZnpUXxvEdoMIsvKa80K01BSZNQ1Cq7mVpaOUgICaEZRB82JB8TXnlDcMEorEoEm8sX_yDKOj-LU1Pz3y4V7g76vDmnR3ydHiy7jsLaYklCIbJDlvEysYd5TUb6HC6N9rJTLN5-dBJiNpGj6a0ITlt3PMKEYdekhrzkNqg5U9zT2OLnSXmGzXQkFam94EsxIuojwAm1Ds2cSMF0NaG02W4Or6egDbfiU0OM9VBw=w1150-h622-no)
+![img_java_catch_order_miss](http://drive.google.com/uc?export=view&id=1UVWsVE1JoUNYppuPNDHmVmpEoJ0TFuao)
 
 IDE에 작성한 코드인데, 코드에 빨간줄이 뜹니다. 
 
@@ -457,7 +457,7 @@ IDE에서는 컴파일시 체크하는 사항을 미리 코드에서 보여줍�
 
 Unchecked exception의 예를 보겠습니다.
 
-![img_error_without_try_catch](https://lh3.googleusercontent.com/21BcRJBUTP9FS46WK3lzEUXpmJV8dkgzWZux1W_QYXxwzHcqaj-pT_uvdSsSFSLX15lfLri0YrjwO8ABj_ZmxTlO-Y8o3EjQFn6pD8TqfL9GECw2dln2K53Zi2akmBjbKrCvTo_8mr3tQmi5BFUD2Fc5NO3pgCwV2R-mxohyckBl8bmu4iKvU0rvSiZUn0L2D49KPlISHmQlwRnHpbUAVtiEOvARfgLks0ZGFirlz5lwDetjcRM-etMl-NEjzj4k9pGAGUkCctMGp1CsUIGyj65cYl3AYmT5BIvMeiwHFCBR0e3O56OWX3eyk1X0fnbIzaItN1RrtocX4KFjUlMYPNbvodeKbX5BXmKXHmWHlORvr1ERbwNaiL9lWiVzew4Srxd-qcPp8Z7Iw5yQZvV8iHgWdk_TVZj6cDQZvv9-z5r4rJnxHWsudUDnfJCo6BxL_qd6lUx58Hv7dJZCQXx8fCsQjJLhGthYQE4BT5vxlSm1weEM_j4Xo9dY9PM6qBCODlLfdzwqkbKnEzuxP3clavTB0pOjjj62474RQxY7fPc7J3Mjfl6KA_MyMyGKcXjBxSzl6AvVERZgXzEZu7eIBfjCAitfmHNDllaEeTJvzg=w1870-h1084-no)
+![img_error_without_try_catch](http://drive.google.com/uc?export=view&id=10H8_nHCSK24an9cqRQJPFe_DnF8NPId4)
 
 코드자체에는 빨간줄이 안뜨고 실행시키면 다음과 같이 에러가 납니다.
 
@@ -487,7 +487,7 @@ Throwable 클래스에 선언되어있고, Exception클래스에서 오버라이
 
 getMessage(), toString(), printStackTrace()
 
-![img_Exception_api](https://lh3.googleusercontent.com/FT8ZA0tmSFcy_Y3X1x7y5XT8gu3JcDh9FnePUIjR5QP0aHaXLGN1x9LChdObg6kkSCAF4uMF-NYpgoaOslYwuQ7Dmz6LK85L4q3Np22yyKRjMUdu1ilaDGtBESc98qR_nrV7x-i2i6kN2IU_syj0DLkyyYWZ_S01M-8djTPOgTyaxa4mCFN307AXSenpxMFLsdLBd4f46pazP7HmkhGpuum2Ee40wbgLnvzpmRjkbSnq1beauzcMUuN8HiZomBHhKtLTVJIm6WGOHXjCOOJEOLXRoJCZoorwyb9nGCeWUxWegKj9wL6TM2_xyJ3wFfKXMQjH8gJzvJVx-nBHq7obFIGmRf327RpIWFXXKgqDz-jqBvB-TYj8o5d5lC99vphHonJ-Ch7nEyB9Jm_2y_SLjP9Qp4D7h9SRQogJ_3EZ_H4udr92YB3nvelleoBwv3IixSwU3dwNODBh3pP2XYV-zdyISWCNsdpsr5-DpdDIdU9DMClLPNCGkffeX1WKfP9JaeYXCyOmjMzuFloArqM_aKopS50v4ulGWkjt6aoJUpOEQVRBnpkiv390jRvZoRxu-MmehCKInNHcG1ITmjiK82k7xrpoa5xW2SrsFv-iJw=w3124-h1952-no)
+![img_Exception_api](http://drive.google.com/uc?export=view&id=1UWg-twh8wLKZU6772D2Ujo3bEgZ6fWEJ)
 
 ~~~ java
 public class ThrowableSample {

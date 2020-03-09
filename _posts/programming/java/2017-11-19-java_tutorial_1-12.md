@@ -48,7 +48,7 @@ class2가 object클래스를 상속받으므로, 결과적으로 class1도 objec
 
 구글에서 검색해 JAVA API를 들어갑니다.
 
-![img_google_java_api](https://lh3.googleusercontent.com/4AcNjXwkyIbO9b5eRvo9xQyZoAqYxLLnVq9emMGIRrCcjRC3d_VpEeppnSEi2_CidRO40pJGUC6CZY5V_J0t4j9Rhgx2PXC58imnZUyQLZdSJpyo9MF4JLsDYyPFktnEyBqiGsn0wQUDr0_VQ4Xz_o9n58-hU7b3gEX3MYnGrGQw-mYKTA81lTVDuqfGjrKoKc7SMdy32Z9_2_UYd-C2ZIrZAL5tuwywi-0dG0mJsTk9sTnHPqcqM2ramxJ3viq4XJCA4vTIh0htbEDNPZ65HeTkxwNRwoXiq5YuU5fEnCZGRhzYCxXB6FeWsrZvQaeK6m160XbYdaG6EA-XyzdHSmGR8KEmW27f8I-W-VvSqZRPnzsCqWHroMN_VJ20Kbs3_wHFQjPnebgcbJw9TmNxaLQmLvh7ZwEwesg_lzP4H4u2WQGQIPXju5co6whxgpYnLdBYFX5rV9HDl5wMROef3CEoAdQNOfHnkzQpjdaNubbD__3QQ5ikkLG6-OAEOIOb_5eDqiynyk_-DEEgrBDNcHSthCOaBAa_oGJsFwgyXv7yn9ZPHsLsHSSm2pq56yXn0WZt5ZfFLtIJWodSS8ucAR4Ka_FitYJrtYz2zcG7lw=w1620-h864-no)
+![img_google_java_api](http://drive.google.com/uc?export=view&id=1kvK8CUcTMccPQ-SxUc-FcUxT6_rqoE1d)
 
 Java API - Oracle Help Center 입니다.
 
@@ -58,7 +58,7 @@ Java API - Oracle Help Center 입니다.
 
 제일 처음에 있는 Boolean클래스를 클릭했습니다.
 
-![img_java_api_boolean](https://lh3.googleusercontent.com/7qxCvoPz0iG6hOmTsP2QvbWg9zyjsc0K9M6Dhi82QqxG3YqNb23p94yuWmxIXEatUMm_Qzm3k4dYFjSL1Dc8lJxN5kiwTkiEvq02cm1c0EvW7DppAcc9a9UJaXQhlFk4gd1kJgoyTmG-wCITmOhbgztnMT_20eqbC4Nk62hHl7EwKXQlT8AfOluxUPYRG0sq14V4H_hbtWI2oxYeGwdpSC3gEY6ax9XgkCudgmfZbS6tnC4Z5jG58k3yfMVI3l9ihuH1oxafHtpFjNtluFvV3-XV16qsqDbZI2efgj7U8Aia6Z-q29Q30zuM4ke0pcHPJEzPANaqcsp8IPg3DhhP_kqa6RijfNBxLPs-SBAecumwSV6P0JIt4UnwGDrydqNN-gKe1qELw2JWx0Ux09tjNETJV2KXMEuMpqB3U4WDKwZbX-8UdIqpJ7TBvDCemGs5q8a69zqlSlmGYXC2xhFQ-0s26C5MnMhvltu4T-FQG4x0IZwxCYkfGU1cJmWDCEL6zWSTj3oVFNVsQP_jsr0ja4GMgVJuE4wCddnD5Y7rrNEDZjWevqPvs30ufduvqIL1llq3uC6Y-n5J4XE6Oa5SlNuS1e6yuXrlPwhWq1d7SA=w2178-h1594-no)
+![img_java_api_boolean](http://drive.google.com/uc?export=view&id=11EnQckeklmZ7C9LLna7LnViTubbo_bTk)
 
 빨간 테투리 안을 보면 Boolean클래스도 Object클래스를 상속받는 걸 확인할 수 있습니다.
 
@@ -68,13 +68,13 @@ Java API - Oracle Help Center 입니다.
 
 예를 들어 Float클래스를 클릭해보면,
 
-![img_java_api_float](https://lh3.googleusercontent.com/P_3k8kjE01EWDI2bmRCbGB3TS3T74dBOnrKpSRFkl90LER1NhLjm4Dno4zpyJzwDrDIB8f8KIuJ_M63gdzCZtRFD-TpBVoAY1v7kH1uNP_lsT4jy5TwxtSE1N40qwDonDoCFn4FcbCkoiMallUBfcKUhUShDzGHTwxiGZuw2NiPLW4GZaWnkifwQQrMJsBdguBWOJ7HlNuU9EIdM3zUn1Bq3J_H4S33JnlPB5YS27xM29e21nfyN_yDXmL4YHPxUXwZ_yl0HECVS6YtQNwms_baq8VhnjMgItasqgPI5FZGxXGQfEhinkczBLByNK1gYWzcrv4y08MQKT_azV7fAa1KwE9uGC8j4LpZ99JksBSGY9B4amnmHnasSq_KseqVsvI-8H2Ssfd-9OEEYfWyLt6poVsSVgDFvIc9v5rzmAwZtYwJ_0n4zg57EVv9rqTiFKViM6WJ_NzH8OF1b5jI_8BFPcQas_wSOGSm1mhF4XIGbuNeLvKC_XyTgPTfAuSceFvDtFUzCGLczLz1xTKUO455L5XNbX-zuTR6cq4M8R2J9DAuHgi-Gm49znFmGQpJPmt4SBzKeGFSk9-USN6LWHTEocs7t3-V-RbPDJmtSvg=w2178-h1594-no)
+![img_java_api_float](http://drive.google.com/uc?export=view&id=14cy4q8PL9sbKqOqjbLIDVrV6HeMc25Vj)
 
 Number클래스를 상속받는다고 나옵니다.
 
 하지만 이 Number클래스를 클릭해서 어떤 클래스를 상속받는지 살펴보면
 
-![img_java_api_number](https://lh3.googleusercontent.com/TbOlch3nPIfTB8AT3Fm1P4BjDD9gU-7pIR7nXC0NdJ7jz6mDsq3SHa2G3VSSoTehcd68reMhexMm5OBHe4LxllnWqpnOs_IToQeloW9lNmDzACzF02H6oWy8un9LhVkAo756rhrIlOEzthHWhESzhNwvqZRdSd7K-clIAz0mzNfF-8JIFXVZfBv7Fav5A5WEoR1KCZ9A7qWXnPCS-7tUGi3wdHH6hArsVTS6YNmtd9eejvGgNNU-Xng7Xh1AXSLSG0DxDzIld7mAL28wSAbxXK9tUvcaJbVVUXUevjpQPTIsAq1AYdNWs0dzJM9RQf7U7Au8p43IH94G2G5zAqtbZbMY4Q2QCDYMXBWD6x-igoZHmLOf8mj9snbJB8fVvtRuK73MhHcf1ZLe4aPD9ukueJcUfG0sUE8SRmzkhnOk4CRR-yFAwIGaex_IOReoAeZGDJWW19T1ISpzKRGdySSCmJfDRju9ForOfw6L4h_Ze1jmoKX-agl3JWWTNimdnC-FR5sS92pxpZ-0-q948ZeRUazRju2JbmzPDseierflf2Nva9qfo9DF-XMhepmh-SsxLkSJ0-E5iWVpYhBeZuu9ZKcmhix35ecpxG6INQYGaw=w2178-h1594-no)
+![img_java_api_number](http://drive.google.com/uc?export=view&id=15Gd_2sNtIGmtD1T9ChssqEv9CEdIgg5w)
 
 결국에는 Object클래스를 상속받는 걸 확인할 수 있습니다.
 
@@ -90,7 +90,7 @@ Object클래스에 있는 메소드들을 통해서 클래스의 기본적인 �
 
 전화기에는 여러 종류가 있습니다. 유선전화기, 폴더폰, 스마트폰, 탱크폰...
 
-![img_tank_phone](https://lh3.googleusercontent.com/O43JHDd7IpSAQK_WLulpJon-YANRP6Q4ndPiMLxrSFAZH6Fv8tqi__pGRqvIt8rrQU6XlwPVjT2b7pKz9VzXqvc37W1UG7AcwBIJqXPpeKFSWD-xsVSmHBouag2gepl6Mk4NUYk9znu8p3vKuJSSS9QxFY5v7gKjTlxHMJ6NRHAYscPhZRTPPdqb27rJ-nQyWW0vOkS8aJ0yx1furCRrLV3Xf4aRzctgWWi6Zgwx9yiVHOn48MtsmIISGt6rJ5bxOpvJ_C8ntQ77PBOtEBoUw4WX5mXOhSaGarP4mmYXLf18WMBnwDvNgWl0BlX7C46XmEvQz_THgwZqLN0sliF12JEHZpIvy5KJPI8bg1XaNfrFfLm4dTHAIOdszzUg_RQMLxAmfZzCjdR-ezB8qUkQkLFvu53uJzltGxuXusNyEGD_1VEDKTFVYjFBo1RO1kwu0sMTl54TANMJp01MfvUp8vUU0UzRzFldwTqdKrn3mYCMbBIUmPiD5bhrUNd4dJM-W06njaSsuL6YOhJ7pZxhkmdSAdQ-uIYsWR395gGYf6wkOi3I2Acr2AYW3uJKLwqr4I4cF6KnUUd_Tzmod0-HrdPPwp3igzehHzf8-aKZIg=s996-no)
+![img_tank_phone](http://drive.google.com/uc?export=view&id=1RLKIiSMmili-zgRZF-QKUAJH6ZE-irul)
 (어렸을때 집에서 봤었던 모토로라 탱크폰...)
 
 전화기는 종류마다 특색이 다르지만, 전화기의 메인 기능은 **통화기능**입니다.

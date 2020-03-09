@@ -46,7 +46,7 @@ implements Serializable, Comparable<String>, CharSequence
 
 Serializable은 API에서도 볼 수 있듯이 구현할 메소드가 없는 특이한 인터페이스 입니다.
 
-![java_Serializable](https://lh3.googleusercontent.com/ZpDoedLBmlso5zY8uPZPz56MRFJPGmRdWwQGh9x9uebAamHvvrFix2Tn1sur3CKhrtqU4GUW94TAkKQdK1kkAs6lG-t1vxxvSEZxue7WBWFpKcW2RwZ_bzl0Ktll3Ms21coytJRys-isAJXAu0gaF4xjRhBPTKWpEaSbe3UZcsFCFjcC56WHVjReLzA6ad8LpvEuEO3DkW9W8pcxSYB6LW42EWL-eoSm_Ve3VRAfELoZKoThKLqiDwhHWVbavWHFJhtadW6uIFVjhkzdDAyc0EvUJPDRQKiEADAn2ZBfjFxohMm2N3k2R7SFaVD6tepBvrCjW5TA0k2WwbS1pXrzMvNcCQH08RPm_6ZycSnhGTuw6VCkDSs9rpXbTo0le0donKZsnsR516mmuqQfrZ02Y-Kzbjj1bAhL_-2gsamT3z8unrn2lJDnXp1iYfRWB6jEqwDjMyrQa5X1hGJD-ugC-qvIFtAAyj9vrXWGJyi759fDZlBX_LCRXJBPaY2tK9EMk5NiqlRLamTrSNyLoKjdeIHwxBcsxFp_cGF3IEg1IIZ38bTHDHcRKSuCBREBf6INm4zIjfRO8qXeBHcHPOVkeSfVyMjDyiEvoOXkB0gVIw=w3124-h1952-no)
+![java_Serializable](http://drive.google.com/uc?export=view&id=1c_66wm7aS2r7xpvRWzcM13xRw-00WJ0X)
 
 이 인터페이스를 구현한다고 선언하면, 
 
@@ -56,7 +56,7 @@ Serializable은 API에서도 볼 수 있듯이 구현할 메소드가 없는 특
 
 Comparable 인터페이스는 구현할 메소드가 compareTo() 하나 입니다.
 
-![java_comparable](https://lh3.googleusercontent.com/3LHdg-uj_wHZbVidkZ6_ClB5nf1TIDNBpzqpv8szzuy-4kPjZf-EokrkZeOcHYow9eq7WSVHDohTvZVaJSZh_sKOBEN_cdMFdHWLiaiGSlJ08EXGQeWeuSdZVHy1RW-89-7-cHSQHeEI8JQsK-bGwPZyajk0Lo-1AIHSiWXOkXl1hgBRIkPvUl3cQOwvbj4wW1PqHVUWmpxiI85MRJk6ojMI3JT4Ybckfon_rKrmvtOHgTMbpbjOjYZDa2pbOeQIoC1PKWpZ53XCQOJk4gj7JWktxxFevwNEs3mNOmGJl39FXfWFP4j7J5uwv-Ghl47eQmcDPdFeX3pIbqOiQPKn_TsRqTJa3q0EgWRyQ4EpGJzA6baaPuWcB-nJFLvB32n8p_FybXBgNPc-sJYrm2WYtV6F7fSXQUZmHkm0TXeMY4xE8CtWTb8Ae99RV4uNZVqSVbLzZ_wk6Mu2ZEXJYQzecXXaSTUVskDmx-8H5r8lU63XXDOiRaELEoLlZOeILZ2YHyDxq3yFjtwb-YAnqwsoP6R_0mVgPm5hqWNlbWNHzHaiek_Z2lybJfxnp1J5yXNWB-8oEuYSpIfEQIhsBo8un75tcEEgardqOYMYDNhjdg=w3124-h1952-no)
+![java_comparable](http://drive.google.com/uc?export=view&id=1h3PHHcVkf4X--V3lsVaZ6pv2RlDnz9cc)
 
 객체의 순서를 비교하는 메소드로, 순서가 앞에 있으면 -1, 같으면 0, 뒤에 있으면 1을 리턴합니다.
 
@@ -74,7 +74,7 @@ CharSequence 인터페이스는 문자열을 다루는 클래스가 구현합니
 
 <br>
 
-![java_String_constructor](https://lh3.googleusercontent.com/yWjSZi4BjXutD1AM9m3-g-L0m25Yzxt5U-hmyaZm3U18nYbU2wTGhvuqrH3gmfo7_iI8cCCF-57nzwVYc4rW7j4WWg6FGnSixLkb5Xfj5YCvi_GHAiPWQZAArwU_uXcgAMaIVOs3wo80M7uit4jUFOJ86KYT1tn_GBauS1TlJ4Tv330KdLJqics4ts2Biw3vZfDQNdML5r-6KGzftgJC28CjvQsudY9ZH8T7MaH887bHr9Dn1km7GlTLqSIiVoU6iKB3Dc4c3k6dTuFlUAict_ZfpBDn8WNDvzmvM3EgStP8sBkXwLGPwEtjeiecZbX90qxypq4-dWQjzdY0bYfsRsq5ZM1vrBiQGFjNhKmA-44Kzfxkx744oWn9NBdmkmttr8j_p-iAJNYDCg-502SXnHBlmSS2kIJ-1K12ltEdfdq6Vy8A7-GJjQX5eEm9ny5cNdeMJ5G-jB7EzWYdjfVW1oQwh1RhtGA_dUVkYqB40fjI6-hVkRIpxhBsmiL-IHsvjbBWuIHqgyG4JI3qjxQlnsUrDeqGFPyt9ZgPa6-H1q2fB2KeHg7VKBtjYEBN-tjbyiJUqv2aFQAwF7wuwW-8qU_3n5pAsLG0dVOflY83YA=w2772-h1440-no)
+![java_String_constructor](http://drive.google.com/uc?export=view&id=19d-K1I3TdvT1zIxNZZOJIz6M2Jttjtou)
 
 JAVA API를 살펴보면 위와 같이 String 클래스의 생성자는 매우 많습니다.
 
@@ -91,7 +91,7 @@ String championName2 = new String("teemo");
 
 API문서를 보면 설명되어 있습니다.
 
-![java_String_literal](https://lh3.googleusercontent.com/Ez2dsVEdQ8HxTlzgwisFmLvd7_HqLvI6_zERo8rjrwXAzrpNm91xZbyTrVtfuo3XFJLja9FsVdjVr1nUZgVnVMIVgSxtUVLxtkGdOwdE7mvE1u-4HQYfk_AJGYsMmUnTI_Pn_JrEw3of2_FEB2Jvae3fZBz_392X6AoZEfmMWoYMPLBxb1gSMyKsc8xfCx-BbAwTHi58NddEQyHS6uo54NcipZX8cAcBUHVpa407nr2mYzYXiLxh2pVWXtxiri7qMfVeFf0RQwqK82lt9AXly-MLHcpuWd1h0XDZ9GaEMZTMyTyzwPU2THHwU5TLySX-hMsxPenEITQvqacO4OZsTiYjkNQ36qGtvbNt1HXt7x3R3FAi-KFWfpzgHLyWiGE8m8NaVicb8jC9kLltxyJIwGyQLUOWSuQTUViMW4itWCXNAWZ0i5sy3S9W4-Z7eaDpTCxt6YXi2Wn8y1hk384mryDiGXyKSTjXnlqhF5ITg9sbJ3hOhNmfyJ3nXwJgEdTe8WnR6vVz9D7Hd4TUsynJGjoNPq7Y_fMZe6QW3Db0riUQLYjR8gwhcWJymaVBtay17aUoOeq28ISQv0LcF_cpMNN8sF1xahfz8PY0N1rK_Q=w2066-h992-no)
+![java_String_literal](http://drive.google.com/uc?export=view&id=1NJ6pSPm1Xm8Hm2UxiSInlfxrr0RU1Uzx)
 
 char 배열이니 String(char[] value) 입니다.
 
@@ -126,7 +126,7 @@ String(bytes[] bytes, String charsetName)
 
 예를 들어 '가'는 10001, '각'은 10002로 나타낼 수 있겠죠.
 
-![java_charset](https://lh3.googleusercontent.com/CR-fbEx5rY4aXanTCQ19CWZtfG66FHJ2-12Dl2xCnbuXJQEWRgGMdEmpsmQWFj3IAJq1IZTIptExUkSH3RxeHZPbbyVP-mrDyBl4d2k_vaw3KUcgpJ7JbcWFsfgJfJ7SGx0S_cTsUEAW6RSShUcU6JXtavkZGlECUEha2wk88LH1lz8Gv2iUCg_dwq4QxHrtE_CSgNUDgB5aZhLrJEQEBVcnMIn5Hp24_uiMtXhOzIQlDza0_UIl-UY765fBZN2EvzZIWpGN49CgEEk964EvdyePe4YNh3uzYHamSUDdCYgBBke3hVYyH_zpxVFa4H0U4hTjXidH7HH0qrl1cRnZ7LFH96i1yZvXA2-N6etoV7LSRA_4sOOG4u4RWm01WIDbB0qLc8SzWLSDJalsYzsPehFAJRBIPvmBITcCntP5reDjOZaBZM7pI9YPie3sTzdsCLo8jHoY1iaGRr7bLfcFPSzrPC2kM1_gQzDfSbZ_Tzvz-HKquFXpbOWHnQHvWAA6R21HY1-9VfTM76xETY6F029A66asE2DRKKyjUEoa9s_A5_FCZEZ6Slfr5AB69KWvC0JEopJ0STVWySnxA8A1HjYZb0QWZ87qyPHze9gdQg=w2790-h1258-no)
+![java_charset](http://drive.google.com/uc?export=view&id=1SWhjT9Y1oWpBoSRN_7-zik7lj62jr6cT)
 
 API에서 Charset 클래스를 보면 'A named mapping'이라고 정의하고 있습니다.
 
@@ -262,7 +262,7 @@ public class StringSample {
 
 try-catch로 묶어둔 걸 볼 수 있습니다.
 
-![java_getBytes_api](https://lh3.googleusercontent.com/vCEyHu6qWnZrSwJrtIdU8NUl3ngDrH0eZfTjMBMY7URlpBHlGjYmy07-0rWk3g9cFyveHlLq3agCY0F9F_Gm-896oa2kO3BaZcA7It8Zy2WTdwipivBwLvzIrJr_OuGfc5BgCUWDb40CVomP6cNvNz5-Wngi3iY0pR7Ff-4ZHc5ySuHhMhamZ8vqn0HkI3r3YODXYq83Ljk3TM9Yehnl_STWZ1JrQz5Men-RJ1EMRjidm935aepr6ovI9mfhHKUnTxHj7aiSrbG0p1rcXKf33h3O8Gty7bl8X6iEXnEIRyRqgzsmH_MPnA1qKjGq-4NP-_S14Omehxo9qkj4CGmQQSqTdbZ1k399cVxQmUb2f1Zs-vtWSyOUunlFtetszGf2zp7kaiZON_Wq8NJIq8cQTvAr7nUSLAkhyJrvGjLoFyH-ZaMnLIxyRIRcwm8brIIc9MQ4QZMNQto_FFNpAylLd90ROg3bdKMPnSeibAnUQfJHuqZNVw0Iv2LFQ2W5JvTtZ98ZaW9Rtkb4daDXIYfYteV0COBRn7z-5qN5TeI26B4uUX2XQ-QD4lmjWZYFXc4Xj-S0ZUxNJQBHm52WBZqr_xXPARkuaRK3akGyjFokPg=w2706-h698-no)
+![java_getBytes_api](http://drive.google.com/uc?export=view&id=1iqD5t2y_aUXCl-W5IyNGe0UpI2YbaEXO)
 
 API문서에 나오는 것과 같이 소괄호안에 써진 charset을 지원하지 않을 경우,
 
@@ -707,7 +707,7 @@ str1의 처음부터 셌을 때, 11번째 자리입니다.
 
 어느것을 써도 결과는 같습니다. 다만 실행되는 메소드가 다릅니다.
 
-![java_indexOf_api](https://lh3.googleusercontent.com/bVn8faBDGzPKEuHjGB52SGOKK08qk0E-CweUipIS6EkGFcdYgWjBw0LgfkSiEqIdOH_2DX1oiN_DQHeNQlpxIID7m63dcd5UY_iGkmvE17EnAIckcP8WIgplthsU937kDGbuZcfFJgDnpwSblyZAtAP1AZdObOoVfPm5VqpyKw9gmDL6J-FpNlwV_sbcFxh5FnXuft7ysD8qe6pO5X0BuMLYCjdXMjo_hC8KbgCI7vtyBA0XQKCwdjSuHmyTHm2qzLFBqEd1m0wETFh9I34IJBG6WTGsOe5_qvtP_TLmpxMic9pjAlOPC14CB7oFWsNuKiPGRmAinJnx5Ku7q0JHi0HKF3-t5gWIiCgFkcG9XmlwtycmLJjnlINKkr4Au5Nd4jaJWjUCUg03uSLAtwqiWoC6MaoELLx7mvF2OIlVuHdxzf8Z6Nwvu8lRkvp_o8JgmlXXTLyipfjZynzj4d9N-N6rTGtbIXwIWbOISMMgjEQSTJUtAV0v1hahptqt_mm1ug3FzCcmy-fiMvkXJJe5fOuv0u1DzD8ec_pWcSR5L4r2rJDbx9z8KFVOidtNJqsKxw_hoEjtIavbqT_qaWc3JdGU7_NMzRT7IZo3a9Jjjw=w2240-h748-no)
+![java_indexOf_api](http://drive.google.com/uc?export=view&id=1O6SimlE_-jkfoMaBXNQ2ovdGrvYC0zLs)
 
 API를 보면 char, String 둘다 받는 걸 알 수 있습니다.
 
@@ -810,7 +810,7 @@ copyValueOf()는 char 배열을 String으로 만들어 리턴합니다.
 
 이 메소드는 static이므로 static방식으로 접근하여 사용합니다.
 
-![java_copyValueOf_api](https://lh3.googleusercontent.com/SZkj_oxvPeY5chbghi0rGkW_cuuy7Ejs5iUhWCGnJxqBH-9-GR25Kt_ZPogdvlPB6cmXlA4uAQi8LTNn05347gBxUMlb76uwir_MQm7leUSbv6m3PF5h8RCpL4LW5oS8WttYtG7-l5kja0xl4u7YUhk6gNzWWITy2kyBGVhHASTickMnUvk9JucwoYyDDMod9LyrZAJYC5F8akYBgQGR3XXz6h1Jmt1bJ4CFACuUR6QSmN9Io8pkGjh8D0tq4Pd-kdPaIrZ6PrO3Wm_IFR8dn9YUBIEgM3Qb3mV9OkGfcAWJaqroMf_RRZtU707Jpj7bDlCo8gX6EAx53xncKhmcnzaau6jqxL1oyOUSCwTT5wygA_1Of1PGvaCmO9iIYQ3QO_RVLyz-eX7UYCb2qz6V9inf0t8BoNzSD4cIko25wCm1M7foqRfHuAIar22p8r8ZiA5n4DsdD2L9WHx12EBZ2cZsp6fO_c9dB9oqQVgQEO2q_6lDuSS0BfIHiWl59rlEspTmYNgpy-nkh76ZseAxHq6bVXlGtI0fAxDLGl2hlzLjbRpkt7cGfi6fAZoTZps-jMBd5L6cg_Ixfj4DvsE8D9r4dk8cDRM15K2dhwQzJg=w1550-h154-no)
+![java_copyValueOf_api](http://drive.google.com/uc?export=view&id=173RdUau9TBJusV_2ab-xQRTifDOP11WH)
 
 <br>
 
@@ -971,7 +971,7 @@ replaceFirst() 바꿀 사항이 여러개여도 젤 처음 것만 바꾸고 리�
 
 replace()나 replaceFirst()를 써도 원래 문자열은 변하지 않습니다.
 
-![img_teemo_gnar](https://lh3.googleusercontent.com/FFSHyfjfCfT8MAu2yVdOIMUOQTeiwIkrQU8Q4HZMnBP6U2QL87zRtKht_mpiWHGTTgNg5JYnA-I3uRbZzEWPsMhud2uH_VL0aNUW8QNot9td49BiDK_5k5fV5QofcLvA-Ebd8HNWpBRFW67e1-veASuxPJjAF92F11jgsGgC3Rnw_Qt5xtjjzJ1BjZyWjMubwjoorpTLu1RdRb6PE69PDrEqE18gPMFg-xpZBupqpVdE6JvA1X2uzSQ-2YLcUoN87HOugRXAQ_5ZCe8_KJyJ3mixE9NCMS_w1w-xj7rTeks8yWmmsvn4N6FHuo-39MOY9Q_ahvIRNapW0aIe99Y9DgMzS4o_BZd9MTe3x58R9Nv7nMRoYi-r8rpt4Y3ZbQEV7Km0MgTUJW080Nl8KQDa6D-UWQlp-0_7eDE7QT275kTpsrmwi7v3zgm1Pzx2lWELsubxAUV0h2BATmU643OqqULhOqsu706jsR90C_ugZ3kzc21aX2R4zQM98g96hDNSW1DxMyGWCGnIQpG5UDie2W57mMP7RAC7fKwjDOY7_8BPNyco5v8j1irzs4EOwgo9-Tc8GVZAkiAoxO_oDx72tg3Ee4Y2fTtoJzn9R9n0cw=w1635-h483-no)
+![img_teemo_gnar](http://drive.google.com/uc?export=view&id=1GFOSIjFZWvY8vfA0DlHt4Ka_NcpNtCz6)
 
 <br>
 
